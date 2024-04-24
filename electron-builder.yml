@@ -1,8 +1,8 @@
-appId: 'helioslauncher'
-productName: 'Helios Launcher'
+appId: 'tsmplauncher'
+productName: 'TSMP Launcher'
 artifactName: '${productName}-setup-${version}.${ext}'
 
-copyright: 'Copyright © 2018-2024 Daniel Scalzi'
+copyright: 'Copyright © 2024 Redllamaaa'
 
 asar: true
 compression: 'maximum'
@@ -39,10 +39,10 @@ mac:
 # Linux Configuration
 linux: 
   target: 'AppImage'
-  maintainer: 'Daniel Scalzi'
-  vendor: 'Daniel Scalzi'
-  synopsis: 'Modded Minecraft Launcher'
-  description: 'Custom launcher which allows users to join modded servers. All mods, configurations, and updates are handled automatically.'
+  maintainer: 'Redllamaaa'
+  vendor: 'Redllamaaaa'
+  synopsis: 'A Custom TSMP Launch to make an easy way to join the server with mods.'
+  description: 'A Custom TSMP Launch to make an easy way to join the server with mods.'
   category: 'Game'
 
 

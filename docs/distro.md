@@ -12,7 +12,7 @@ The distribution index is written in JSON. The general format of the index is as
     "discord": {
         "clientId": "12334567890123456789",
         "smallImageText": "WesterosCraft",
-        "smallImageKey": "seal-circle"
+        "smallImageKey": "TSMP-circle"
     },
     "rss": "https://westeroscraft.com/articles/index.rss",
     "servers": [
@@ -48,7 +48,7 @@ The distribution index is written in JSON. The general format of the index is as
     "discord": {
         "clientId": "12334567890123456789",
         "smallImageText": "WesterosCraft",
-        "smallImageKey": "seal-circle"
+        "smallImageKey": "TSMP-circle"
     },
     "rss": "https://westeroscraft.com/articles/index.rss",
     "servers": []
