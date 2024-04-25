@@ -2,25 +2,25 @@
 
 <h1 align="center">TSMP Launcher</h1>
 
-[<p align="center"><img src="https://img.shields.io/github/actions/workflow/status/dscalzi/HeliosLauncher/build.yml?branch=master&style=for-the-badge" alt="gh actions">](https://github.com/dscalzi/HeliosLauncher/actions) [<img src="https://img.shields.io/github/downloads/dscalzi/HeliosLauncher/total.svg?style=for-the-badge" alt="downloads">](https://github.com/dscalzi/HeliosLauncher/releases)</p>
+[<p align="center"><img src="https://img.shields.io/github/actions/workflow/status/Redllamaaa/tsmplauncher/build.yml?branch=master&style=for-the-badge" alt="gh actions">](https://github.com/Redllamaaa/tsmplauncher/actions)</p>
 
 <p align="center">Join the Totem SMP without worrying about installing Java, Forge, or other mods. We'll handle that for you.</p>
 
 
 ## Downloads
 
-You can download from [GitHub Releases](https://github.com/dscalzi/HeliosLauncher/releases)
+You can download from [GitHub Releases](https://github.com/Redllamaaa/tsmplauncher/releases)
 
 #### Latest Release
 
-[![](https://img.shields.io/github/release/dscalzi/HeliosLauncher.svg?style=flat-square)](https://github.com/dscalzi/HeliosLauncher/releases/latest)
+[![](https://img.shields.io/github/release/dscalzi/HeliosLauncher.svg?style=flat-square)](https://github.com/Redllamaaa/tsmplauncher/releases/latest)
 
 #### Latest Pre-Release
-[![](https://img.shields.io/github/release/dscalzi/HeliosLauncher/all.svg?style=flat-square)](https://github.com/dscalzi/HeliosLauncher/releases)
+[![](https://img.shields.io/github/release/dscalzi/HeliosLauncher/all.svg?style=flat-square)](https://github.com/Redllamaaa/tsmplauncher/releases)
 
 **Supported Platforms**
 
-If you download from the [Releases](https://github.com/dscalzi/HeliosLauncher/releases) tab, select the installer for your system.
+If you download from the [Releases](https://github.com/Redllamaaa/tsmplauncher/releases) tab, select the installer for your system.
 
 | Platform | File |
 | -------- | ---- |
