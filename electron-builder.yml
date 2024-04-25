@@ -26,25 +26,6 @@ nsis:
   allowElevation: true
   allowToChangeInstallationDirectory: true
 
-# macOS Configuration
-mac:
-  target:
-    - target: 'dmg'
-      arch:
-        - 'x64'
-        - 'arm64'
-  artifactName: '${productName}-setup-${version}-${arch}.${ext}'
-  category: 'public.app-category.games'
-
-# Linux Configuration
-linux: 
-  target: 'AppImage'
-  maintainer: 'Redllamaaa'
-  vendor: 'Redllamaaaa'
-  synopsis: 'A Custom TSMP Launch to make an easy way to join the server with mods.'
-  description: 'A Custom TSMP Launch to make an easy way to join the server with mods.'
-  category: 'Game'
-
 
 directories:
   buildResources: 'build'
