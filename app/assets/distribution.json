@@ -1,12 +1,12 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "servers": [
     {
-      "id": "test1-1.20.4",
-      "name": "test1 (Minecraft 1.20.4)",
-      "description": "test1 Running Minecraft 1.20.4",
+      "id": "tsmp4deathhill",
+      "name": "TSMP Death Hill",
+      "description": "TSMP Death Hill, 1.20.4",
       "icon": null,
-      "version": "1.0.0",
+      "version": "1.0.1",
       "address": "localhost:25565",
       "minecraftVersion": "1.20.4",
       "mainServer": true,
@@ -18,7 +18,7 @@
           "type": "File",
           "artifact": {
             "size": 219,
-            "url": "http://localhost:8080/servers/test1-1.20.4/files/config/fabric_loader_dependencies.json",
+            "url": "https://download1075.mediafire.com/9sgea4g98vfgEVghZsj_YDG6bGgg3GslGXeDhpGhUJle-bjWRv4Gd5Uon57rldHdGV0QDJrSQ03RruMEl19IK5oKxM5ly3VD2vJXrMYJOQ13AH5X6vvADXd87svv4yx7giColEIlIIYxJGHz-eguirTi0GjzUkNiLWT3bHR9brzm/ztyet19w6lcqi3m/fabric_loader_dependencies.json",
             "MD5": "a5c681219b7203b5bc4658dd64aac785",
             "path": "config/fabric_loader_dependencies.json"
           }
@@ -29,317 +29,9 @@
           "type": "File",
           "artifact": {
             "size": 289,
-            "url": "http://localhost:8080/servers/test1-1.20.4/files/config/isxander-main-menu-credits.json",
+            "url": "https://download1503.mediafire.com/rmzr7xuw68ggn2-h9qILt5kZGYfaaLl29utjTi5kxLCDdfuwUF7NNaDaGF9w2sQ0PiYBl83ZxVXhT0p5mXSfY76av-lrXASYoiwOqrfVCQBMdZj60zDWzV6EYEAY9Wj_cK7wmH-SKiffJ6RmI0-b-0j8m9Hwbv5rIiZtXHm6A_8e/0mmd05ct80i4pbw/isxander-main-menu-credits.json",
             "MD5": "8c881d145419f8a9183115e66787e11f",
             "path": "config/isxander-main-menu-credits.json"
-          }
-        },
-        {
-          "id": "borderlessmining.json",
-          "name": "borderlessmining.json",
-          "type": "File",
-          "artifact": {
-            "size": 70,
-            "url": "http://localhost:8080/servers/test1-1.20.4/files/config/yosbr/config/borderlessmining.json",
-            "MD5": "f211f78bf8e4555d7b3a2ba3d97198e9",
-            "path": "config/yosbr/config/borderlessmining.json"
-          }
-        },
-        {
-          "id": "capes.json5",
-          "name": "capes.json5",
-          "type": "File",
-          "artifact": {
-            "size": 206,
-            "url": "http://localhost:8080/servers/test1-1.20.4/files/config/yosbr/config/capes.json5",
-            "MD5": "9f9407f4c74f6f6bfedbdb4973487e33",
-            "path": "config/yosbr/config/capes.json5"
-          }
-        },
-        {
-          "id": "cem.conf",
-          "name": "cem.conf",
-          "type": "File",
-          "artifact": {
-            "size": 26,
-            "url": "http://localhost:8080/servers/test1-1.20.4/files/config/yosbr/config/cem.conf",
-            "MD5": "a2c197ad12e37d8205c3079ce8b8d4b6",
-            "path": "config/yosbr/config/cem.conf"
-          }
-        },
-        {
-          "id": "citresewn.json",
-          "name": "citresewn.json",
-          "type": "File",
-          "artifact": {
-            "size": 22,
-            "url": "http://localhost:8080/servers/test1-1.20.4/files/config/yosbr/config/citresewn.json",
-            "MD5": "dda0ba4f22cfad7e248623fecdba5fa5",
-            "path": "config/yosbr/config/citresewn.json"
-          }
-        },
-        {
-          "id": "controlify.json",
-          "name": "controlify.json",
-          "type": "File",
-          "artifact": {
-            "size": 30,
-            "url": "http://localhost:8080/servers/test1-1.20.4/files/config/yosbr/config/controlify.json",
-            "MD5": "05ce2f22318b678b6c69609389e963c6",
-            "path": "config/yosbr/config/controlify.json"
-          }
-        },
-        {
-          "id": "debugify.json",
-          "name": "debugify.json",
-          "type": "File",
-          "artifact": {
-            "size": 250,
-            "url": "http://localhost:8080/servers/test1-1.20.4/files/config/yosbr/config/debugify.json",
-            "MD5": "857871d14add3cd2cdcaaa52263df269",
-            "path": "config/yosbr/config/debugify.json"
-          }
-        },
-        {
-          "id": "dynamic_fps.json",
-          "name": "dynamic_fps.json",
-          "type": "File",
-          "artifact": {
-            "size": 416,
-            "url": "http://localhost:8080/servers/test1-1.20.4/files/config/yosbr/config/dynamic_fps.json",
-            "MD5": "14046ebe5f6b6faa3218fe7b6da8a198",
-            "path": "config/yosbr/config/dynamic_fps.json"
-          }
-        },
-        {
-          "id": "entity_texture_features.json",
-          "name": "entity_texture_features.json",
-          "type": "File",
-          "artifact": {
-            "size": 126,
-            "url": "http://localhost:8080/servers/test1-1.20.4/files/config/yosbr/config/entity_texture_features.json",
-            "MD5": "0e2f6f63b6500af9dc517321f922a5fe",
-            "path": "config/yosbr/config/entity_texture_features.json"
-          }
-        },
-        {
-          "id": "fabric_loader_dependencies.json",
-          "name": "fabric_loader_dependencies.json",
-          "type": "File",
-          "artifact": {
-            "size": 376,
-            "url": "http://localhost:8080/servers/test1-1.20.4/files/config/yosbr/config/fabric_loader_dependencies.json",
-            "MD5": "db76d6064f7569049da4a8b809f78c85",
-            "path": "config/yosbr/config/fabric_loader_dependencies.json"
-          }
-        },
-        {
-          "id": "fabrishot.properties",
-          "name": "fabrishot.properties",
-          "type": "File",
-          "artifact": {
-            "size": 167,
-            "url": "http://localhost:8080/servers/test1-1.20.4/files/config/yosbr/config/fabrishot.properties",
-            "MD5": "be42f1be4f113eea9d1c2f4cc5cf309c",
-            "path": "config/yosbr/config/fabrishot.properties"
-          }
-        },
-        {
-          "id": "fastquit.toml",
-          "name": "fastquit.toml",
-          "type": "File",
-          "artifact": {
-            "size": 99,
-            "url": "http://localhost:8080/servers/test1-1.20.4/files/config/yosbr/config/fastquit.toml",
-            "MD5": "2d8bc43d918888947c3c9a4fbccc5c47",
-            "path": "config/yosbr/config/fastquit.toml"
-          }
-        },
-        {
-          "id": "immediatelyfast.json",
-          "name": "immediatelyfast.json",
-          "type": "File",
-          "artifact": {
-            "size": 37,
-            "url": "http://localhost:8080/servers/test1-1.20.4/files/config/yosbr/config/immediatelyfast.json",
-            "MD5": "ae5071f3bfe4a2b5e2455096a2a4619e",
-            "path": "config/yosbr/config/immediatelyfast.json"
-          }
-        },
-        {
-          "id": "iris.properties",
-          "name": "iris.properties",
-          "type": "File",
-          "artifact": {
-            "size": 73,
-            "url": "http://localhost:8080/servers/test1-1.20.4/files/config/yosbr/config/iris.properties",
-            "MD5": "e9f646bca48bee15f27cb25cda3915d9",
-            "path": "config/yosbr/config/iris.properties"
-          }
-        },
-        {
-          "id": "isxander-main-menu-credits.json",
-          "name": "isxander-main-menu-credits.json",
-          "type": "File",
-          "artifact": {
-            "size": 187,
-            "url": "http://localhost:8080/servers/test1-1.20.4/files/config/yosbr/config/isxander-main-menu-credits.json",
-            "MD5": "31f76eaf9d90e6235b7a88f3418a550a",
-            "path": "config/yosbr/config/isxander-main-menu-credits.json"
-          }
-        },
-        {
-          "id": "lambdynlights.toml",
-          "name": "lambdynlights.toml",
-          "type": "File",
-          "artifact": {
-            "size": 161,
-            "url": "http://localhost:8080/servers/test1-1.20.4/files/config/yosbr/config/lambdynlights.toml",
-            "MD5": "57784a01dfdce14286682c8152f6e852",
-            "path": "config/yosbr/config/lambdynlights.toml"
-          }
-        },
-        {
-          "id": "midnightcontrols.json",
-          "name": "midnightcontrols.json",
-          "type": "File",
-          "artifact": {
-            "size": 43,
-            "url": "http://localhost:8080/servers/test1-1.20.4/files/config/yosbr/config/midnightcontrols.json",
-            "MD5": "b88b4666b7a56546725c4b53cd5916de",
-            "path": "config/yosbr/config/midnightcontrols.json"
-          }
-        },
-        {
-          "id": "midnightlib.json",
-          "name": "midnightlib.json",
-          "type": "File",
-          "artifact": {
-            "size": 30,
-            "url": "http://localhost:8080/servers/test1-1.20.4/files/config/yosbr/config/midnightlib.json",
-            "MD5": "faf5b671cdefd24677633d1bf81130b9",
-            "path": "config/yosbr/config/midnightlib.json"
-          }
-        },
-        {
-          "id": "modernfix-mixins.properties",
-          "name": "modernfix-mixins.properties",
-          "type": "File",
-          "artifact": {
-            "size": 33,
-            "url": "http://localhost:8080/servers/test1-1.20.4/files/config/yosbr/config/modernfix-mixins.properties",
-            "MD5": "0dd1ebe6d78d037c84115a7cffd25436",
-            "path": "config/yosbr/config/modernfix-mixins.properties"
-          }
-        },
-        {
-          "id": "modmenu.json",
-          "name": "modmenu.json",
-          "type": "File",
-          "artifact": {
-            "size": 826,
-            "url": "http://localhost:8080/servers/test1-1.20.4/files/config/yosbr/config/modmenu.json",
-            "MD5": "630188cb7a7b54a77e1d8e06bf35a247",
-            "path": "config/yosbr/config/modmenu.json"
-          }
-        },
-        {
-          "id": "moreculling.toml",
-          "name": "moreculling.toml",
-          "type": "File",
-          "artifact": {
-            "size": 553,
-            "url": "http://localhost:8080/servers/test1-1.20.4/files/config/yosbr/config/moreculling.toml",
-            "MD5": "48b79a9e43db43ae2b104e4f3f6b9628",
-            "path": "config/yosbr/config/moreculling.toml"
-          }
-        },
-        {
-          "id": "NCR-Client.json",
-          "name": "NCR-Client.json",
-          "type": "File",
-          "artifact": {
-            "size": 477,
-            "url": "http://localhost:8080/servers/test1-1.20.4/files/config/yosbr/config/NoChatReports/NCR-Client.json",
-            "MD5": "dc1ee41c88354527a8eb52b8cce2d97f",
-            "path": "config/yosbr/config/NoChatReports/NCR-Client.json"
-          }
-        },
-        {
-          "id": "NCR-Common.json",
-          "name": "NCR-Common.json",
-          "type": "File",
-          "artifact": {
-            "size": 96,
-            "url": "http://localhost:8080/servers/test1-1.20.4/files/config/yosbr/config/NoChatReports/NCR-Common.json",
-            "MD5": "636e111bd55a154df9a867280b897615",
-            "path": "config/yosbr/config/NoChatReports/NCR-Common.json"
-          }
-        },
-        {
-          "id": "NCR-Encryption.json",
-          "name": "NCR-Encryption.json",
-          "type": "File",
-          "artifact": {
-            "size": 128,
-            "url": "http://localhost:8080/servers/test1-1.20.4/files/config/yosbr/config/NoChatReports/NCR-Encryption.json",
-            "MD5": "44b684f6088d9ca02ddd652130f8ec91",
-            "path": "config/yosbr/config/NoChatReports/NCR-Encryption.json"
-          }
-        },
-        {
-          "id": "PaginatedAdvancements.json5",
-          "name": "PaginatedAdvancements.json5",
-          "type": "File",
-          "artifact": {
-            "size": 284,
-            "url": "http://localhost:8080/servers/test1-1.20.4/files/config/yosbr/config/PaginatedAdvancements.json5",
-            "MD5": "f564d6f25f4508c096c5a4cf5901c817",
-            "path": "config/yosbr/config/PaginatedAdvancements.json5"
-          }
-        },
-        {
-          "id": "puzzle.json",
-          "name": "puzzle.json",
-          "type": "File",
-          "artifact": {
-            "size": 301,
-            "url": "http://localhost:8080/servers/test1-1.20.4/files/config/yosbr/config/puzzle.json",
-            "MD5": "3b15a95832236394be09e1ea4c2b29d4",
-            "path": "config/yosbr/config/puzzle.json"
-          }
-        },
-        {
-          "id": "rrls.toml",
-          "name": "rrls.toml",
-          "type": "File",
-          "artifact": {
-            "size": 45,
-            "url": "http://localhost:8080/servers/test1-1.20.4/files/config/yosbr/config/rrls.toml",
-            "MD5": "32febdb74b00214d60d3c0e78564d0e2",
-            "path": "config/yosbr/config/rrls.toml"
-          }
-        },
-        {
-          "id": "sodium-options.json",
-          "name": "sodium-options.json",
-          "type": "File",
-          "artifact": {
-            "size": 38,
-            "url": "http://localhost:8080/servers/test1-1.20.4/files/config/yosbr/config/sodium-options.json",
-            "MD5": "e4198d8d02b7b781868c2b2a5c363669",
-            "path": "config/yosbr/config/sodium-options.json"
-          }
-        },
-        {
-          "id": "options.txt",
-          "name": "options.txt",
-          "type": "File",
-          "artifact": {
-            "size": 1084,
-            "url": "http://localhost:8080/servers/test1-1.20.4/files/config/yosbr/options.txt",
-            "MD5": "92724f0efa2584c3478c0fdf856e3819",
-            "path": "config/yosbr/options.txt"
           }
         },
         {
@@ -348,9 +40,394 @@
           "type": "File",
           "artifact": {
             "size": 44700,
-            "url": "http://localhost:8080/servers/test1-1.20.4/files/mods/advancementinfo-1.20.4-fabric0.91.2-1.4.jar",
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/advancementinfo-1.20.4-fabric0.91.2-1.4.jar",
             "MD5": "9eb9826fda13b9b2143a4487aa5e36dc",
             "path": "mods/advancementinfo-1.20.4-fabric0.91.2-1.4.jar"
+          }
+        },
+        {
+          "id": "animatica-0.6+1.20.jar",
+          "name": "animatica-0.6+1.20.jar",
+          "type": "File",
+          "artifact": {
+            "size": 69810,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/animatica-0.6+1.20.jar",
+            "MD5": "d57ba4c6253e84af7ce10719ee1e7a8a",
+            "path": "mods/animatica-0.6+1.20.jar"
+          }
+        },
+        {
+          "id": "antighost-1.20.4-fabric0.91.2-1.1.5.jar",
+          "name": "antighost-1.20.4-fabric0.91.2-1.1.5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 48606,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/antighost-1.20.4-fabric0.91.2-1.1.5.jar",
+            "MD5": "798a4302bb931c873fd0a548dc1efdfc",
+            "path": "mods/antighost-1.20.4-fabric0.91.2-1.1.5.jar"
+          }
+        },
+        {
+          "id": "betterbeds-1.3.0-1.19.3.jar",
+          "name": "betterbeds-1.3.0-1.19.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 50218,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/betterbeds-1.3.0-1.19.3.jar",
+            "MD5": "8172f68d93a79b716aaf6d885026600c",
+            "path": "mods/betterbeds-1.3.0-1.19.3.jar"
+          }
+        },
+        {
+          "id": "bettermounthud-1.2.2.jar",
+          "name": "bettermounthud-1.2.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 21587,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/bettermounthud-1.2.2.jar",
+            "MD5": "fdd255bd204f7d84850fd31ba687ad01",
+            "path": "mods/bettermounthud-1.2.2.jar"
+          }
+        },
+        {
+          "id": "bobby-5.1.0+mc1.20.4.jar",
+          "name": "bobby-5.1.0+mc1.20.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 853323,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/bobby-5.1.0+mc1.20.4.jar",
+            "MD5": "86ecab27bfbf06d82788e152e4bff7ec",
+            "path": "mods/bobby-5.1.0+mc1.20.4.jar"
+          }
+        },
+        {
+          "id": "borderless-mining-1.1.9+1.20.2.jar",
+          "name": "borderless-mining-1.1.9+1.20.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 121765,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/borderless-mining-1.1.9+1.20.2.jar",
+            "MD5": "61e8bd2c97237d33f4d4e306b015eb33",
+            "path": "mods/borderless-mining-1.1.9+1.20.2.jar"
+          }
+        },
+        {
+          "id": "capes-1.5.3+1.20.2-fabric.jar",
+          "name": "capes-1.5.3+1.20.2-fabric.jar",
+          "type": "File",
+          "artifact": {
+            "size": 209297,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/capes-1.5.3+1.20.2-fabric.jar",
+            "MD5": "4d728caea98bbc803c3631b4d8c1e772",
+            "path": "mods/capes-1.5.3+1.20.2-fabric.jar"
+          }
+        },
+        {
+          "id": "chat_heads-0.10.31-fabric-1.20.3.jar",
+          "name": "chat_heads-0.10.31-fabric-1.20.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 51396,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/chat_heads-0.10.31-fabric-1.20.3.jar",
+            "MD5": "cf8cc87536a5a6d9ec667bbc59518f42",
+            "path": "mods/chat_heads-0.10.31-fabric-1.20.3.jar"
+          }
+        },
+        {
+          "id": "cloth-config-13.0.121-fabric.jar",
+          "name": "cloth-config-13.0.121-fabric.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1142084,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/cloth-config-13.0.121-fabric.jar",
+            "MD5": "3903e7d3c9957bacedae1365ba856202",
+            "path": "mods/cloth-config-13.0.121-fabric.jar"
+          }
+        },
+        {
+          "id": "continuity-3.0.0-beta.4+1.20.2.jar",
+          "name": "continuity-3.0.0-beta.4+1.20.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1050675,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/continuity-3.0.0-beta.4+1.20.2.jar",
+            "MD5": "b348965933103bb02f9731c6bca76398",
+            "path": "mods/continuity-3.0.0-beta.4+1.20.2.jar"
+          }
+        },
+        {
+          "id": "Controlify-1.8.1+1.20.4.jar",
+          "name": "Controlify-1.8.1+1.20.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2127904,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/Controlify-1.8.1+1.20.4.jar",
+            "MD5": "6a439933f872465e44f9f861931934c2",
+            "path": "mods/Controlify-1.8.1+1.20.4.jar"
+          }
+        },
+        {
+          "id": "Controlling-fabric-1.20.4-15.0.3.jar",
+          "name": "Controlling-fabric-1.20.4-15.0.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 82609,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/Controlling-fabric-1.20.4-15.0.3.jar",
+            "MD5": "1ec1408298221002b1c470d4bbed361f",
+            "path": "mods/Controlling-fabric-1.20.4-15.0.3.jar"
+          }
+        },
+        {
+          "id": "Debugify-1.20.4+1.0.jar",
+          "name": "Debugify-1.20.4+1.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 270298,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/Debugify-1.20.4+1.0.jar",
+            "MD5": "1f3e2129edb3f146d502266e2bb79341",
+            "path": "mods/Debugify-1.20.4+1.0.jar"
+          }
+        },
+        {
+          "id": "dynamic-fps-3.4.2+minecraft-1.20.4-fabric.jar",
+          "name": "dynamic-fps-3.4.2+minecraft-1.20.4-fabric.jar",
+          "type": "File",
+          "artifact": {
+            "size": 98796,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/dynamic-fps-3.4.2+minecraft-1.20.4-fabric.jar",
+            "MD5": "2ae5136007e0641e71d00c9ea3943f53",
+            "path": "mods/dynamic-fps-3.4.2+minecraft-1.20.4-fabric.jar"
+          }
+        },
+        {
+          "id": "e4mc-4.0.1+1.19.4-fabric.jar",
+          "name": "e4mc-4.0.1+1.19.4-fabric.jar",
+          "type": "File",
+          "artifact": {
+            "size": 275794,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/e4mc-4.0.1+1.19.4-fabric.jar",
+            "MD5": "38a38e97a3e0d039145ed0b108860241",
+            "path": "mods/e4mc-4.0.1+1.19.4-fabric.jar"
+          }
+        },
+        {
+          "id": "eating-animation-1.20+1.9.5.jar",
+          "name": "eating-animation-1.20+1.9.5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1037772,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/eating-animation-1.20+1.9.5.jar",
+            "MD5": "8281fecec375367802e5bba2d5b08d68",
+            "path": "mods/eating-animation-1.20+1.9.5.jar"
+          }
+        },
+        {
+          "id": "enhancedblockentities-0.9.1+1.20.2.jar",
+          "name": "enhancedblockentities-0.9.1+1.20.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 492605,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/enhancedblockentities-0.9.1+1.20.2.jar",
+            "MD5": "f9dd36184ab2a4ea180de78c9eeae889",
+            "path": "mods/enhancedblockentities-0.9.1+1.20.2.jar"
+          }
+        },
+        {
+          "id": "entityculling-fabric-1.6.3.1-mc1.20.4.jar",
+          "name": "entityculling-fabric-1.6.3.1-mc1.20.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 59359,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/entityculling-fabric-1.6.3.1-mc1.20.4.jar",
+            "MD5": "2c7a04a0e218b9a37c27ebfdf03ebf6e",
+            "path": "mods/entityculling-fabric-1.6.3.1-mc1.20.4.jar"
+          }
+        },
+        {
+          "id": "entity_model_features_fabric_1.20.4-1.3.jar",
+          "name": "entity_model_features_fabric_1.20.4-1.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 347117,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/entity_model_features_fabric_1.20.4-1.3.jar",
+            "MD5": "30b300e663d4b942b21efaef0eb4f6fd",
+            "path": "mods/entity_model_features_fabric_1.20.4-1.3.jar"
+          }
+        },
+        {
+          "id": "entity_texture_features_fabric_1.20.4-5.2.3.jar",
+          "name": "entity_texture_features_fabric_1.20.4-5.2.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 449202,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/entity_texture_features_fabric_1.20.4-5.2.3.jar",
+            "MD5": "e1cf1150b93b238737a73492db69962e",
+            "path": "mods/entity_texture_features_fabric_1.20.4-5.2.3.jar"
+          }
+        },
+        {
+          "id": "fabric-api-0.96.4+1.20.4.jar",
+          "name": "fabric-api-0.96.4+1.20.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2160893,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/fabric-api-0.96.4+1.20.4.jar",
+            "MD5": "2ef9ba9b1cf087f4356ebe55366fb9ef",
+            "path": "mods/fabric-api-0.96.4+1.20.4.jar"
+          }
+        },
+        {
+          "id": "fabric-language-kotlin-1.10.18+kotlin.1.9.22.jar",
+          "name": "fabric-language-kotlin-1.10.18+kotlin.1.9.22.jar",
+          "type": "File",
+          "artifact": {
+            "size": 6727951,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/fabric-language-kotlin-1.10.18+kotlin.1.9.22.jar",
+            "MD5": "447fba59921f94de8d37d3d6f9616caf",
+            "path": "mods/fabric-language-kotlin-1.10.18+kotlin.1.9.22.jar"
+          }
+        },
+        {
+          "id": "fabricskyboxes-0.7.3+mc1.20.2.jar",
+          "name": "fabricskyboxes-0.7.3+mc1.20.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 207267,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/fabricskyboxes-0.7.3+mc1.20.2.jar",
+            "MD5": "dc3e7903dd9fc8222b2866d9e220e369",
+            "path": "mods/fabricskyboxes-0.7.3+mc1.20.2.jar"
+          }
+        },
+        {
+          "id": "fabrishot-1.12.1.jar",
+          "name": "fabrishot-1.12.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 51064,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/fabrishot-1.12.1.jar",
+            "MD5": "099d1b76de6650f641232d8dfbf01253",
+            "path": "mods/fabrishot-1.12.1.jar"
+          }
+        },
+        {
+          "id": "fastquit-3.0.0+1.20.4.jar",
+          "name": "fastquit-3.0.0+1.20.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 59105,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/fastquit-3.0.0+1.20.4.jar",
+            "MD5": "5a97735d1d3bdd5e6d1575d81a6081e0",
+            "path": "mods/fastquit-3.0.0+1.20.4.jar"
+          }
+        },
+        {
+          "id": "ferritecore-6.0.3-fabric.jar",
+          "name": "ferritecore-6.0.3-fabric.jar",
+          "type": "File",
+          "artifact": {
+            "size": 125100,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/ferritecore-6.0.3-fabric.jar",
+            "MD5": "a684cfcdbc32eddaf78782fb4e5762f4",
+            "path": "mods/ferritecore-6.0.3-fabric.jar"
+          }
+        },
+        {
+          "id": "fsb-interop-1.3.6+mc1.20.2-build.52.jar",
+          "name": "fsb-interop-1.3.6+mc1.20.2-build.52.jar",
+          "type": "File",
+          "artifact": {
+            "size": 49488,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/fsb-interop-1.3.6+mc1.20.2-build.52.jar",
+            "MD5": "9f749b8461924adaf73650aeae147808",
+            "path": "mods/fsb-interop-1.3.6+mc1.20.2-build.52.jar"
+          }
+        },
+        {
+          "id": "ImmediatelyFast-Fabric-1.2.10+1.20.4.jar",
+          "name": "ImmediatelyFast-Fabric-1.2.10+1.20.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 222051,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/ImmediatelyFast-Fabric-1.2.10+1.20.4.jar",
+            "MD5": "735c9b0e638b30053f331a2809d132e0",
+            "path": "mods/ImmediatelyFast-Fabric-1.2.10+1.20.4.jar"
+          }
+        },
+        {
+          "id": "indium-1.0.30+mc1.20.4.jar",
+          "name": "indium-1.0.30+mc1.20.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 104805,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/indium-1.0.30+mc1.20.4.jar",
+            "MD5": "e0b3675f1e6e8f00da58d42ec1bd1be7",
+            "path": "mods/indium-1.0.30+mc1.20.4.jar"
+          }
+        },
+        {
+          "id": "iris-mc1.20.4-1.6.17.jar",
+          "name": "iris-mc1.20.4-1.6.17.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2421865,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/iris-mc1.20.4-1.6.17.jar",
+            "MD5": "cc391df9e929608c37a04a342c6babb3",
+            "path": "mods/iris-mc1.20.4-1.6.17.jar"
+          }
+        },
+        {
+          "id": "lambdynamiclights-2.3.4+1.20.4.jar",
+          "name": "lambdynamiclights-2.3.4+1.20.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 568669,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/lambdynamiclights-2.3.4+1.20.4.jar",
+            "MD5": "3c849e6337ff7c850762c6cc27f607ab",
+            "path": "mods/lambdynamiclights-2.3.4+1.20.4.jar"
+          }
+        },
+        {
+          "id": "language-reload-1.5.10+1.20.3.jar",
+          "name": "language-reload-1.5.10+1.20.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 200750,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/language-reload-1.5.10+1.20.3.jar",
+            "MD5": "fce9c13a98f7cacdad7710e51ca75b20",
+            "path": "mods/language-reload-1.5.10+1.20.3.jar"
+          }
+        },
+        {
+          "id": "lazy-language-loader-0.3.5.jar",
+          "name": "lazy-language-loader-0.3.5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 25020,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/lazy-language-loader-0.3.5.jar",
+            "MD5": "13b62b06a28edf4a652f738e54eb0e62",
+            "path": "mods/lazy-language-loader-0.3.5.jar"
+          }
+        },
+        {
+          "id": "lithium-fabric-mc1.20.4-0.12.1.jar",
+          "name": "lithium-fabric-mc1.20.4-0.12.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 716022,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/lithium-fabric-mc1.20.4-0.12.1.jar",
+            "MD5": "83da6729d5402dc42eca740a96f97346",
+            "path": "mods/lithium-fabric-mc1.20.4-0.12.1.jar"
+          }
+        },
+        {
+          "id": "main-menu-credits-1.1.2.jar",
+          "name": "main-menu-credits-1.1.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 14340,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/main-menu-credits-1.1.2.jar",
+            "MD5": "ca68af4e0939c9b2af2e8f0c5149f1d0",
+            "path": "mods/main-menu-credits-1.1.2.jar"
           }
         },
         {
@@ -359,9 +436,75 @@
           "type": "File",
           "artifact": {
             "size": 49334,
-            "url": "http://localhost:8080/servers/test1-1.20.4/files/mods/memoryleakfix-fabric-1.17+-1.1.5.jar",
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/memoryleakfix-fabric-1.17+-1.1.5.jar",
             "MD5": "a8461f89d267441752c95beb5448e940",
             "path": "mods/memoryleakfix-fabric-1.17+-1.1.5.jar"
+          }
+        },
+        {
+          "id": "mixintrace-1.1.1+1.17.jar",
+          "name": "mixintrace-1.1.1+1.17.jar",
+          "type": "File",
+          "artifact": {
+            "size": 36039,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/mixintrace-1.1.1+1.17.jar",
+            "MD5": "25673336ece740d8127ae7525bc0cd4f",
+            "path": "mods/mixintrace-1.1.1+1.17.jar"
+          }
+        },
+        {
+          "id": "ModDetectionPreventer+1.20.4-1.1.0.jar",
+          "name": "ModDetectionPreventer+1.20.4-1.1.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 50427,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/ModDetectionPreventer+1.20.4-1.1.0.jar",
+            "MD5": "035019f2a4097aff634b44cec06f4bfd",
+            "path": "mods/ModDetectionPreventer+1.20.4-1.1.0.jar"
+          }
+        },
+        {
+          "id": "modelfix-1.14-fabric.jar",
+          "name": "modelfix-1.14-fabric.jar",
+          "type": "File",
+          "artifact": {
+            "size": 65430,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/modelfix-1.14-fabric.jar",
+            "MD5": "37022aa425061707b0ed1ada2c071d97",
+            "path": "mods/modelfix-1.14-fabric.jar"
+          }
+        },
+        {
+          "id": "modernfix-fabric-5.14.0+mc1.20.4.jar",
+          "name": "modernfix-fabric-5.14.0+mc1.20.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 434857,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/modernfix-fabric-5.14.0+mc1.20.4.jar",
+            "MD5": "7b8ca848c5aa010e9280283442145464",
+            "path": "mods/modernfix-fabric-5.14.0+mc1.20.4.jar"
+          }
+        },
+        {
+          "id": "modmenu-9.0.0.jar",
+          "name": "modmenu-9.0.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 724484,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/modmenu-9.0.0.jar",
+            "MD5": "7eb06d459405ed6c87b16f4c5be4493d",
+            "path": "mods/modmenu-9.0.0.jar"
+          }
+        },
+        {
+          "id": "morechathistory-1.3.0.jar",
+          "name": "morechathistory-1.3.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3546,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/morechathistory-1.3.0.jar",
+            "MD5": "1980ac8b5b66417091d101682af8865c",
+            "path": "mods/morechathistory-1.3.0.jar"
           }
         },
         {
@@ -370,9 +513,86 @@
           "type": "File",
           "artifact": {
             "size": 269457,
-            "url": "http://localhost:8080/servers/test1-1.20.4/files/mods/moreculling-1.20.4-0.22.1.jar",
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/moreculling-1.20.4-0.22.1.jar",
             "MD5": "7105c0ef569dd1c37d1b36b044351bea",
             "path": "mods/moreculling-1.20.4-0.22.1.jar"
+          }
+        },
+        {
+          "id": "NoChatReports-FABRIC-1.20.4-v2.5.0.jar",
+          "name": "NoChatReports-FABRIC-1.20.4-v2.5.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 721079,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/NoChatReports-FABRIC-1.20.4-v2.5.0.jar",
+            "MD5": "b527df3c38dd5eaeaa6c09139a7dd14c",
+            "path": "mods/NoChatReports-FABRIC-1.20.4-v2.5.0.jar"
+          }
+        },
+        {
+          "id": "optigui-2.1.7.jar",
+          "name": "optigui-2.1.7.jar",
+          "type": "File",
+          "artifact": {
+            "size": 780572,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/optigui-2.1.7.jar",
+            "MD5": "2744ac9b3e4908c3cfcf4362d1437e0f",
+            "path": "mods/optigui-2.1.7.jar"
+          }
+        },
+        {
+          "id": "paginatedadvancements-2.4.2.jar",
+          "name": "paginatedadvancements-2.4.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 70974,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/paginatedadvancements-2.4.2.jar",
+            "MD5": "c70e11c1ddeca7f476f132450d28e982",
+            "path": "mods/paginatedadvancements-2.4.2.jar"
+          }
+        },
+        {
+          "id": "puzzle-1.6.1+1.20.4.jar",
+          "name": "puzzle-1.6.1+1.20.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 128303,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/puzzle-1.6.1+1.20.4.jar",
+            "MD5": "79efed9b1ffbae3869a0b91afaca6e15",
+            "path": "mods/puzzle-1.6.1+1.20.4.jar"
+          }
+        },
+        {
+          "id": "reeses_sodium_options-1.7.2+mc1.20.4-build.102.jar",
+          "name": "reeses_sodium_options-1.7.2+mc1.20.4-build.102.jar",
+          "type": "File",
+          "artifact": {
+            "size": 77393,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/reeses_sodium_options-1.7.2+mc1.20.4-build.102.jar",
+            "MD5": "3353347619cc18acb9b6ef811ac6a310",
+            "path": "mods/reeses_sodium_options-1.7.2+mc1.20.4-build.102.jar"
+          }
+        },
+        {
+          "id": "rrls-4.0.2+mc1.20.4-fabric.jar",
+          "name": "rrls-4.0.2+mc1.20.4-fabric.jar",
+          "type": "File",
+          "artifact": {
+            "size": 160857,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/rrls-4.0.2+mc1.20.4-fabric.jar",
+            "MD5": "231f44515712ae16484f6e01ce68962e",
+            "path": "mods/rrls-4.0.2+mc1.20.4-fabric.jar"
+          }
+        },
+        {
+          "id": "Searchables-fabric-1.20.4-1.0.6.jar",
+          "name": "Searchables-fabric-1.20.4-1.0.6.jar",
+          "type": "File",
+          "artifact": {
+            "size": 78369,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/Searchables-fabric-1.20.4-1.0.6.jar",
+            "MD5": "8ba20fa1e9c414a6a05de4861e796ba8",
+            "path": "mods/Searchables-fabric-1.20.4-1.0.6.jar"
           }
         },
         {
@@ -381,9 +601,64 @@
           "type": "File",
           "artifact": {
             "size": 1215852,
-            "url": "http://localhost:8080/servers/test1-1.20.4/files/mods/shulkerboxtooltip-fabric-4.0.8+1.20.4.jar",
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/shulkerboxtooltip-fabric-4.0.8+1.20.4.jar",
             "MD5": "3eab8c5bf30d1030c25a1c28077721a5",
             "path": "mods/shulkerboxtooltip-fabric-4.0.8+1.20.4.jar"
+          }
+        },
+        {
+          "id": "sodium-extra-0.5.4+mc1.20.4-build.116.jar",
+          "name": "sodium-extra-0.5.4+mc1.20.4-build.116.jar",
+          "type": "File",
+          "artifact": {
+            "size": 385665,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/sodium-extra-0.5.4+mc1.20.4-build.116.jar",
+            "MD5": "a414a1b266c8e6bd22b37c72413000ff",
+            "path": "mods/sodium-extra-0.5.4+mc1.20.4-build.116.jar"
+          }
+        },
+        {
+          "id": "sodium-fabric-0.5.8+mc1.20.4.jar",
+          "name": "sodium-fabric-0.5.8+mc1.20.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 949085,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/sodium-fabric-0.5.8+mc1.20.4.jar",
+            "MD5": "d7753a50ca37f50abb10465a9a425dac",
+            "path": "mods/sodium-fabric-0.5.8+mc1.20.4.jar"
+          }
+        },
+        {
+          "id": "yet-another-config-lib-fabric-3.3.2+1.20.4.jar",
+          "name": "yet-another-config-lib-fabric-3.3.2+1.20.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 979275,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/yet-another-config-lib-fabric-3.3.2+1.20.4.jar",
+            "MD5": "6e7dd15c39d9e13c83589134e41a2d03",
+            "path": "mods/yet-another-config-lib-fabric-3.3.2+1.20.4.jar"
+          }
+        },
+        {
+          "id": "yosbr-0.1.2.jar",
+          "name": "yosbr-0.1.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 17373,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/yosbr-0.1.2.jar",
+            "MD5": "9fcce225f25b6fd17921c87ff1c720f1",
+            "path": "mods/yosbr-0.1.2.jar"
+          }
+        },
+        {
+          "id": "Zoomify-2.13.0.jar",
+          "name": "Zoomify-2.13.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1055608,
+            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/Zoomify-2.13.0.jar",
+            "MD5": "d6e39b6d76378817b36d746ee47fceed",
+            "path": "mods/Zoomify-2.13.0.jar"
           }
         }
       ]
