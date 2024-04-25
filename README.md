@@ -2,8 +2,6 @@
 
 <h1 align="center">TSMP Launcher</h1>
 
-[<p align="center"><img src="https://img.shields.io/github/actions/workflow/status/Redllamaaa/tsmplauncher/build.yml?branch=master&style=for-the-badge" alt="gh actions">](https://github.com/Redllamaaa/tsmplauncher/actions)</p>
-
 <p align="center">Join the Totem SMP without worrying about installing Java, Forge, or other mods. We'll handle that for you.</p>
 
 
