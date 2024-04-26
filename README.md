@@ -23,3 +23,8 @@ If you download from the [Releases](https://github.com/Redllamaaa/tsmplauncher/r
 
 
 More platforms to be added into the future if requred.
+
+## HeliosLauncher
+
+TSMPLauncher is a fork of [HeliosLauncher](https://github.com/dscalzi/HeliosLauncher).
+
