@@ -19,7 +19,7 @@ If you download from the [Releases](https://github.com/Redllamaaa/tsmplauncher/r
 
 | Platform | File |
 | -------- | ---- |
-| Windows x64 | `TSMP-Launcher-setup-VERSION.exe` |
+| Windows x64 | `TSMP.Launcher-setup-VERSION.exe` |
 
 More platforms to be added into the future if requred.
 
