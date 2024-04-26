@@ -30,6 +30,7 @@ Installation is fairly straightforward. If you need assistance, you can follow t
 
 * Download and run the Windows version of the launcher (`.exe`).
 * Windows SmartScreen will open.
+* This is not a virus. To have it signed and have this not show up costs real money. I am not doing that. Deal with it.
   * ![SmartScreen](https://i.imgur.com/dxnP677.png)
   * Click **More info** and then **Run Anyway**.
 * Follow the on-screen instructions to complete installation.
