@@ -204,10 +204,6 @@ function saveSettingsValues(){
                 } else if(v.type === 'checkbox'){
                     sFnOpts.push(v.checked)
                     sFn.apply(null, sFnOpts)
-                    // Special Conditions
-                    if(cVal === 'AllowPrerelease'){
-                        changeAllowPrerelease(v.checked)
-                    }
                 }
             } else if(v.tagName === 'DIV'){
                 if(v.classList.contains('rangeSlider')){
@@ -1383,17 +1379,6 @@ document.getElementById('settingsAboutDevToolsButton').onclick = (e) => {
 }
 
 /**
- * Return whether or not the provided version is a prerelease.
- * 
- * @param {string} version The semver version to test.
- * @returns {boolean} True if the version is a prerelease, otherwise false.
- */
-function isPrerelease(version){
-    const preRelComp = semver.prerelease(version)
-    return preRelComp != null && preRelComp.length > 0
-}
-
-/**
  * Utility method to display version information on the
  * About and Update settings tabs.
  * 
@@ -1404,16 +1389,10 @@ function isPrerelease(version){
  */
 function populateVersionInformation(version, valueElement, titleElement, checkElement){
     valueElement.innerHTML = version
-    if(isPrerelease(version)){
-        titleElement.innerHTML = Lang.queryJS('settings.about.preReleaseTitle')
-        titleElement.style.color = '#ff886d'
-        checkElement.style.background = '#ff886d'
-    } else {
         titleElement.innerHTML = Lang.queryJS('settings.about.stableReleaseTitle')
         titleElement.style.color = null
         checkElement.style.background = null
     }
-}
 
 /**
  * Retrieve the version information and display it on the UI.
@@ -1496,7 +1475,6 @@ function settingsUpdateButtonStatus(text, disabled = false, handler = null){
  */
 function populateSettingsUpdateInformation(data){
     if(data != null){
-        settingsUpdateTitle.innerHTML = isPrerelease(data.version) ? Lang.queryJS('settings.updates.newPreReleaseTitle') : Lang.queryJS('settings.updates.newReleaseTitle')
         settingsUpdateChangelogCont.style.display = null
         settingsUpdateChangelogTitle.innerHTML = data.releaseName
         settingsUpdateChangelogText.innerHTML = data.releaseNotes
