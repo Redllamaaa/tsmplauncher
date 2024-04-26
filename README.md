@@ -11,10 +11,7 @@ You can download from [GitHub Releases](https://github.com/Redllamaaa/tsmplaunch
 
 #### Latest Release
 
-[![](https://img.shields.io/github/release/dscalzi/HeliosLauncher.svg?style=flat-square)](https://github.com/Redllamaaa/tsmplauncher/releases/latest)
-
-#### Latest Pre-Release
-[![](https://img.shields.io/github/release/dscalzi/HeliosLauncher/all.svg?style=flat-square)](https://github.com/Redllamaaa/tsmplauncher/releases)
+[![](https://img.shields.io/github/v/release/Redllamaaa/tsmplauncher.svg?style=flat-square)](https://github.com/Redllamaaa/tsmplauncher/releases/latest)
 
 **Supported Platforms**
 
