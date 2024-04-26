@@ -1,12 +1,12 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.3",
   "servers": [
     {
       "id": "tsmp4deathhill",
       "name": "TSMP Death Hill",
       "description": "TSMP Death Hill, 1.20.4",
       "icon": null,
-      "version": "1.0.1",
+      "version": "1.0.3",
       "address": "localhost:25565",
       "minecraftVersion": "1.20.4",
       "mainServer": true,
@@ -18,7 +18,7 @@
           "type": "File",
           "artifact": {
             "size": 219,
-            "url": "https://download1075.mediafire.com/9sgea4g98vfgEVghZsj_YDG6bGgg3GslGXeDhpGhUJle-bjWRv4Gd5Uon57rldHdGV0QDJrSQ03RruMEl19IK5oKxM5ly3VD2vJXrMYJOQ13AH5X6vvADXd87svv4yx7giColEIlIIYxJGHz-eguirTi0GjzUkNiLWT3bHR9brzm/ztyet19w6lcqi3m/fabric_loader_dependencies.json",
+            "url": "https://www.dropbox.com/scl/fi/myhl7mjops8t6s711xaes/fabric_loader_dependencies.json?rlkey=1bovusfr0tqv0hq99fljymkdl&st=tyw4abtw&dl=1",
             "MD5": "a5c681219b7203b5bc4658dd64aac785",
             "path": "config/fabric_loader_dependencies.json"
           }
@@ -29,7 +29,7 @@
           "type": "File",
           "artifact": {
             "size": 289,
-            "url": "https://download1503.mediafire.com/rmzr7xuw68ggn2-h9qILt5kZGYfaaLl29utjTi5kxLCDdfuwUF7NNaDaGF9w2sQ0PiYBl83ZxVXhT0p5mXSfY76av-lrXASYoiwOqrfVCQBMdZj60zDWzV6EYEAY9Wj_cK7wmH-SKiffJ6RmI0-b-0j8m9Hwbv5rIiZtXHm6A_8e/0mmd05ct80i4pbw/isxander-main-menu-credits.json",
+            "url": "https://www.dropbox.com/scl/fi/pyf7y9lrmn31aju5n9ffw/isxander-main-menu-credits.json?rlkey=k9ksec8nrz9ptef7ay20h85rw&st=qcn6jlpk&dl=1",
             "MD5": "8c881d145419f8a9183115e66787e11f",
             "path": "config/isxander-main-menu-credits.json"
           }
@@ -38,9 +38,13 @@
           "id": "advancementinfo-1.20.4-fabric0.91.2-1.4.jar",
           "name": "advancementinfo-1.20.4-fabric0.91.2-1.4.jar",
           "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
           "artifact": {
             "size": 44700,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/advancementinfo-1.20.4-fabric0.91.2-1.4.jar",
+            "url": "https://www.dropbox.com/scl/fi/fyasg45u9a1poud4u2uy5/advancementinfo-1.20.4-fabric0.91.2-1.4.jar?rlkey=v77nagd24p2ssq3t6w8pk3nn9&st=51rv6o9u&dl=1",
             "MD5": "9eb9826fda13b9b2143a4487aa5e36dc",
             "path": "mods/advancementinfo-1.20.4-fabric0.91.2-1.4.jar"
           }
@@ -51,7 +55,7 @@
           "type": "File",
           "artifact": {
             "size": 69810,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/animatica-0.6+1.20.jar",
+            "url": "https://www.dropbox.com/scl/fi/wbeqfgl0i76yviixc748w/animatica-0.6-1.20.jar?rlkey=8woetv32l87jvffd0q8agd0g1&st=ku42mhfg&dl=1",
             "MD5": "d57ba4c6253e84af7ce10719ee1e7a8a",
             "path": "mods/animatica-0.6+1.20.jar"
           }
@@ -62,7 +66,7 @@
           "type": "File",
           "artifact": {
             "size": 48606,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/antighost-1.20.4-fabric0.91.2-1.1.5.jar",
+            "url": "https://www.dropbox.com/scl/fi/tb5vucqksxelx8o2f6ox9/antighost-1.20.4-fabric0.91.2-1.1.5.jar?rlkey=5wj22uf1ox54svxur7mlfkiz7&st=bz529dz2&dl=1",
             "MD5": "798a4302bb931c873fd0a548dc1efdfc",
             "path": "mods/antighost-1.20.4-fabric0.91.2-1.1.5.jar"
           }
@@ -73,7 +77,7 @@
           "type": "File",
           "artifact": {
             "size": 50218,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/betterbeds-1.3.0-1.19.3.jar",
+            "url": "https://www.dropbox.com/scl/fi/itv97gmixrrj4debr596a/betterbeds-1.3.0-1.19.3.jar?rlkey=mhbhlciwa1b7ack9pdlkytj8z&st=j3h4r5uh&dl=1",
             "MD5": "8172f68d93a79b716aaf6d885026600c",
             "path": "mods/betterbeds-1.3.0-1.19.3.jar"
           }
@@ -84,7 +88,7 @@
           "type": "File",
           "artifact": {
             "size": 21587,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/bettermounthud-1.2.2.jar",
+            "url": "https://www.dropbox.com/scl/fi/pzvsnu2s5rwczsfpgr4sm/bettermounthud-1.2.2.jar?rlkey=r3l2rs6mjhnnhmyos9v842ojc&st=wye3pasp&dl=1",
             "MD5": "fdd255bd204f7d84850fd31ba687ad01",
             "path": "mods/bettermounthud-1.2.2.jar"
           }
@@ -95,7 +99,7 @@
           "type": "File",
           "artifact": {
             "size": 853323,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/bobby-5.1.0+mc1.20.4.jar",
+            "url": "https://www.dropbox.com/scl/fi/sxbt4wa6c2uvqgwtr4hqv/bobby-5.1.0-mc1.20.4.jar?rlkey=vcxzocvi3c3369ldrgozufh3i&st=1740yw3j&dl=1",
             "MD5": "86ecab27bfbf06d82788e152e4bff7ec",
             "path": "mods/bobby-5.1.0+mc1.20.4.jar"
           }
@@ -104,9 +108,13 @@
           "id": "borderless-mining-1.1.9+1.20.2.jar",
           "name": "borderless-mining-1.1.9+1.20.2.jar",
           "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
           "artifact": {
             "size": 121765,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/borderless-mining-1.1.9+1.20.2.jar",
+            "url": "https://www.dropbox.com/scl/fi/z82z4jch24mdae06ngxel/borderless-mining-1.1.9-1.20.2.jar?rlkey=2cuy7sm4jq7tv1afnuz8x6gls&st=2qzsn97p&dl=1",
             "MD5": "61e8bd2c97237d33f4d4e306b015eb33",
             "path": "mods/borderless-mining-1.1.9+1.20.2.jar"
           }
@@ -115,9 +123,13 @@
           "id": "capes-1.5.3+1.20.2-fabric.jar",
           "name": "capes-1.5.3+1.20.2-fabric.jar",
           "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
           "artifact": {
             "size": 209297,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/capes-1.5.3+1.20.2-fabric.jar",
+            "url": "https://www.dropbox.com/scl/fi/3of4rgq4d1gkaayd55y0d/capes-1.5.3-1.20.2-fabric.jar?rlkey=uvw3pwp6fhmlmg9h8e293o9dv&st=31h69teu&dl=1",
             "MD5": "4d728caea98bbc803c3631b4d8c1e772",
             "path": "mods/capes-1.5.3+1.20.2-fabric.jar"
           }
@@ -128,7 +140,7 @@
           "type": "File",
           "artifact": {
             "size": 51396,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/chat_heads-0.10.31-fabric-1.20.3.jar",
+            "url": "https://www.dropbox.com/scl/fi/wmxmk0g774v1c5y6cn7qv/chat_heads-0.10.31-fabric-1.20.3.jar?rlkey=vr7cipbjwoy1n1bhmaapdhvyb&st=6uqc2sua&dl=1",
             "MD5": "cf8cc87536a5a6d9ec667bbc59518f42",
             "path": "mods/chat_heads-0.10.31-fabric-1.20.3.jar"
           }
@@ -139,7 +151,7 @@
           "type": "File",
           "artifact": {
             "size": 1142084,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/cloth-config-13.0.121-fabric.jar",
+            "url": "https://www.dropbox.com/scl/fi/o41o8nryapymeh3bse9xa/cloth-config-13.0.121-fabric.jar?rlkey=dvq69lwprs9zj99z64n74bzg5&st=hcp09h9y&dl=1",
             "MD5": "3903e7d3c9957bacedae1365ba856202",
             "path": "mods/cloth-config-13.0.121-fabric.jar"
           }
@@ -150,7 +162,7 @@
           "type": "File",
           "artifact": {
             "size": 1050675,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/continuity-3.0.0-beta.4+1.20.2.jar",
+            "url": "https://www.dropbox.com/scl/fi/gf58isvcv121m1hy0kjjq/continuity-3.0.0-beta.4-1.20.2.jar?rlkey=xvkz6kgtd05q15ejoyxuv278v&st=scuwyxi6&dl=1",
             "MD5": "b348965933103bb02f9731c6bca76398",
             "path": "mods/continuity-3.0.0-beta.4+1.20.2.jar"
           }
@@ -159,9 +171,13 @@
           "id": "Controlify-1.8.1+1.20.4.jar",
           "name": "Controlify-1.8.1+1.20.4.jar",
           "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
           "artifact": {
             "size": 2127904,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/Controlify-1.8.1+1.20.4.jar",
+            "url": "https://www.dropbox.com/scl/fi/vtrsp7v15bmywbsa1fn64/Controlify-1.8.1-1.20.4.jar?rlkey=mx41kral4u7750ckucl0aoy13&st=1eg2wxwm&dl=1",
             "MD5": "6a439933f872465e44f9f861931934c2",
             "path": "mods/Controlify-1.8.1+1.20.4.jar"
           }
@@ -172,7 +188,7 @@
           "type": "File",
           "artifact": {
             "size": 82609,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/Controlling-fabric-1.20.4-15.0.3.jar",
+            "url": "https://www.dropbox.com/scl/fi/8gygjxf0gyzuodep36ktl/Controlling-fabric-1.20.4-15.0.3.jar?rlkey=so03x4yk1ofe8kd1xed9r0egu&st=2klix2tv&dl=1",
             "MD5": "1ec1408298221002b1c470d4bbed361f",
             "path": "mods/Controlling-fabric-1.20.4-15.0.3.jar"
           }
@@ -183,7 +199,7 @@
           "type": "File",
           "artifact": {
             "size": 270298,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/Debugify-1.20.4+1.0.jar",
+            "url": "https://www.dropbox.com/scl/fi/lcknry0uudhjfycgr84sb/Debugify-1.20.4-1.0.jar?rlkey=ux3yxxyvdqvvntsv3xez5tatg&st=q9pkvmsb&dl=1",
             "MD5": "1f3e2129edb3f146d502266e2bb79341",
             "path": "mods/Debugify-1.20.4+1.0.jar"
           }
@@ -194,7 +210,7 @@
           "type": "File",
           "artifact": {
             "size": 98796,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/dynamic-fps-3.4.2+minecraft-1.20.4-fabric.jar",
+            "url": "https://www.dropbox.com/scl/fi/cxfmhccq0fvjlehgrzna6/dynamic-fps-3.4.2-minecraft-1.20.4-fabric.jar?rlkey=syjp4orvm1gpbthzklmwdcupe&st=bxiygywb&dl=1",
             "MD5": "2ae5136007e0641e71d00c9ea3943f53",
             "path": "mods/dynamic-fps-3.4.2+minecraft-1.20.4-fabric.jar"
           }
@@ -205,7 +221,7 @@
           "type": "File",
           "artifact": {
             "size": 275794,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/e4mc-4.0.1+1.19.4-fabric.jar",
+            "url": "https://www.dropbox.com/scl/fi/25gie6ca9tvgytm633yj7/e4mc-4.0.1-1.19.4-fabric.jar?rlkey=5g4zlbgpipweky5je1yu0pza6&st=wg0hrxn7&dl=1",
             "MD5": "38a38e97a3e0d039145ed0b108860241",
             "path": "mods/e4mc-4.0.1+1.19.4-fabric.jar"
           }
@@ -216,7 +232,7 @@
           "type": "File",
           "artifact": {
             "size": 1037772,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/eating-animation-1.20+1.9.5.jar",
+            "url": "https://www.dropbox.com/scl/fi/hatmluqyx7inkujr8mf8b/eating-animation-1.20-1.9.5.jar?rlkey=uwb4f33iyupsva05yinffetrg&st=qg6hpuy7&dl=1",
             "MD5": "8281fecec375367802e5bba2d5b08d68",
             "path": "mods/eating-animation-1.20+1.9.5.jar"
           }
@@ -227,7 +243,7 @@
           "type": "File",
           "artifact": {
             "size": 492605,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/enhancedblockentities-0.9.1+1.20.2.jar",
+            "url": "https://www.dropbox.com/scl/fi/vz6dksuxemc62ueyjxhxl/enhancedblockentities-0.9.1-1.20.2.jar?rlkey=5jmca33ng1pwim8cnbejkwaw2&st=i1npppyp&dl=1",
             "MD5": "f9dd36184ab2a4ea180de78c9eeae889",
             "path": "mods/enhancedblockentities-0.9.1+1.20.2.jar"
           }
@@ -238,7 +254,7 @@
           "type": "File",
           "artifact": {
             "size": 59359,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/entityculling-fabric-1.6.3.1-mc1.20.4.jar",
+            "url": "https://www.dropbox.com/scl/fi/mfu1n2smu706aggsxb8n4/entityculling-fabric-1.6.3.1-mc1.20.4.jar?rlkey=n85tmjka9nskidpgremqz6xcm&st=ge9v62xq&dl=1",
             "MD5": "2c7a04a0e218b9a37c27ebfdf03ebf6e",
             "path": "mods/entityculling-fabric-1.6.3.1-mc1.20.4.jar"
           }
@@ -249,7 +265,7 @@
           "type": "File",
           "artifact": {
             "size": 347117,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/entity_model_features_fabric_1.20.4-1.3.jar",
+            "url": "https://www.dropbox.com/scl/fi/mh5860mssiwqvfux5q0by/entity_model_features_fabric_1.20.4-1.3.jar?rlkey=g883mup4xfexnjzo9syaql9x3&st=dcmq3ev4&dl=1",
             "MD5": "30b300e663d4b942b21efaef0eb4f6fd",
             "path": "mods/entity_model_features_fabric_1.20.4-1.3.jar"
           }
@@ -260,7 +276,7 @@
           "type": "File",
           "artifact": {
             "size": 449202,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/entity_texture_features_fabric_1.20.4-5.2.3.jar",
+            "url": "https://www.dropbox.com/scl/fi/emc89unf94s42mz96ny0s/entity_texture_features_fabric_1.20.4-5.2.3.jar?rlkey=o0bnb1yzzib8kg877lmurhfdr&st=k3x5yahy&dl=1",
             "MD5": "e1cf1150b93b238737a73492db69962e",
             "path": "mods/entity_texture_features_fabric_1.20.4-5.2.3.jar"
           }
@@ -271,7 +287,7 @@
           "type": "File",
           "artifact": {
             "size": 2160893,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/fabric-api-0.96.4+1.20.4.jar",
+            "url": "https://www.dropbox.com/scl/fi/7q4h4vryxqjcejptxsfg0/fabric-api-0.96.4-1.20.4.jar?rlkey=g86fqzri1l6txadsaxy50ne2r&st=8h6zcjgg&dl=1",
             "MD5": "2ef9ba9b1cf087f4356ebe55366fb9ef",
             "path": "mods/fabric-api-0.96.4+1.20.4.jar"
           }
@@ -282,7 +298,7 @@
           "type": "File",
           "artifact": {
             "size": 6727951,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/fabric-language-kotlin-1.10.18+kotlin.1.9.22.jar",
+            "url": "https://www.dropbox.com/scl/fi/wuq651wp5vlsdxkfbzgj7/fabric-language-kotlin-1.10.18-kotlin.1.9.22.jar?rlkey=o5s84t5hh24f7kc5pshtu62ta&st=ch5bkgli&dl=1",
             "MD5": "447fba59921f94de8d37d3d6f9616caf",
             "path": "mods/fabric-language-kotlin-1.10.18+kotlin.1.9.22.jar"
           }
@@ -293,7 +309,7 @@
           "type": "File",
           "artifact": {
             "size": 207267,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/fabricskyboxes-0.7.3+mc1.20.2.jar",
+            "url": "https://www.dropbox.com/scl/fi/bkynt1uk1d4q6m93kppbb/fabricskyboxes-0.7.3-mc1.20.2.jar?rlkey=evrd740zz5ube1e682x1vff1k&st=dck3bjt0&dl=1",
             "MD5": "dc3e7903dd9fc8222b2866d9e220e369",
             "path": "mods/fabricskyboxes-0.7.3+mc1.20.2.jar"
           }
@@ -304,7 +320,7 @@
           "type": "File",
           "artifact": {
             "size": 51064,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/fabrishot-1.12.1.jar",
+            "url": "https://www.dropbox.com/scl/fi/rzxmxrdigj432fao5m1fv/fabrishot-1.12.1.jar?rlkey=dzw9322vk7f5t0k1nqhual35q&st=s6rlktl1&dl=1",
             "MD5": "099d1b76de6650f641232d8dfbf01253",
             "path": "mods/fabrishot-1.12.1.jar"
           }
@@ -313,9 +329,13 @@
           "id": "fastquit-3.0.0+1.20.4.jar",
           "name": "fastquit-3.0.0+1.20.4.jar",
           "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
           "artifact": {
             "size": 59105,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/fastquit-3.0.0+1.20.4.jar",
+            "url": "https://www.dropbox.com/scl/fi/iqu0ojjmief1cuavh222c/fastquit-3.0.0-1.20.4.jar?rlkey=z7h0yyjtmbxh5bds5xetjfga1&st=cjz3hah2&dl=1",
             "MD5": "5a97735d1d3bdd5e6d1575d81a6081e0",
             "path": "mods/fastquit-3.0.0+1.20.4.jar"
           }
@@ -326,7 +346,7 @@
           "type": "File",
           "artifact": {
             "size": 125100,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/ferritecore-6.0.3-fabric.jar",
+            "url": "https://www.dropbox.com/scl/fi/4g4zj9c8relxkioenv9g1/ferritecore-6.0.3-fabric.jar?rlkey=7o9myoyathdasklrv18rc0ara&st=akw53zeo&dl=1",
             "MD5": "a684cfcdbc32eddaf78782fb4e5762f4",
             "path": "mods/ferritecore-6.0.3-fabric.jar"
           }
@@ -337,7 +357,7 @@
           "type": "File",
           "artifact": {
             "size": 49488,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/fsb-interop-1.3.6+mc1.20.2-build.52.jar",
+            "url": "https://www.dropbox.com/scl/fi/bw939r29lqw9xdmcxxrmt/fsb-interop-1.3.6-mc1.20.2-build.52.jar?rlkey=va5ish7nu2wq1fssb3j646uj3&st=pjtrtxsm&dl=1",
             "MD5": "9f749b8461924adaf73650aeae147808",
             "path": "mods/fsb-interop-1.3.6+mc1.20.2-build.52.jar"
           }
@@ -348,7 +368,7 @@
           "type": "File",
           "artifact": {
             "size": 222051,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/ImmediatelyFast-Fabric-1.2.10+1.20.4.jar",
+            "url": "https://www.dropbox.com/scl/fi/giio4a67zsjzx1ta78dio/ImmediatelyFast-Fabric-1.2.10-1.20.4.jar?rlkey=ip7orh0yjgm7rq6vb611ekhx2&st=z7efp2qc&dl=1",
             "MD5": "735c9b0e638b30053f331a2809d132e0",
             "path": "mods/ImmediatelyFast-Fabric-1.2.10+1.20.4.jar"
           }
@@ -359,7 +379,7 @@
           "type": "File",
           "artifact": {
             "size": 104805,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/indium-1.0.30+mc1.20.4.jar",
+            "url": "https://www.dropbox.com/scl/fi/h88k0tpe06cmrrmlgm5ur/indium-1.0.30-mc1.20.4.jar?rlkey=goz6ja02nfngmp2pdtnyiv4zi&st=lizvb729&dl=1",
             "MD5": "e0b3675f1e6e8f00da58d42ec1bd1be7",
             "path": "mods/indium-1.0.30+mc1.20.4.jar"
           }
@@ -370,7 +390,7 @@
           "type": "File",
           "artifact": {
             "size": 2421865,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/iris-mc1.20.4-1.6.17.jar",
+            "url": "https://www.dropbox.com/scl/fi/ktmjyky0u5vobo0nafrft/iris-mc1.20.4-1.6.17.jar?rlkey=u5bodq2req589o3v889xfyzv8&st=m74jwi8v&dl=1",
             "MD5": "cc391df9e929608c37a04a342c6babb3",
             "path": "mods/iris-mc1.20.4-1.6.17.jar"
           }
@@ -379,9 +399,13 @@
           "id": "lambdynamiclights-2.3.4+1.20.4.jar",
           "name": "lambdynamiclights-2.3.4+1.20.4.jar",
           "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
           "artifact": {
             "size": 568669,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/lambdynamiclights-2.3.4+1.20.4.jar",
+            "url": "https://www.dropbox.com/scl/fi/0aw6rzbpgh1ywvne3j5x3/lambdynamiclights-2.3.4-1.20.4.jar?rlkey=cvywiddbmqwv42prhfbsza7e6&st=llakscdf&dl=1",
             "MD5": "3c849e6337ff7c850762c6cc27f607ab",
             "path": "mods/lambdynamiclights-2.3.4+1.20.4.jar"
           }
@@ -392,7 +416,7 @@
           "type": "File",
           "artifact": {
             "size": 200750,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/language-reload-1.5.10+1.20.3.jar",
+            "url": "https://www.dropbox.com/scl/fi/6b0tslivksd7sw63q0vlv/language-reload-1.5.10-1.20.3.jar?rlkey=gwzqpogkevzf6ov6lxhbyutf6&st=13pkbp2r&dl=1",
             "MD5": "fce9c13a98f7cacdad7710e51ca75b20",
             "path": "mods/language-reload-1.5.10+1.20.3.jar"
           }
@@ -403,7 +427,7 @@
           "type": "File",
           "artifact": {
             "size": 25020,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/lazy-language-loader-0.3.5.jar",
+            "url": "https://www.dropbox.com/scl/fi/hbzvnriuc6xqzdtakf33j/lazy-language-loader-0.3.5.jar?rlkey=9jiei67v69flw6foafe7uzg43&st=foa8f7eo&dl=1",
             "MD5": "13b62b06a28edf4a652f738e54eb0e62",
             "path": "mods/lazy-language-loader-0.3.5.jar"
           }
@@ -414,7 +438,7 @@
           "type": "File",
           "artifact": {
             "size": 716022,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/lithium-fabric-mc1.20.4-0.12.1.jar",
+            "url": "https://www.dropbox.com/scl/fi/8lqzaufd4altzqsd1ecpr/lithium-fabric-mc1.20.4-0.12.1.jar?rlkey=vnz8cuk24lyoovmvjg7rz81md&st=yp28n1vk&dl=1",
             "MD5": "83da6729d5402dc42eca740a96f97346",
             "path": "mods/lithium-fabric-mc1.20.4-0.12.1.jar"
           }
@@ -425,7 +449,7 @@
           "type": "File",
           "artifact": {
             "size": 14340,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/main-menu-credits-1.1.2.jar",
+            "url": "https://www.dropbox.com/scl/fi/zjth73ibwmre6aq6rljme/main-menu-credits-1.1.2.jar?rlkey=4omf8fcyty583k79f85hgdg5q&st=4koqgaa4&dl=1",
             "MD5": "ca68af4e0939c9b2af2e8f0c5149f1d0",
             "path": "mods/main-menu-credits-1.1.2.jar"
           }
@@ -436,7 +460,7 @@
           "type": "File",
           "artifact": {
             "size": 49334,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/memoryleakfix-fabric-1.17+-1.1.5.jar",
+            "url": "https://www.dropbox.com/scl/fi/4udjnrx5qe5wz83dyw85a/memoryleakfix-fabric-1.17-1.1.5.jar?rlkey=19rbw40qdyrjk33vkg42hue16&st=dmdtcitd&dl=1",
             "MD5": "a8461f89d267441752c95beb5448e940",
             "path": "mods/memoryleakfix-fabric-1.17+-1.1.5.jar"
           }
@@ -447,7 +471,7 @@
           "type": "File",
           "artifact": {
             "size": 36039,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/mixintrace-1.1.1+1.17.jar",
+            "url": "https://www.dropbox.com/scl/fi/49qtyswp615c18a1yuga5/mixintrace-1.1.1-1.17.jar?rlkey=wka8wwxeuean6jio27c7di6il&st=nek2f9bz&dl=0",
             "MD5": "25673336ece740d8127ae7525bc0cd4f",
             "path": "mods/mixintrace-1.1.1+1.17.jar"
           }
@@ -458,7 +482,7 @@
           "type": "File",
           "artifact": {
             "size": 50427,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/ModDetectionPreventer+1.20.4-1.1.0.jar",
+            "url": "https://www.dropbox.com/scl/fi/brycp6a75fwcto4pdzlpc/ModDetectionPreventer-1.20.4-1.1.0.jar?rlkey=bs3h95l839c8nfijtqvpzmnlh&st=on8bd09t&dl=1",
             "MD5": "035019f2a4097aff634b44cec06f4bfd",
             "path": "mods/ModDetectionPreventer+1.20.4-1.1.0.jar"
           }
@@ -469,7 +493,7 @@
           "type": "File",
           "artifact": {
             "size": 65430,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/modelfix-1.14-fabric.jar",
+            "url": "https://www.dropbox.com/scl/fi/2atef2myfj7jx97wsjdai/modelfix-1.14-fabric.jar?rlkey=xzbueunqw2rqiqi51n5tuvlti&st=lddhfi1j&dl=1",
             "MD5": "37022aa425061707b0ed1ada2c071d97",
             "path": "mods/modelfix-1.14-fabric.jar"
           }
@@ -480,7 +504,7 @@
           "type": "File",
           "artifact": {
             "size": 434857,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/modernfix-fabric-5.14.0+mc1.20.4.jar",
+            "url": "https://www.dropbox.com/scl/fi/9usfli64ved5t97ro6r15/modernfix-fabric-5.14.0-mc1.20.4.jar?rlkey=e6foed4ba5vli35s3cbw46bg8&st=ptchgabz&dl=1",
             "MD5": "7b8ca848c5aa010e9280283442145464",
             "path": "mods/modernfix-fabric-5.14.0+mc1.20.4.jar"
           }
@@ -491,7 +515,7 @@
           "type": "File",
           "artifact": {
             "size": 724484,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/modmenu-9.0.0.jar",
+            "url": "https://www.dropbox.com/scl/fi/l6a74ncpkn2eezni73nzl/modmenu-9.0.0.jar?rlkey=vlxaoad9uuilrnxkz5bhrlb0o&st=vvppok2c&dl=1",
             "MD5": "7eb06d459405ed6c87b16f4c5be4493d",
             "path": "mods/modmenu-9.0.0.jar"
           }
@@ -500,9 +524,13 @@
           "id": "morechathistory-1.3.0.jar",
           "name": "morechathistory-1.3.0.jar",
           "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
           "artifact": {
             "size": 3546,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/morechathistory-1.3.0.jar",
+            "url": "https://www.dropbox.com/scl/fi/8m1m60hmqab76il4mmmjk/morechathistory-1.3.0.jar?rlkey=4bw2j3jkqjwnhr9bw5mgaom8x&st=hghx7be4&dl=1",
             "MD5": "1980ac8b5b66417091d101682af8865c",
             "path": "mods/morechathistory-1.3.0.jar"
           }
@@ -513,7 +541,7 @@
           "type": "File",
           "artifact": {
             "size": 269457,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/moreculling-1.20.4-0.22.1.jar",
+            "url": "https://www.dropbox.com/scl/fi/4atj1wcj2qj3roknql4gq/moreculling-1.20.4-0.22.1.jar?rlkey=5fvwqz5xej6grtedtqwkngwt8&st=uwo8c6f7&dl=1",
             "MD5": "7105c0ef569dd1c37d1b36b044351bea",
             "path": "mods/moreculling-1.20.4-0.22.1.jar"
           }
@@ -524,7 +552,7 @@
           "type": "File",
           "artifact": {
             "size": 721079,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/NoChatReports-FABRIC-1.20.4-v2.5.0.jar",
+            "url": "https://www.dropbox.com/scl/fi/s8khjlusfnkom16g6gjmr/NoChatReports-FABRIC-1.20.4-v2.5.0.jar?rlkey=rfq5mfddz34yy1yhtloiqyjl9&st=2o8etsxv&dl=1",
             "MD5": "b527df3c38dd5eaeaa6c09139a7dd14c",
             "path": "mods/NoChatReports-FABRIC-1.20.4-v2.5.0.jar"
           }
@@ -535,7 +563,7 @@
           "type": "File",
           "artifact": {
             "size": 780572,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/optigui-2.1.7.jar",
+            "url": "https://www.dropbox.com/scl/fi/sak9zrbye1dx1xa7cjmc5/optigui-2.1.7.jar?rlkey=0gky3ctu7wh2y5od39l8v73d6&st=pupahlew&dl=1",
             "MD5": "2744ac9b3e4908c3cfcf4362d1437e0f",
             "path": "mods/optigui-2.1.7.jar"
           }
@@ -544,9 +572,13 @@
           "id": "paginatedadvancements-2.4.2.jar",
           "name": "paginatedadvancements-2.4.2.jar",
           "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
           "artifact": {
             "size": 70974,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/paginatedadvancements-2.4.2.jar",
+            "url": "https://www.dropbox.com/scl/fi/eykir7vpvfyeoaibrwadl/paginatedadvancements-2.4.2.jar?rlkey=utttu0cwefiiz64isyowkjxz9&st=c0w6kedm&dl=1",
             "MD5": "c70e11c1ddeca7f476f132450d28e982",
             "path": "mods/paginatedadvancements-2.4.2.jar"
           }
@@ -557,7 +589,7 @@
           "type": "File",
           "artifact": {
             "size": 128303,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/puzzle-1.6.1+1.20.4.jar",
+            "url": "https://www.dropbox.com/scl/fi/l34qsvzclojljljvh1h9f/puzzle-1.6.1-1.20.4.jar?rlkey=m5c17s57uimospp3w8xjv8cxj&st=9o2krpq9&dl=1",
             "MD5": "79efed9b1ffbae3869a0b91afaca6e15",
             "path": "mods/puzzle-1.6.1+1.20.4.jar"
           }
@@ -568,7 +600,7 @@
           "type": "File",
           "artifact": {
             "size": 77393,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/reeses_sodium_options-1.7.2+mc1.20.4-build.102.jar",
+            "url": "https://www.dropbox.com/scl/fi/szj3worivals6kj2r27h2/reeses_sodium_options-1.7.2-mc1.20.4-build.102.jar?rlkey=8tj8i9zlj47u1yiwy4c4m1r5e&st=79096o1t&dl=1",
             "MD5": "3353347619cc18acb9b6ef811ac6a310",
             "path": "mods/reeses_sodium_options-1.7.2+mc1.20.4-build.102.jar"
           }
@@ -579,7 +611,7 @@
           "type": "File",
           "artifact": {
             "size": 160857,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/rrls-4.0.2+mc1.20.4-fabric.jar",
+            "url": "https://www.dropbox.com/scl/fi/fkuhsd1dmkf33ta9uf30c/rrls-4.0.2-mc1.20.4-fabric.jar?rlkey=e4v5moyqd9hm6mn4vf7kpea7t&st=auv6wb5l&dl=1",
             "MD5": "231f44515712ae16484f6e01ce68962e",
             "path": "mods/rrls-4.0.2+mc1.20.4-fabric.jar"
           }
@@ -590,7 +622,7 @@
           "type": "File",
           "artifact": {
             "size": 78369,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/Searchables-fabric-1.20.4-1.0.6.jar",
+            "url": "https://www.dropbox.com/scl/fi/ovr3e8iv50ddou6m4jin4/Searchables-fabric-1.20.4-1.0.6.jar?rlkey=3lbv7a04o30bts2wmaz8t1kc3&st=lyfpbklj&dl=1",
             "MD5": "8ba20fa1e9c414a6a05de4861e796ba8",
             "path": "mods/Searchables-fabric-1.20.4-1.0.6.jar"
           }
@@ -599,9 +631,13 @@
           "id": "shulkerboxtooltip-fabric-4.0.8+1.20.4.jar",
           "name": "shulkerboxtooltip-fabric-4.0.8+1.20.4.jar",
           "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
           "artifact": {
             "size": 1215852,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/shulkerboxtooltip-fabric-4.0.8+1.20.4.jar",
+            "url": "https://www.dropbox.com/scl/fi/slu439g7vqkzxdigzl50i/shulkerboxtooltip-fabric-4.0.8-1.20.4.jar?rlkey=2elzgzcrh37o2rdxpuxqy40iv&st=xfeq0afa&dl=1",
             "MD5": "3eab8c5bf30d1030c25a1c28077721a5",
             "path": "mods/shulkerboxtooltip-fabric-4.0.8+1.20.4.jar"
           }
@@ -612,7 +648,7 @@
           "type": "File",
           "artifact": {
             "size": 385665,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/sodium-extra-0.5.4+mc1.20.4-build.116.jar",
+            "url": "https://www.dropbox.com/scl/fi/yitsztxbbyq2zg1r4n32b/sodium-extra-0.5.4-mc1.20.4-build.116.jar?rlkey=gmbpxyob5nefq0p240ny8pid3&st=x1h1z58o&dl=1",
             "MD5": "a414a1b266c8e6bd22b37c72413000ff",
             "path": "mods/sodium-extra-0.5.4+mc1.20.4-build.116.jar"
           }
@@ -623,7 +659,7 @@
           "type": "File",
           "artifact": {
             "size": 949085,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/sodium-fabric-0.5.8+mc1.20.4.jar",
+            "url": "https://www.dropbox.com/scl/fi/li8ba03pgkz41xxgoo3jk/sodium-fabric-0.5.8-mc1.20.4.jar?rlkey=48e9nnmigh7l77zeeyzf05ge4&st=xpb0nxc8&dl=1",
             "MD5": "d7753a50ca37f50abb10465a9a425dac",
             "path": "mods/sodium-fabric-0.5.8+mc1.20.4.jar"
           }
@@ -634,7 +670,7 @@
           "type": "File",
           "artifact": {
             "size": 979275,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/yet-another-config-lib-fabric-3.3.2+1.20.4.jar",
+            "url": "https://www.dropbox.com/scl/fi/mk1bp67vcaux4k65okyhb/yet-another-config-lib-fabric-3.3.2-1.20.4.jar?rlkey=lca7a32hx3c1i52tp0tettt7n&st=zi3xqyhs&dl=1",
             "MD5": "6e7dd15c39d9e13c83589134e41a2d03",
             "path": "mods/yet-another-config-lib-fabric-3.3.2+1.20.4.jar"
           }
@@ -645,7 +681,7 @@
           "type": "File",
           "artifact": {
             "size": 17373,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/yosbr-0.1.2.jar",
+            "url": "https://www.dropbox.com/scl/fi/mjotetypw49h1id1oaux2/yosbr-0.1.2.jar?rlkey=88uhthp8zcqqo9tz8zc2vq08h&st=xso3cslt&dl=1",
             "MD5": "9fcce225f25b6fd17921c87ff1c720f1",
             "path": "mods/yosbr-0.1.2.jar"
           }
@@ -654,9 +690,13 @@
           "id": "Zoomify-2.13.0.jar",
           "name": "Zoomify-2.13.0.jar",
           "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
           "artifact": {
             "size": 1055608,
-            "url": "http://localhost:8080/servers/test5-1.20.4/files/mods/Zoomify-2.13.0.jar",
+            "url": "https://www.dropbox.com/scl/fi/8uw94sh0h78nylovy0t3u/Zoomify-2.13.0.jar?rlkey=xya6qp84cinsiiil8gxihk80b&st=b0kz6urw&dl=1",
             "MD5": "d6e39b6d76378817b36d746ee47fceed",
             "path": "mods/Zoomify-2.13.0.jar"
           }
