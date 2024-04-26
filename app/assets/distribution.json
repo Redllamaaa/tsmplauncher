@@ -13,98 +13,6 @@
       "autoconnect": false,
       "modules": [
         {
-          "id": "net.fabricmc:fabric-loader:0.15.10",
-          "name": "Fabric (fabric-loader)",
-          "type": "Fabric",
-          "artifact": {
-            "size": 1327662,
-            "MD5": "582b8c44a8afc761c63df88b64e6bb0f",
-            "url": "https://www.dropbox.com/scl/fi/m0sydyy4ynf2iuz1oss6c/fabric-loader-0.15.10.jar?rlkey=hxv6udits8am47jh6r9u98wqp&st=fr7xjhl8&dl=1"
-          },
-          "subModules": [
-            {
-              "id": "1.20.4-fabric-0.15.10",
-              "name": "Fabric (version.json)",
-              "type": "VersionManifest",
-              "artifact": {
-                "size": 2849,
-                "MD5": "23e99dbafc0ee511e8dfb9d62cd0a342",
-                "url": "https://www.dropbox.com/scl/fi/3d8k4inb0f8orjyng6pm5/1.20.4-fabric-0.15.10.json?rlkey=ja8n562ne5bzzf8w2s6blfede&st=20izjjut&dl=1"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm:9.6",
-              "name": "Fabric (asm)",
-              "type": "Library",
-              "artifact": {
-                "size": 123598,
-                "MD5": "6f8bccf756f170d4185bb24c8c2d2020",
-                "url": "https://www.dropbox.com/scl/fi/gn1aw3hryvbnpsl6t2erj/asm-9.6.jar?rlkey=qrj6yqfbbo7f0tcc3q5e7oc7j&st=fp1j8o8n&dl=1"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-analysis:9.6",
-              "name": "Fabric (asm-analysis)",
-              "type": "Library",
-              "artifact": {
-                "size": 34041,
-                "MD5": "31c84ef7cc893fb278952ae2d6a2674f",
-                "url": "https://www.dropbox.com/scl/fi/m7csdk446obn4rj4mj90x/asm-analysis-9.6.jar?rlkey=6y2mtadyutlf3ulihnwivc3q1&st=qvw54f81&dl=1"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-commons:9.6",
-              "name": "Fabric (asm-commons)",
-              "type": "Library",
-              "artifact": {
-                "size": 72194,
-                "MD5": "9e317c75534bd1da8c00a67c618ab288",
-                "url": "https://www.dropbox.com/scl/fi/0n20bh4hj33cg8omm745g/asm-commons-9.6.jar?rlkey=cno4f0t96vlmbwdp2tdnhsl0k&st=0b5mu2n3&dl=1"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-tree:9.6",
-              "name": "Fabric (asm-tree)",
-              "type": "Library",
-              "artifact": {
-                "size": 51935,
-                "MD5": "6062608f1a98afe1e853d01fa1221a9e",
-                "url": "https://www.dropbox.com/scl/fi/2en2w8j3tjqoieo33wk41/asm-tree-9.6.jar?rlkey=dovgljotlbou4llzjmbbxptpi&st=3gmxrcv8&dl=1"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-util:9.6",
-              "name": "Fabric (asm-util)",
-              "type": "Library",
-              "artifact": {
-                "size": 91131,
-                "MD5": "bd3bc1c176a787373e9a031073c9574b",
-                "url": "https://www.dropbox.com/scl/fi/hu9n3e514e7ot75m4d9zd/asm-util-9.6.jar?rlkey=04ays3yzs9mp3cf3bdcpsmlm2&st=u74j3v9e&dl=1"
-              }
-            },
-            {
-              "id": "net.fabricmc:sponge-mixin:0.13.3+mixin.0.8.5",
-              "name": "Fabric (sponge-mixin)",
-              "type": "Library",
-              "artifact": {
-                "size": 1458875,
-                "MD5": "9dcf01250f72212bf97f0fef55ba5acd",
-                "url": "https://www.dropbox.com/scl/fi/91ebnwgkrbpo3l01ljikv/sponge-mixin-0.13.3-mixin.0.8.5.jar?rlkey=nfqqr9x669j156tlbvqriha14&st=fe0l6cbo&dl=1"
-              }
-            },
-            {
-              "id": "net.fabricmc:intermediary:1.20.4",
-              "name": "Fabric (intermediary)",
-              "type": "Library",
-              "artifact": {
-                "size": 608319,
-                "MD5": "3a1cade1634c518db6147c9771686ea9",
-                "url": "https://www.dropbox.com/scl/fi/big6s9714hgjm6kn7y08d/intermediary-1.20.4.jar?rlkey=mp1wj5g2qcamblyss69bri153&st=1ef0xqse&dl=1"
-              }
-            }
-          ]
-        },
-        {
           "id": "de.guntram.mcmod:advancementinfo:1.20.4-fabric0.91.2-1.4@jar",
           "name": "AdvancementInfo",
           "type": "FabricMod",
@@ -678,6 +586,98 @@
           "required": {
             "value": false
           }
+        },
+        {
+          "id": "net.fabricmc:fabric-loader:0.15.10",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1327662,
+            "MD5": "582b8c44a8afc761c63df88b64e6bb0f",
+            "url": "https://www.dropbox.com/scl/fi/m0sydyy4ynf2iuz1oss6c/fabric-loader-0.15.10.jar?rlkey=hxv6udits8am47jh6r9u98wqp&st=fr7xjhl8&dl=1"
+          },
+          "subModules": [
+            {
+              "id": "1.20.4-fabric-0.15.10",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2849,
+                "MD5": "23e99dbafc0ee511e8dfb9d62cd0a342",
+                "url": "https://www.dropbox.com/scl/fi/3d8k4inb0f8orjyng6pm5/1.20.4-fabric-0.15.10.json?rlkey=ja8n562ne5bzzf8w2s6blfede&st=20izjjut&dl=1"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.6",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 123598,
+                "MD5": "6f8bccf756f170d4185bb24c8c2d2020",
+                "url": "https://www.dropbox.com/scl/fi/gn1aw3hryvbnpsl6t2erj/asm-9.6.jar?rlkey=qrj6yqfbbo7f0tcc3q5e7oc7j&st=fp1j8o8n&dl=1"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.6",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34041,
+                "MD5": "31c84ef7cc893fb278952ae2d6a2674f",
+                "url": "https://www.dropbox.com/scl/fi/m7csdk446obn4rj4mj90x/asm-analysis-9.6.jar?rlkey=6y2mtadyutlf3ulihnwivc3q1&st=qvw54f81&dl=1"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.6",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72194,
+                "MD5": "9e317c75534bd1da8c00a67c618ab288",
+                "url": "https://www.dropbox.com/scl/fi/0n20bh4hj33cg8omm745g/asm-commons-9.6.jar?rlkey=cno4f0t96vlmbwdp2tdnhsl0k&st=0b5mu2n3&dl=1"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.6",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51935,
+                "MD5": "6062608f1a98afe1e853d01fa1221a9e",
+                "url": "https://www.dropbox.com/scl/fi/2en2w8j3tjqoieo33wk41/asm-tree-9.6.jar?rlkey=dovgljotlbou4llzjmbbxptpi&st=3gmxrcv8&dl=1"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.6",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 91131,
+                "MD5": "bd3bc1c176a787373e9a031073c9574b",
+                "url": "https://www.dropbox.com/scl/fi/hu9n3e514e7ot75m4d9zd/asm-util-9.6.jar?rlkey=04ays3yzs9mp3cf3bdcpsmlm2&st=u74j3v9e&dl=1"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.13.3+mixin.0.8.5",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1458875,
+                "MD5": "9dcf01250f72212bf97f0fef55ba5acd",
+                "url": "https://www.dropbox.com/scl/fi/91ebnwgkrbpo3l01ljikv/sponge-mixin-0.13.3-mixin.0.8.5.jar?rlkey=nfqqr9x669j156tlbvqriha14&st=fe0l6cbo&dl=1"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.20.4",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 608319,
+                "MD5": "3a1cade1634c518db6147c9771686ea9",
+                "url": "https://www.dropbox.com/scl/fi/big6s9714hgjm6kn7y08d/intermediary-1.20.4.jar?rlkey=mp1wj5g2qcamblyss69bri153&st=1ef0xqse&dl=1"
+              }
+            }
+          ]
         }
       ]
     }
