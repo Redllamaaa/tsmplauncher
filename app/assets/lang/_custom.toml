@@ -4,10 +4,8 @@
 title = "TSMP Launcher"
 
 [ejs.landing]
-mediaGitHubURL = "https://github.com/Redllamaaa/tsmplauncher"
-mediaTwitterURL = "#"
-mediaInstagramURL = "#"
-mediaYouTubeURL = "#"
+mediaGitHubURL = "https://docs.google.com/presentation/d/1bNUP5qS1UGcLbBEk-_zFv1gntsSxlF3k9ceCX51iU3g/edit"
+mediaTwitterURL = "https://twitter.com/TotemClub2"
 mediaDiscordURL = "https://discord.gg/fVe3xGj7qY"
 
 [ejs.settings]
