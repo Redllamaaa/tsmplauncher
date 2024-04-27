@@ -438,7 +438,7 @@ async function downloadJava(effectiveJavaOptions, launchAfter = true) {
 // Keep reference to Minecraft Process
 let proc
 // Is DiscordRPC enabled
-let hasRPC = false
+let hasRPC = true
 // Joined server regex
 // Change this if your server uses something different.
 const GAME_JOINED_REGEX = /\[.+\]: Sound engine started/
