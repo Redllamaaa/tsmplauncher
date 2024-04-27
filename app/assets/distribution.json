@@ -1,12 +1,12 @@
 {
-  "version": "1.0.6",
+  "version": "1.0.8",
   "servers": [
     {
       "id": "tsmp4deathhill",
       "name": "TSMP Death Hill",
       "description": "TSMP Death Hill, 1.20.4 (0.15.10)",
       "icon": null,
-      "version": "1.0.6",
+      "version": "1.0.8",
       "address": "localhost:25565",
       "minecraftVersion": "1.20.4",
       "mainServer": true,
@@ -104,8 +104,51 @@
           "type": "FabricMod",
           "artifact": {
             "size": 51396,
-            "url": "https://www.dropbox.com/scl/fi/gddcp274cvlroy3bcftep/chat_heads-0.10.31-fabric-1.20.3.jar?rlkey=5l11xrgyimix7590fw6kt284n&st=yh1mg0om&dl=1",
+            "url": "https://www.dropbox.com/scl/fi/gddcp274cvlroy3bcftep/chat_heads-0.10.31-fabric-1.20.3.jar?rlkey=5l11xrgyimix7590fw6kt284n&st=11qj4rdd&dl=1",
             "MD5": "cf8cc87536a5a6d9ec667bbc59518f42"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.20.4-2.5.12@jar",
+          "name": "Simple Voice Chat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 8125595,
+            "url": "https://www.dropbox.com/scl/fi/c8dabsqinkyg99mpj2ev2/voicechat-fabric-1.20.4-2.5.12.jar?rlkey=gpighkvub518tzub5s1m342o1&st=j40e3m21&dl=1",
+            "MD5": "0fe58d8ccd88eba70814ebb8f14e187a"
+          }
+        },
+        {
+          "id": "nl.enjarai:showmeyourskin:1.9.0+1.20.4@jar",
+          "name": "Show Me Your Skin!",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 289615,
+            "url": "https://www.dropbox.com/scl/fi/gwbr1k1srhv9w7w63bpx3/show-me-your-skin-1.9.0-1.20.4.jar?rlkey=xzko8kt06uvmozgkekzdj1igd&st=n2j3sybd&dl=1",
+            "MD5": "85d7130aad119d82cd13b995649c6ba9"
+          }
+        },
+        {
+          "id": "nl.enjarai:cicada:0.6.2+1.20.2-and-above@jar",
+          "name": "CICADA",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 64829,
+            "url": "https://www.dropbox.com/scl/fi/9zi82nxb6r6b8kw0mhxdg/cicada-lib-0.6.2-1.20.2-and-above.jar?rlkey=lbpkjsd2ptyad46knz1sdx4fr&st=xac2r3pk&dl=1",
+            "MD5": "60adf4a0ca73d66b6e18e9450b502386"
+          }
+        },
+        {
+          "id": "cc.cosmetica:cosmetica:1.2.9@jar",
+          "name": "Cosmetica",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 555764,
+            "url": "https://www.dropbox.com/scl/fi/99jljsi9001duqqxfkmec/cosmetica-1.20.4-1.2.9.jar?rlkey=uyvkj5it1le2ca2l0k175qo18&st=zys2h58c&dl=1",
+            "MD5": "b5986519937aa8095a8bf4ded2f2f9d7"
           }
         },
         {
@@ -140,6 +183,32 @@
           "required": {
             "value": false,
             "def": false
+          }
+        },
+        {
+          "id": "me.soapsuds:boatiview:0.0.5@jar",
+          "name": "Boat Item View Fabric",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1031662,
+            "url": "https://www.dropbox.com/scl/fi/qceo3tvslggcao4u8843z/Boat-Item-View-Fabric-1.20.1-0.0.5.jar?rlkey=2dllpb1y435enxtqy9yvryee7&st=xa15iqhu&dl=1",
+            "MD5": "7424186d38ca5102bc75ebfbe4231637"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.tr7zw.skinlayers:skinlayers3d:1.6.3@jar",
+          "name": "3d-Skin-Layers",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 471257,
+            "url": "https://www.dropbox.com/scl/fi/rhobvdmgxjhmd7u2px590/skinlayers3d-fabric-1.6.3-mc1.20.4.jar?rlkey=eg72t8paa9lqnt4pd80ekwlp5&st=imrw3ona&dl=1",
+            "MD5": "21b462c46b9901a99e88b099106b9370"
+          },
+          "required": {
+            "value": false
           }
         },
         {
