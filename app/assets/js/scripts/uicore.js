@@ -49,7 +49,7 @@ if(!isDev){
                 loggerAutoUpdater.info('New update available', info.version)
                 
                 if(process.platform === 'darwin'){
-                    info.darwindownload = `https://github.com/dscalzi/HeliosLauncher/releases/download/v${info.version}/Helios-Launcher-setup-${info.version}${process.arch === 'arm64' ? '-arm64' : '-x64'}.dmg`
+                    info.darwindownload = `https://github.com/Redllamaaa/tsmplauncher/releases/download/v${info.version}/TSMP.Launcher-setup-${info.version}${process.arch === 'arm64' ? '-arm64' : '-x64'}.dmg`
                     showUpdateUI(info)
                 }
                 
@@ -93,17 +93,6 @@ if(!isDev){
     })
 }
 
-/**
- * Send a notification to the main process changing the value of
- * allowPrerelease. If we are running a prerelease version, then
- * this will always be set to true, regardless of the current value
- * of val.
- * 
- * @param {boolean} val The new allow prerelease value.
- */
-function changeAllowPrerelease(val){
-    ipcRenderer.send('autoUpdateAction', 'allowPrereleaseChange', val)
-}
 
 function showUpdateUI(info){
     //TODO Make this message a bit more informative `${info.version}`
