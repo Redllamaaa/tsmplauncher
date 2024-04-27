@@ -10,7 +10,7 @@
       "address": "localhost:25565",
       "minecraftVersion": "1.20.4",
       "mainServer": true,
-      "autoconnect": false,
+      "autoconnect": true,
       "modules": [
         {
           "id": "de.guntram.mcmod:advancementinfo:1.20.4-fabric0.91.2-1.4@jar",
