@@ -1,12 +1,12 @@
 {
-  "version": "1.0.4",
+  "version": "1.0.6",
   "servers": [
     {
       "id": "tsmp4deathhill",
       "name": "TSMP Death Hill",
       "description": "TSMP Death Hill, 1.20.4 (0.15.10)",
       "icon": null,
-      "version": "1.0.4",
+      "version": "1.0.6",
       "address": "localhost:25565",
       "minecraftVersion": "1.20.4",
       "mainServer": true,
