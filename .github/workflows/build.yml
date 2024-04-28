@@ -11,7 +11,7 @@ jobs:
 
     strategy:
       matrix:
-        os: [windows-latest, macos-latest] # Add macOS to the matrix
+        os: [windows-latest]
 
     steps:
       - name: Check out Git repository
@@ -34,13 +34,5 @@ jobs:
       - name: Build
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          if [[ "$RUNNER_OS" == "Windows" ]]; then
-            npm run dist:win
-          elif [[ "$RUNNER_OS" == "macOS" ]]; then
-            npm run dist:mac
-          else
-            echo "Unsupported OS"
-            exit 1
-          fi
+        run: npm run dist
         shell: bash

@@ -13,12 +13,6 @@ files:
 extraResources:
   - 'libraries'
 
-# macOS Configuration
-mac: # Add macOS configuration
-  target:
-    - target: 'dmg'
-      arch: ['x64']
-
 # Windows Configuration
 win: 
   target: 
