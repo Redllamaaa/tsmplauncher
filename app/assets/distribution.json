@@ -73,32 +73,6 @@
           }
         },
         {
-          "id": "generated.fabricmod:borderlessmining:1.1.9+1.20.2@jar",
-          "name": "Borderless Mining",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 121765,
-            "url": "https://www.dropbox.com/scl/fi/o4epwpyywqs13gsoxvi8j/borderless-mining-1.1.9-1.20.2.jar?rlkey=0qfm5dvf51fj6fngaukuxvz51&st=wtbf5kdu&dl=1",
-            "MD5": "61e8bd2c97237d33f4d4e306b015eb33"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "me.cael:capes:1.5.3+1.20.2@jar",
-          "name": "Capes",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 209297,
-            "url": "https://www.dropbox.com/scl/fi/gtfzhsrx3cvo4hed3iwj9/capes-1.5.3-1.20.2-fabric.jar?rlkey=rhx1dwvmwaaqnnajvww0j94xb&st=jh61zud1&dl=1",
-            "MD5": "4d728caea98bbc803c3631b4d8c1e772"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
           "id": "dzwdz.chat_heads:chat_heads:0.10.31@jar",
           "name": "Chat Heads",
           "type": "FabricMod",
@@ -139,16 +113,6 @@
             "size": 64829,
             "url": "https://www.dropbox.com/scl/fi/9zi82nxb6r6b8kw0mhxdg/cicada-lib-0.6.2-1.20.2-and-above.jar?rlkey=lbpkjsd2ptyad46knz1sdx4fr&st=xac2r3pk&dl=1",
             "MD5": "60adf4a0ca73d66b6e18e9450b502386"
-          }
-        },
-        {
-          "id": "cc.cosmetica:cosmetica:1.2.9@jar",
-          "name": "Cosmetica",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 555764,
-            "url": "https://www.dropbox.com/scl/fi/99jljsi9001duqqxfkmec/cosmetica-1.20.4-1.2.9.jar?rlkey=uyvkj5it1le2ca2l0k175qo18&st=zys2h58c&dl=1",
-            "MD5": "b5986519937aa8095a8bf4ded2f2f9d7"
           }
         },
         {
