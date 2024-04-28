@@ -34,5 +34,13 @@ jobs:
       - name: Build
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npm run dist
+        run: |
+          if [[ "$RUNNER_OS" == "Windows" ]]; then
+            npm run dist:win
+          elif [[ "$RUNNER_OS" == "macOS" ]]; then
+            npm run dist:mac
+          else
+            echo "Unsupported OS"
+            exit 1
+          fi
         shell: bash
