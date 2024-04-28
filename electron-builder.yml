@@ -26,6 +26,16 @@ nsis:
   allowElevation: true
   allowToChangeInstallationDirectory: true
 
+# macOS Configuration
+mac:
+  target:
+    - target: 'dmg'
+      arch:
+        - 'x64'
+        - 'arm64'
+  artifactName: '${productName}-setup-${version}-${arch}.${ext}'
+  category: 'public.app-category.games'
+
 
 directories:
   buildResources: 'build'
