@@ -1,13 +1,12 @@
 {
   "name": "tsmplauncher",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "productName": "TSMP Launcher",
   "description": "A Custom TSMP Launch to make an easy way to join the server with mods.",
-  "author": "Redllamaaa",
   "license": "UNLICENSED",
-  "homepage": "https://github.com/Redllamaaa/tsmplauncher#readme",
+  "homepage": "https://github.com/Redllamaaa/TSMPLauncher",
   "bugs": {
-    "url": "https://github.com/Redllamaaa/tsmplauncher/issues"
+    "url": "https://github.com/Redllamaaa/TSMPLauncher/issues"
   },
   "private": true,
   "main": "index.js",
@@ -15,6 +14,8 @@
     "start": "electron .",
     "dist": "electron-builder build",
     "dist:win": "npm run dist -- -w",
+    "dist:mac": "npm run dist -- -m",
+    "dist:linux": "npm run dist -- -l",
     "lint": "eslint --config .eslintrc.json ."
   },
   "engines": {
