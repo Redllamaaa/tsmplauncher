@@ -23,16 +23,6 @@
           }
         },
         {
-          "id": "cc.cosmetica:cosmetica:1.2.9@jar",
-          "name": "Cosmetica",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 555764,
-            "url": "https://www.dropbox.com/scl/fi/v17g2kv0f3tw7uii8lf44/cosmetica-1.20.4-1.2.9.jar?rlkey=xud749ebd7128rqeovvsba1w7&st=xr5vhfuw&dl=1",
-            "MD5": "b5986519937aa8095a8bf4ded2f2f9d7"
-          }
-        },
-        {
           "id": "io.github.foundationgames:animatica:0.6+1.20@jar",
           "name": "Animatica",
           "type": "FabricMod",
