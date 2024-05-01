@@ -1,12 +1,12 @@
 {
-  "version": "1.0.9",
+  "version": "1.1.0",
   "servers": [
     {
       "id": "tsmp4deathhill",
       "name": "TSMP Death Hill",
       "description": "TSMP Death Hill, 1.20.4 (0.15.10)",
       "icon": null,
-      "version": "1.0.9",
+      "version": "1.1.0",
       "address": "localhost:25565",
       "minecraftVersion": "1.20.4",
       "mainServer": true,
@@ -20,6 +20,16 @@
             "size": 44700,
             "url": "https://www.dropbox.com/scl/fi/kzpqr9sogukv6b3c7zbov/advancementinfo-1.20.4-fabric0.91.2-1.4.jar?rlkey=2qunotgfvnrx8ko5j2kh7932h&st=8gj1zd3w&dl=1",
             "MD5": "9eb9826fda13b9b2143a4487aa5e36dc"
+          }
+        },
+        {
+          "id": "cc.cosmetica:cosmetica:1.2.9@jar",
+          "name": "Cosmetica",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 555764,
+            "url": "https://www.dropbox.com/scl/fi/v17g2kv0f3tw7uii8lf44/cosmetica-1.20.4-1.2.9.jar?rlkey=xud749ebd7128rqeovvsba1w7&st=xr5vhfuw&dl=1",
+            "MD5": "b5986519937aa8095a8bf4ded2f2f9d7"
           }
         },
         {
