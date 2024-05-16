@@ -1,716 +1,1079 @@
 {
-  "version": "1.1.0",
+  "version": "1.1.1",
   "servers": [
     {
       "id": "tsmp4deathhill",
       "name": "TSMP Death Hill",
       "description": "TSMP Death Hill, 1.20.4 (0.15.10)",
       "icon": null,
-      "version": "1.1.0",
+      "version": "1.0.0",
       "address": "localhost:25565",
-      "minecraftVersion": "1.20.4",
+      "minecraftVersion": "1.20.1",
       "mainServer": true,
       "autoconnect": true,
       "modules": [
         {
-          "id": "de.guntram.mcmod:advancementinfo:1.20.4-fabric0.91.2-1.4@jar",
-          "name": "AdvancementInfo",
-          "type": "FabricMod",
+          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.2.0",
+          "name": "Minecraft Forge (lowcodelanguage)",
+          "type": "ForgeHosted",
+          "classpath": true,
           "artifact": {
-            "size": 44700,
-            "url": "https://www.dropbox.com/scl/fi/kzpqr9sogukv6b3c7zbov/advancementinfo-1.20.4-fabric0.91.2-1.4.jar?rlkey=2qunotgfvnrx8ko5j2kh7932h&st=8gj1zd3w&dl=1",
-            "MD5": "9eb9826fda13b9b2143a4487aa5e36dc"
+            "size": 7397,
+            "MD5": "f538b3b9ad1668b3d92945741f841071",
+            "url": "https://www.dropbox.com/scl/fi/ii479xr32kdquq60rkhjq/lowcodelanguage-1.20.1-47.2.0.jar?rlkey=623tdghc184vfix2ictyv75r8&st=aa2iyo2m&dl=1"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-47.2.0",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 16542,
+                "MD5": "374162e774d7cf1b09af7af4d7805982",
+                "url": "https://www.dropbox.com/scl/fi/fgq45vjnuohbmj9xu8o58/1.20.1-forge-47.2.0.json?rlkey=w7nmsjc8l01upieioink04k8q&st=f0460eey&dl=1"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlcore:1.20.1-47.2.0",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 117589,
+                "MD5": "549205a1ba89e1c0735d9a46a338e715",
+                "url": "https://www.dropbox.com/scl/fi/0wf166q3hq1rz6xevsgq1/fmlcore-1.20.1-47.2.0.jar?rlkey=nv18n2jahw7tucnygbbamga66&st=kvk4dqh1&dl=1"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.2.0",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16371,
+                "MD5": "ab1c94373972048884a363d08bd1720d",
+                "url": "https://www.dropbox.com/scl/fi/u70mvho8h7wb7xz7vkikk/javafmllanguage-1.20.1-47.2.0.jar?rlkey=tdjvevvdwoz429uhrynndtgd5&st=s2s4gnym&dl=1"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.20.1-47.2.0",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4996,
+                "MD5": "1bb13fed852f5088675101b9c6b538a0",
+                "url": "https://www.dropbox.com/scl/fi/ra1dfv2mzsti30z84ldpr/mclanguage-1.20.1-47.2.0.jar?rlkey=1s8sabhkbzz0wlxxt0wlap2ea&st=rqqapllf&dl=1"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.2.0:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2672123,
+                "MD5": "5902d79463abb7a3746c777c3919143e",
+                "url": "https://www.dropbox.com/scl/fi/2eiydbccflgm9i6za8ntd/forge-1.20.1-47.2.0-universal.jar?rlkey=shk8tmroesrpmtsxmukf9p4c2&st=lcbejt7o&dl=1"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.2.0:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 4791112,
+                "MD5": "d805b1803123c683648f2e65dd98f3a8",
+                "url": "https://www.dropbox.com/scl/fi/d2uc337qlc8e4s6lxjr5z/forge-1.20.1-47.2.0-client.jar?rlkey=nx7z7otl5t1agaesbq5cwui2q&st=w7rai4a8&dl=1"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 18842082,
+                "MD5": "8bfacfba4f54cda741019756165c5ecf",
+                "url": "https://www.dropbox.com/scl/fi/mn2duothovkalj5405s1n/client-1.20.1-20230612.114412-srg.jar?rlkey=lb4j0p2ea2857vc4rpxyx8cvu&st=0vyfpg8w&dl=1"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 12592249,
+                "MD5": "28edebec7b5a007bc9961ee9bab4d764",
+                "url": "https://www.dropbox.com/scl/fi/l3ok089p090xcd064f262/client-1.20.1-20230612.114412-slim.jar?rlkey=67yvclmg6s35k12xa3c10ae07&st=v9t4zen2&dl=1"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 10436626,
+                "MD5": "da6bb1a2c23108392fd6c103da40867c",
+                "url": "https://www.dropbox.com/scl/fi/gnbw0dcthpfsvlkpdrddc/client-1.20.1-20230612.114412-extra.jar?rlkey=kpr5ucxm0p1h2wf5ltmbh9af3&st=x2lju1x9&dl=1"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:2.1.10",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 88749,
+                "MD5": "d9ff48d1c68388270388b803fa42611e",
+                "url": "https://www.dropbox.com/scl/fi/m9g9d0fflvr56l4u33ahu/securejarhandler-2.1.10.jar?rlkey=whkf6lr50dlupk3kjx8rx4jru&st=pdlkschx&dl=1"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.5",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 121863,
+                "MD5": "29721ee4b5eacf0a34b204c345c8bc69",
+                "url": "https://www.dropbox.com/scl/fi/heccwo3btv0ako8yq44sp/asm-9.5.jar?rlkey=3s5jgdi3u048p3b4oanwetw59&st=md7ih9ue&dl=1"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.5",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72209,
+                "MD5": "7d1fce986192f71722b19754e4cb9e61",
+                "url": "https://www.dropbox.com/scl/fi/tcjxoz6199kqdftcbe2b4/asm-commons-9.5.jar?rlkey=z43uty0utz9u43pq9mwh41re4&st=o5gwo26d&dl=1"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.5",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51944,
+                "MD5": "44755681b7d6fa7143afbb438e55c20c",
+                "url": "https://www.dropbox.com/scl/fi/zr2ab86p213tk2myic3q1/asm-tree-9.5.jar?rlkey=6scqvs0c9jifms2kvmluxy2xr&st=wy6409n5&dl=1"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.5",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 91076,
+                "MD5": "ad0016249fb68bb9196babefd47b80dc",
+                "url": "https://www.dropbox.com/scl/fi/1d1pl5567otb9ca01ds7b/asm-util-9.5.jar?rlkey=z06tc5ow6cf6zs644mgyriwow&st=w92rvem4&dl=1"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.5",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 33978,
+                "MD5": "4df0adafc78ebba404d4037987d36b61",
+                "url": "https://www.dropbox.com/scl/fi/zr2ab86p213tk2myic3q1/asm-tree-9.5.jar?rlkey=6scqvs0c9jifms2kvmluxy2xr&st=wy6409n5&dl=1"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "https://www.dropbox.com/scl/fi/opnzl119zxnxou3thcggs/accesstransformers-8.0.4.jar?rlkey=r9momncayih3lmv8ubx06tbcj&st=tay82kup&dl=1"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "https://www.dropbox.com/scl/fi/ru9509or4o7gu5uthgp5z/antlr4-runtime-4.9.1.jar?rlkey=g6gpmiefkipok7t1gixe6bqdp&st=kblhudpt&dl=1"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:6.0.5",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 53985,
+                "MD5": "2a6245210b446b2144071e71ca13432b",
+                "url": "https://www.dropbox.com/scl/fi/4d806sbbq2ux9i3wzxi46/eventbus-6.0.5.jar?rlkey=79uapu6ik4r9gp0g2kvoyjmqv&st=zgn1viu5&dl=1"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:7.0.1",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 29831,
+                "MD5": "bd34d20287dc95201fe9475a8bbc2540",
+                "url": "https://www.dropbox.com/scl/fi/10c37rost656l3l7d79nf/forgespi-7.0.1.jar?rlkey=gytouzxz6rn9jdqm2cjcubdhl&st=yqzs84p2&dl=1"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.0.1",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 24199,
+                "MD5": "8c590051c5d65e098ca7c2e3ddf803a8",
+                "url": "https://www.dropbox.com/scl/fi/0d4r4h728vg6h71k21uvu/coremods-5.0.1.jar?rlkey=fbzdri3tzjppazl3jk70be6ol&st=c5i1iris&dl=1"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:10.0.9",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 130343,
+                "MD5": "07507d18d72661f8ae6a5da75bbf35be",
+                "url": "https://www.dropbox.com/scl/fi/oyzo12gnzejx0awklrstu/modlauncher-10.0.9.jar?rlkey=unw0sjyjsvfvo0wzml4djowyp&st=ycjnwuep&dl=1"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://www.dropbox.com/scl/fi/84ioxahjdo7zafptqel65/unsafe-0.2.0.jar?rlkey=ek36s8ei9m5iwo3cv4kk3zo72&st=eydxk66g&dl=1"
+              }
+            },
+            {
+              "id": "net.minecraftforge:mergetool:1.1.5:api",
+              "name": "Minecraft Forge (mergetool)",
+              "type": "Library",
+              "artifact": {
+                "size": 2572,
+                "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
+                "url": "https://www.dropbox.com/scl/fi/z2jdfcjfujy34b6dugza8/mergetool-1.1.5-api.jar?rlkey=rciuhttiz4fst33p5v584atjb&st=tw0t6m55&dl=1"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "https://www.dropbox.com/scl/fi/yhv13a13pzsws87yeon5s/core-3.6.4.jar?rlkey=syh0mt69bdg1z37wasptpo6r9&st=bzf26bdv&dl=1"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "https://www.dropbox.com/scl/fi/e22xh4il8t6coqc66c9y5/toml-3.6.4.jar?rlkey=z0cilckruqpig501n8zl95pf0&st=0bqq2oq8&dl=1"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.8.5",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 58077,
+                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                "url": "https://www.dropbox.com/scl/fi/9131edhgyd538mh7ax30y/maven-artifact-3.8.5.jar?rlkey=x9e3ax2vmetbzu5nz7z5qhrru&st=6m0d6prp&dl=1"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.6.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 18281,
+                "MD5": "d4a375bf382f726cf1a650ccb38a736c",
+                "url": "https://www.dropbox.com/scl/fi/cqre89lwf29wu2dwg83tf/typetools-0.6.3.jar?rlkey=5omf093ompkrvpuv2e4g3acn5&st=iebary7f&dl=1"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://www.dropbox.com/scl/fi/ue6akrwmdo25anv8fuc8e/terminalconsoleappender-1.2.0.jar?rlkey=p8liztl5s2l9f4p1eyskl02xg&st=xz8uvi9v&dl=1"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "https://www.dropbox.com/scl/fi/z2pcy6c5hkuptww3bq8xl/jline-reader-3.12.1.jar?rlkey=j8bngpl9x85q1zgsttby8x0eu&st=rrje9zmx&dl=1"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "https://www.dropbox.com/scl/fi/rz92ya0f0b56t2rwdo3ll/jline-terminal-3.12.1.jar?rlkey=a8d9kplhs2bqgqxow1lck26y6&st=b0re9k3u&dl=1"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "https://www.dropbox.com/scl/fi/f3lr42dbao2fwovwfrxgd/mixin-0.8.5.jar?rlkey=08t1owlkd5xb95sbv042k2ru3&st=35qhh0n2&dl=1"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.3",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167288,
+                "MD5": "91e98c20afa1090c344229ce28b4c53f",
+                "url": "https://www.dropbox.com/scl/fi/ir7qp2hn7vf42s58ydsvq/nashorn-core-15.3.jar?rlkey=er5d0pjq0pfzjymccpowkqn90&st=ot8odo3a&dl=1"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.19",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
+                "url": "https://www.dropbox.com/scl/fi/11vlidoh0bxpcpuq8chy7/JarJarSelector-0.3.19.jar?rlkey=p7zntmb2yx0rb3aww94di7ntg&st=uzltsdoe&dl=1"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.19",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15895,
+                "MD5": "9633546d299d4282ca68d10582be1c8f",
+                "url": "https://www.dropbox.com/scl/fi/g2ekwhbww4gk603axpgac/JarJarMetadata-0.3.19.jar?rlkey=t5u3mkmjf8ixke2wwqtry4myx&st=gnhph971&dl=1"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.1.2",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 8284,
+                "MD5": "48f5255aa337344c467c0150d347813d",
+                "url": "https://www.dropbox.com/scl/fi/mpqggvqlrtosrq2a7j76u/bootstraplauncher-1.1.2.jar?rlkey=e9t60xs359bgkl0bpyr3jh69u&st=as9azlzc&dl=1"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 32195,
+                "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
+                "url": "https://www.dropbox.com/scl/fi/c4t0sg78453arjfp5wapc/JarJarFileSystems-0.3.19.jar?rlkey=xsi0ympa30sf1d8niswm2rfvj&st=8buyi0n6&dl=1"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.20.1-47.2.0",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 264245,
+                "MD5": "6ea3c95084cc6dec3205fae098bb8cab",
+                "url": "https://www.dropbox.com/scl/fi/0l96jaxxme0a70vnt6ab4/fmlloader-1.20.1-47.2.0.jar?rlkey=42rnwpem8q3ym4baofm36lduj&st=eavef069&dl=1"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.2.0",
+              "name": "Minecraft Forge (fmlearlydisplay)",
+              "type": "Library",
+              "artifact": {
+                "size": 170333,
+                "MD5": "7050197358f88cf4ea899066fc97625d",
+                "url": "https://www.dropbox.com/scl/fi/4r4s8407vn438fgtt9f6i/fmlearlydisplay-1.20.1-47.2.0.jar?rlkey=7dyalvt7dok53noodw6v4ncr6&st=24ytcwth&dl=1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "io.github.foundationgames:animatica:1.20.1-0.1.3@jar",
+          "name": "AnimaticaReforged",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 66744,
+            "url": "https://www.dropbox.com/scl/fi/z5funsgtamyjq5ks60u4c/AnimaticaReforged-1.20.1-0.1.3.jar?rlkey=x78sw26uanux7vfs7b4umt41p&st=kp6ytklk&dl=1",
+            "MD5": "99240853274b1ca7b5c0d05680a8fbf4"
           }
         },
         {
-          "id": "io.github.foundationgames:animatica:0.6+1.20@jar",
-          "name": "Animatica",
-          "type": "FabricMod",
+          "id": "dev.architectury:architectury:9.2.14@jar",
+          "name": "Architectury",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 69810,
-            "url": "https://www.dropbox.com/scl/fi/q7ltqbww4aitdugg2p4l9/animatica-0.6-1.20.jar?rlkey=fj7v38pn6skjva98i6r96i93k&st=mw9gpbsd&dl=1",
-            "MD5": "d57ba4c6253e84af7ce10719ee1e7a8a"
+            "size": 580602,
+            "url": "https://www.dropbox.com/scl/fi/qenfzyicpdbl703zomujg/architectury-9.2.14-forge.jar?rlkey=oforuvss1284d0hsjacawdaeq&st=lqvklywj&dl=1",
+            "MD5": "76b40d407b6bf0257dd1dab6d3d395d5"
           }
         },
         {
-          "id": "de.guntram.mcmod:antighost:1.20.4-fabric0.91.2-1.1.5@jar",
-          "name": "AntiGhost",
-          "type": "FabricMod",
+          "id": "earth.terrarium:athena:3.1.2@jar",
+          "name": "Athena",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 48606,
-            "url": "https://www.dropbox.com/scl/fi/a3aitrhj5uftsbaboufbk/antighost-1.20.4-fabric0.91.2-1.1.5.jar?rlkey=0xto8mgnohdcg1rez2jbnfizt&st=mmvj4pvx&dl=1",
-            "MD5": "798a4302bb931c873fd0a548dc1efdfc"
+            "size": 91808,
+            "url": "https://www.dropbox.com/scl/fi/lbrh0rore2ya5xwduhyy3/athena-forge-1.20.1-3.1.2.jar?rlkey=qr9a88l4mng83558wisszj87w&st=tkb5t8e7&dl=1",
+            "MD5": "2086e326e8f0ff2f8d7d05c66c291484"
           }
         },
         {
-          "id": "eu.midnightdust:betterbeds:1.3.0@jar",
-          "name": "Better Beds",
-          "type": "FabricMod",
+          "id": "generated.forgemod:badoptimizations:2.1.1@jar",
+          "name": "BadOptimizations",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 50218,
-            "url": "https://www.dropbox.com/scl/fi/3of06as9x7fgtrnj86pn3/betterbeds-1.3.0-1.19.3.jar?rlkey=rsuvdk4nx0udyxgaoz55jm5po&st=qqymtgb9&dl=1",
-            "MD5": "8172f68d93a79b716aaf6d885026600c"
+            "size": 426768,
+            "url": "https://www.dropbox.com/scl/fi/rm31gyuuydzlb83txxp92/BadOptimizations-2.1.1.jar?rlkey=ajnkbfscvp3iqdd0qte98p2y3&st=5wq03uqd&dl=1",
+            "MD5": "840fa832d74ddab480b37e0ec32ad58e"
           }
         },
         {
-          "id": "generated.fabricmod:bettermounthud:1.2.2@jar",
-          "name": "Better Mount HUD",
-          "type": "FabricMod",
+          "id": "lol.bai.badpackets.impl:badpackets:0.4.3@jar",
+          "name": "Bad Packets",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 21587,
-            "url": "https://www.dropbox.com/scl/fi/o99xkbteggpna1y9kqzpu/bettermounthud-1.2.2.jar?rlkey=2zdl0yg3fo6uin0vssx1re0v9&st=4dsjjnoa&dl=1",
-            "MD5": "fdd255bd204f7d84850fd31ba687ad01"
+            "size": 27919,
+            "url": "https://www.dropbox.com/scl/fi/xq5fcjvne63l5l42fpmvs/badpackets-forge-0.4.3.jar?rlkey=vkm3apjz16kjfs0nmw3njbz7o&st=2shgzzah&dl=1",
+            "MD5": "4ac6c52d62eadf03c64df02ee74f42b5"
           }
         },
         {
-          "id": "de.johni0702.minecraft:bobby:5.1.0+mc1.20.4@jar",
-          "name": "Bobby",
-          "type": "FabricMod",
+          "id": "net.shizotoaster:betterbeds:1.0.0@jar",
+          "name": "Better Beds Reforged",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 853323,
-            "url": "https://www.dropbox.com/scl/fi/lkmy6pbq4a1ihqz3p7my6/bobby-5.1.0-mc1.20.4.jar?rlkey=hn1c993vtu4spd72t3iqy9n3u&st=gjqb01e5&dl=1",
-            "MD5": "86ecab27bfbf06d82788e152e4bff7ec"
+            "size": 48847,
+            "url": "https://www.dropbox.com/scl/fi/ikwzvgsnvhdczh9e4uyey/BetterBeds-1.0.0.jar?rlkey=mh2pg0ji6due343k4f0gi326u&st=jny576v2&dl=1",
+            "MD5": "274fa4a8d57de2f36aeb197861442b08"
           }
         },
         {
-          "id": "dzwdz.chat_heads:chat_heads:0.10.31@jar",
-          "name": "Chat Heads",
-          "type": "FabricMod",
+          "id": "me.treyruffy:betterf3:7.0.2@jar",
+          "name": "BetterF3",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 51396,
-            "url": "https://www.dropbox.com/scl/fi/gddcp274cvlroy3bcftep/chat_heads-0.10.31-fabric-1.20.3.jar?rlkey=5l11xrgyimix7590fw6kt284n&st=11qj4rdd&dl=1",
-            "MD5": "cf8cc87536a5a6d9ec667bbc59518f42"
+            "size": 468517,
+            "url": "https://www.dropbox.com/scl/fi/37xe7n4zawzbgoksjuj46/BetterF3-7.0.2-Forge-1.20.1.jar?rlkey=chg3ubmohv9aaxjb8i0y16ejs&st=8owpp6vz&dl=1",
+            "MD5": "7411ae023390cf6b148f05a6b685279f"
           },
           "required": {
             "value": false
-          }
-        },
-        {
-          "id": "de.maxhenkel:voicechat:1.20.4-2.5.12@jar",
-          "name": "Simple Voice Chat",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 8125595,
-            "url": "https://www.dropbox.com/scl/fi/c8dabsqinkyg99mpj2ev2/voicechat-fabric-1.20.4-2.5.12.jar?rlkey=gpighkvub518tzub5s1m342o1&st=j40e3m21&dl=1",
-            "MD5": "0fe58d8ccd88eba70814ebb8f14e187a"
-          }
-        },
-        {
-          "id": "nl.enjarai:showmeyourskin:1.9.0+1.20.4@jar",
-          "name": "Show Me Your Skin!",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 289615,
-            "url": "https://www.dropbox.com/scl/fi/gwbr1k1srhv9w7w63bpx3/show-me-your-skin-1.9.0-1.20.4.jar?rlkey=xzko8kt06uvmozgkekzdj1igd&st=n2j3sybd&dl=1",
-            "MD5": "85d7130aad119d82cd13b995649c6ba9"
-          }
-        },
-        {
-          "id": "nl.enjarai:cicada:0.6.2+1.20.2-and-above@jar",
-          "name": "CICADA",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 64829,
-            "url": "https://www.dropbox.com/scl/fi/9zi82nxb6r6b8kw0mhxdg/cicada-lib-0.6.2-1.20.2-and-above.jar?rlkey=lbpkjsd2ptyad46knz1sdx4fr&st=xac2r3pk&dl=1",
-            "MD5": "60adf4a0ca73d66b6e18e9450b502386"
-          }
-        },
-        {
-          "id": "me.shedaniel.autoconfig.example:cloth-config:13.0.121@jar",
-          "name": "Cloth Config v13",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 1142084,
-            "url": "https://www.dropbox.com/scl/fi/21ixcz0occfqi3hhfqpo4/cloth-config-13.0.121-fabric.jar?rlkey=spqwhplrdcfsw3xircdkx5lm2&st=hqxwq0wj&dl=1",
-            "MD5": "3903e7d3c9957bacedae1365ba856202"
-          }
-        },
-        {
-          "id": "me.pepperbell:continuity:3.0.0-beta.4+1.20.2@jar",
-          "name": "Continuity",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 1050675,
-            "url": "https://www.dropbox.com/scl/fi/2cybgd6exf2fhf90kixi1/continuity-3.0.0-beta.4-1.20.2.jar?rlkey=syze0jy3b09x2xxu9nu6qpjnm&st=vgwb3jj4&dl=1",
-            "MD5": "b348965933103bb02f9731c6bca76398"
-          }
-        },
-        {
-          "id": "dev.isxander.controlify.server:controlify:1.8.1+1.20.4@jar",
-          "name": "Controlify",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 2127904,
-            "url": "https://www.dropbox.com/scl/fi/jolyxly6sefkxykcm2aci/Controlify-1.8.1-1.20.4.jar?rlkey=pgmksqrhpbdd2nktmwwnk8zuy&st=c4yf432r&dl=1",
-            "MD5": "6a439933f872465e44f9f861931934c2"
-          },
-          "required": {
-            "value": false,
-            "def": false
           }
         },
         {
           "id": "me.soapsuds:boatiview:0.0.5@jar",
-          "name": "Boat Item View Fabric",
-          "type": "FabricMod",
+          "name": "Boat Item View",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 1031662,
-            "url": "https://www.dropbox.com/scl/fi/qceo3tvslggcao4u8843z/Boat-Item-View-Fabric-1.20.1-0.0.5.jar?rlkey=2dllpb1y435enxtqy9yvryee7&st=xa15iqhu&dl=1",
-            "MD5": "7424186d38ca5102bc75ebfbe4231637"
+            "size": 27007,
+            "url": "https://www.dropbox.com/scl/fi/rrbdkhdnluqgehque1eqq/Boat-Item-View-Forge-1.20.1-0.0.5.jar?rlkey=bwet3lvy6f2tnbsw7f8nw76bu&st=dnj5oujs&dl=1",
+            "MD5": "f452a80d47041aa55fecff1da3cd9564"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "dev.tr7zw.skinlayers:skinlayers3d:1.6.3@jar",
-          "name": "3d-Skin-Layers",
-          "type": "FabricMod",
+          "id": "com.abdelaziz:canary:0.3.3@jar",
+          "name": "Canary",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 471257,
-            "url": "https://www.dropbox.com/scl/fi/rhobvdmgxjhmd7u2px590/skinlayers3d-fabric-1.6.3-mc1.20.4.jar?rlkey=eg72t8paa9lqnt4pd80ekwlp5&st=imrw3ona&dl=1",
-            "MD5": "21b462c46b9901a99e88b099106b9370"
+            "size": 594191,
+            "url": "https://www.dropbox.com/scl/fi/ljdi101utdrm49esje4j0/canary-mc1.20.1-0.3.3.jar?rlkey=889m8ieh79yj0f3l3uxo7q68s&st=zhiyfht5&dl=1",
+            "MD5": "1bd8bdb43c190ddc671c5ea0bf3b8cb1"
+          }
+        },
+        {
+          "id": "dzwdz.chat_heads:chat_heads:0.12.0@jar",
+          "name": "Chat Heads",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 218440,
+            "url": "https://www.dropbox.com/scl/fi/mtfalgomzvf0fgjneto31/chat_heads-0.12.0-forge-1.20.jar?rlkey=sntydetawq7fulb0y574ijk1o&st=286kgofn&dl=1",
+            "MD5": "0672e937c6903dca8f782da2a3b014df"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "generated.fabricmod:controlling:15.0.3@jar",
+          "id": "earth.terrarium:chipped:3.0.6@jar",
+          "name": "Chipped",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15060040,
+            "url": "https://www.dropbox.com/scl/fi/epxfrvy2550n4j02j95ao/Chipped-forge-1.20.1-3.0.6.jar?rlkey=4r5pply6lgx5ewyx9g4r4t1ji&st=7588s74t&dl=1",
+            "MD5": "5a9884538e222ff0b47ec860cd050885"
+          }
+        },
+        {
+          "id": "io.github.strikerrocker:cleardespawn:1.1.15@jar",
+          "name": "ClearDespawn",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 20023,
+            "url": "https://www.dropbox.com/scl/fi/zonkivqbhmopt80ru6neg/ClearDespawn-forge-1.20.2-1.1.15.jar?rlkey=hqm9btck8l7872qto4dsjjiso&st=nwu3jazy&dl=1",
+            "MD5": "a13e71f3811799b5e34d0cc631d4de9e"
+          }
+        },
+        {
+          "id": "me.shedaniel.clothconfig:cloth_config:11.1.118@jar",
+          "name": "Cloth Config v10 API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1168391,
+            "url": "https://www.dropbox.com/scl/fi/y413cs468x67jwqkx2say/cloth-config-11.1.118-forge.jar?rlkey=f9uffbzetroyhlbiihtuzxzqj&st=dal31vtw&dl=1",
+            "MD5": "728bdaa093e07f3567640d36c55656ae"
+          }
+        },
+        {
+          "id": "com.blamejared:clumps:12.0.0.4@jar",
+          "name": "Clumps",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 20300,
+            "url": "https://www.dropbox.com/scl/fi/chg10r3fp8nxdg9ccxctv/Clumps-forge-1.20.1-12.0.0.4.jar?rlkey=0mf6wpwb63pwu7iq394rqhbga&st=zrqu3s7p&dl=1",
+            "MD5": "7a71806a1167d866608fc2e8c7d62041"
+          }
+        },
+        {
+          "id": "com.blamejared:controlling:12.0.2@jar",
           "name": "Controlling",
-          "type": "FabricMod",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 82609,
-            "url": "https://www.dropbox.com/scl/fi/2cybgd6exf2fhf90kixi1/continuity-3.0.0-beta.4-1.20.2.jar?rlkey=syze0jy3b09x2xxu9nu6qpjnm&st=mo797m4i&dl=1",
-            "MD5": "1ec1408298221002b1c470d4bbed361f"
+            "size": 115280,
+            "url": "https://www.dropbox.com/scl/fi/50qw79jc3goyigyolybuq/Controlling-forge-1.20.1-12.0.2.jar?rlkey=1qa5dukp0f4s8ha4gu81dqkpi&st=cgymwics&dl=1",
+            "MD5": "dc94fc03e516d96aad393b26910c81ad"
           }
         },
         {
-          "id": "generated.fabricmod:debugify:1.20.4+1.0@jar",
-          "name": "Debugify",
-          "type": "FabricMod",
+          "id": "eu.midnightdust:cullleaves:3.2.0@jar",
+          "name": "CullLeaves",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 270298,
-            "url": "https://www.dropbox.com/scl/fi/lowdg59hyru7oz3nd1081/Debugify-1.20.4-1.0.jar?rlkey=26k3tej1a17fotem7q585zmrk&st=prg7zdjf&dl=1",
-            "MD5": "1f3e2129edb3f146d502266e2bb79341"
+            "size": 35354,
+            "url": "https://www.dropbox.com/scl/fi/gbclea8di3bz14ippm7if/cullleaves-forge-3.2.0.jar?rlkey=dh4lh4m597y161tdwbfkbg7fx&st=1w1i677e&dl=1",
+            "MD5": "ff8c18502d76e195033f190aa0963dab"
           }
         },
         {
-          "id": "net.lostluma.dynamic_fps.impl.fabric.compat:dynamic_fps:3.4.2@jar",
+          "id": "net.lostluma.dynamic_fps.impl:dynamic_fps:3.4.3@jar",
           "name": "Dynamic FPS",
-          "type": "FabricMod",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 98796,
-            "url": "https://www.dropbox.com/scl/fi/gar35oshsiy9o21bqr90r/dynamic-fps-3.4.2-minecraft-1.20.4-fabric.jar?rlkey=00nob6hgwmxviu27y5wo6oi4a&st=a48tnkgr&dl=1",
-            "MD5": "2ae5136007e0641e71d00c9ea3943f53"
+            "size": 253719,
+            "url": "https://www.dropbox.com/scl/fi/8vf5bnp181po5chz5uquf/dynamic-fps-3.4.3-minecraft-1.20.0-forge.jar?rlkey=6okyrkj094j8n3bwlc8kf9cjm&st=rlxag9nw&dl=1",
+            "MD5": "962bbab77ca03f222fead55154af87a4"
           }
         },
         {
-          "id": "vg.skye:e4mc_minecraft:4.0.1@jar",
-          "name": "E4mc",
-          "type": "FabricMod",
+          "id": "me.jellysquid.mods.sodium.client:embeddium:0.3.18+mc1.20.1@jar",
+          "name": "Embeddium",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 275794,
-            "url": "https://www.dropbox.com/scl/fi/unqxxmhelokn22krbrs75/e4mc-4.0.1-1.19.4-fabric.jar?rlkey=bc13znwyploiabmwyp6jj06b9&st=uebf41xm&dl=1",
-            "MD5": "38a38e97a3e0d039145ed0b108860241"
+            "size": 1267422,
+            "url": "https://www.dropbox.com/scl/fi/ntaxpfkw1jxz5b1s4j9fl/embeddium-0.3.18-mc1.20.1-all.jar?rlkey=ncugr3qxhdz7ptzrt5augmf5m&st=ull1rv9r&dl=1",
+            "MD5": "55097e05dc1317d19e011faadad1af09"
           }
         },
         {
-          "id": "ru.tpsd.eatinganimationmod:eatinganimationid:1.20+1.9.5@jar",
-          "name": "Eating Animation",
-          "type": "FabricMod",
+          "id": "me.srrapero720:embeddiumplus:1.2.12@jar",
+          "name": "Embeddium++",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 1037772,
-            "url": "https://www.dropbox.com/scl/fi/hpyox1ng6tx0f42e7h7d3/eating-animation-1.20-1.9.5.jar?rlkey=riy30vsxccm1h078sjxkhzlgq&st=y4e1mykn&dl=1",
-            "MD5": "8281fecec375367802e5bba2d5b08d68"
+            "size": 895412,
+            "url": "https://www.dropbox.com/scl/fi/7cu9owd5r77z2eij8rib1/embeddiumplus-1.20.1-v1.2.12.jar?rlkey=7jb7nea7qp69o7urmc5r9tu2p&st=9ywtovso&dl=1",
+            "MD5": "bce16abec368c7a87aef4ff7ad16c537"
           }
         },
         {
-          "id": "foundationgames.enhancedblockentities:enhancedblockentities:0.9.1+1.20.2@jar",
-          "name": "Enhanced Block Entities",
-          "type": "FabricMod",
+          "id": "io.github.kosmx.emotes:emotecraft:2.2.7-b.build.50@jar",
+          "name": "Emotecraft",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 492605,
-            "url": "https://www.dropbox.com/scl/fi/ozi5duiw2lir0y0198gea/enhancedblockentities-0.9.1-1.20.2.jar?rlkey=by59jaxy2stizgkvkgz9gkxpq&st=fc36zsu1&dl=1",
-            "MD5": "f9dd36184ab2a4ea180de78c9eeae889"
+            "size": 680255,
+            "url": "https://www.dropbox.com/scl/fi/uizgiyijoezenjk5y4ler/emotecraft-for-MC1.20.1-2.2.7-b.build.50-forge.jar?rlkey=edg8gdb23ttnize2di6dsty3d&st=b8gnaeo1&dl=1",
+            "MD5": "636c62379cd7c5201a70fd457808e331"
+          },
+          "required": {
+            "value": false
           }
         },
         {
-          "id": "traben.entity_model_features:entity_model_features:1.3@jar",
+          "id": "traben.entity_model_features:entity_model_features:2.0.2@jar",
           "name": "Entity Model Features",
-          "type": "FabricMod",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 347117,
-            "url": "https://www.dropbox.com/scl/fi/teizei5y6t8gmjyh3t7dj/entity_model_features_fabric_1.20.4-1.3.jar?rlkey=ue2kr45nk57rbpnp3iwzqa3we&st=e80c8by9&dl=1",
-            "MD5": "30b300e663d4b942b21efaef0eb4f6fd"
+            "size": 391041,
+            "url": "https://www.dropbox.com/scl/fi/z76es6r6fl8ty2kkw2mqu/entity_model_features_forge_1.20.1-2.0.2.jar?rlkey=rl1pv3lxvw9vwfue6nc50naoj&st=ifx77ldh&dl=1",
+            "MD5": "02a11c7e54048cd901e1e1b6fd110a22"
           }
         },
         {
-          "id": "traben.entity_texture_features:entity_texture_features:5.2.3@jar",
+          "id": "traben.entity_texture_features:entity_texture_features:6.0.1@jar",
           "name": "Entity Texture Features",
-          "type": "FabricMod",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 449202,
-            "url": "https://www.dropbox.com/scl/fi/5ggurzxxvlk5vmfmqgq8k/entity_texture_features_fabric_1.20.4-5.2.3.jar?rlkey=do144on6ya9m9244veoqs8di4&st=bb08la41&dl=1",
-            "MD5": "e1cf1150b93b238737a73492db69962e"
+            "size": 557480,
+            "url": "https://www.dropbox.com/scl/fi/nhkz2areiioxw59n10xku/entity_texture_features_forge_1.20.1-6.0.1.jar?rlkey=q3g14ix8opudl8d7tnij8y8v3&st=vkc0jbag&dl=1",
+            "MD5": "970a3ca7bfdc3d18dce0ea375f085e7f"
           }
         },
         {
-          "id": "dev.tr7zw:entityculling:1.6.3.1@jar",
+          "id": "dev.tr7zw:entityculling:1.6.2@jar",
           "name": "EntityCulling",
-          "type": "FabricMod",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 59359,
-            "url": "https://www.dropbox.com/scl/fi/1w6ssft6w6g776z4g6iw4/entityculling-fabric-1.6.3.1-mc1.20.4.jar?rlkey=7rg69369vcj5e3fjyp1nio33s&st=703cs1n7&dl=1",
-            "MD5": "2c7a04a0e218b9a37c27ebfdf03ebf6e"
+            "size": 62127,
+            "url": "https://www.dropbox.com/scl/fi/pz2kfnjgpyotsfevl12pa/entityculling-forge-1.6.2-mc1.20.1.jar?rlkey=nii73mtquffcy3ppq9emrgz94&st=ux2oqldv&dl=1",
+            "MD5": "c04b2447b7b3f625c37535eb82ad5bdc"
           }
         },
         {
-          "id": "generated.fabricmod:fabric-api:0.96.4+1.20.4@jar",
-          "name": "Fabric API",
-          "type": "FabricMod",
+          "id": "dev.tr7zw:exordium:1.2.1@jar",
+          "name": "Exordium",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 2160893,
-            "url": "https://www.dropbox.com/scl/fi/444k4toceou1zr5xkodde/fabric-api-0.96.4-1.20.4.jar?rlkey=ynttvs4pynas7mq2t2f8g16z2&st=cc0jn4ao&dl=1",
-            "MD5": "2ef9ba9b1cf087f4356ebe55366fb9ef"
+            "size": 331126,
+            "url": "https://www.dropbox.com/scl/fi/2uf7r37kz5i4weuwlec9k/exordium-forge-1.2.1-mc1.20.1.jar?rlkey=xiagkzsmv4okbc09k24o112jw&st=kdr4vys4&dl=1",
+            "MD5": "2fac760f27365b66afb903b6bddd291b"
           }
         },
         {
-          "id": "generated.fabricmod:fabric-language-kotlin:1.10.18+kotlin.1.9.22@jar",
-          "name": "Fabric Language Kotlin",
-          "type": "FabricMod",
+          "id": "vectorwing.farmersdelight:farmersdelight:1.20.1-1.2.4@jar",
+          "name": "Farmer's Delight",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 6727951,
-            "url": "https://www.dropbox.com/scl/fi/wl222rvs9nnam2eqh68td/fabric-language-kotlin-1.10.18-kotlin.1.9.22.jar?rlkey=59l6fi53o79b6sy83p39euk94&st=m2uj6eew&dl=1",
-            "MD5": "447fba59921f94de8d37d3d6f9616caf"
+            "size": 2915349,
+            "url": "https://www.dropbox.com/scl/fi/skkxmrvmpayruqm9011uu/FarmersDelight-1.20.1-1.2.4.jar?rlkey=h7nl1ifbnwyq1xi1xoqdmv6ea&st=z7evjv7c&dl=1",
+            "MD5": "5b6bee961b278a3edd6e3935b061fbaa"
           }
         },
         {
-          "id": "io.github.amerebagatelle:fabricskyboxes:0.7.3+mc1.20.2@jar",
-          "name": "FabricSkyBoxes",
-          "type": "FabricMod",
+          "id": "io.github.bumblesoftware.fastload.init:fastload:3.4.0@jar",
+          "name": "Fastload-Reforged",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 207267,
-            "url": "https://www.dropbox.com/scl/fi/a8hngqpotdu4dpyhyj8nb/fabricskyboxes-0.7.3-mc1.20.2.jar?rlkey=troyabsh0qvj8e4imek0m3v52&st=5w4fa6pw&dl=1",
-            "MD5": "dc3e7903dd9fc8222b2866d9e220e369"
+            "size": 66989,
+            "url": "https://www.dropbox.com/scl/fi/7kj8jjhd51jwfnn3ac7qw/Fastload-Reforged-mc1.20.1-3.4.0.jar?rlkey=j4l74zl7bqunfxjusce8qb13h&st=efd40vpn&dl=1",
+            "MD5": "3266e638032dc9b957bf1e7372671c05"
           }
         },
         {
-          "id": "me.ramidzkh:fabrishot:1.12.1@jar",
-          "name": "Fabrishot",
-          "type": "FabricMod",
+          "id": "malte0811.ferritecore:ferritecore:6.0.1@jar",
+          "name": "Ferrite Core",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 51064,
-            "url": "https://www.dropbox.com/scl/fi/l31c1ivs1a8zqiuwjqlg7/fabrishot-1.12.1.jar?rlkey=74lem6zkan9onm3nd3edspot5&st=yhengjfg&dl=1",
-            "MD5": "099d1b76de6650f641232d8dfbf01253"
+            "size": 123034,
+            "url": "https://www.dropbox.com/scl/fi/4k9oeydbnhz50rkopvn4w/ferritecore-6.0.1-forge.jar?rlkey=ndg7kg9plmsmg2ysq0aspw6aa&st=3jlzd2k0&dl=1",
+            "MD5": "f52f538207a4829d7060550092ce2383"
           }
         },
         {
-          "id": "com.kingcontaria:fastquit:3.0.0+1.20.4@jar",
-          "name": "FastQuit",
-          "type": "FabricMod",
+          "id": "bre2el.fpsreducer:fpsreducer:1.20-2.5@jar",
+          "name": "FPS Reducer",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 59105,
-            "url": "https://www.dropbox.com/scl/fi/v7sgbw0w6x188brmf9rzp/fastquit-3.0.0-1.20.4.jar?rlkey=6jt3milg34bj3djldqvzhet4j&st=ys960kee&dl=1",
-            "MD5": "5a97735d1d3bdd5e6d1575d81a6081e0"
-          },
-          "required": {
-            "value": false
+            "size": 125347,
+            "url": "https://www.dropbox.com/scl/fi/0mh6ufrfr3wisbin1d0n2/FpsReducer2-forge-1.20-2.5.jar?rlkey=o8vzk9fe8kws7dxmjsubchfip&st=4nd2959v&dl=1",
+            "MD5": "667e0ad36f07af69e285d47624b1d084"
           }
         },
         {
-          "id": "generated.fabricmod:ferritecore:6.0.3@jar",
-          "name": "FerriteCore",
-          "type": "FabricMod",
+          "id": "earth.terrarium:handcrafted:3.0.6@jar",
+          "name": "Handcrafted",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 125100,
-            "url": "https://www.dropbox.com/scl/fi/fhyw0yo4fgrp0jtzobvqd/ferritecore-6.0.3-fabric.jar?rlkey=0esy3ipn258pqvnfvr6kfr2fo&st=mspvfukf&dl=1",
-            "MD5": "a684cfcdbc32eddaf78782fb4e5762f4"
+            "size": 7111059,
+            "url": "https://www.dropbox.com/scl/fi/r50lxhtyzd1xk2awv1ka1/handcrafted-forge-1.20.1-3.0.6.jar?rlkey=q15c3sywpdinw7a81u8c0byr2&st=t58a7osa&dl=1",
+            "MD5": "a5291f94fc830a80d2caf7d2ab7cd4fd"
           }
         },
         {
-          "id": "generated.fabricmod:fsb-interop:1.3.6+mc1.20.2-build.52@jar",
-          "name": "FabricSkyBoxes Interop",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 49488,
-            "url": "https://www.dropbox.com/scl/fi/qhh7pabzbp73i9cdlau7t/fsb-interop-1.3.6-mc1.20.2-build.52.jar?rlkey=tc8ru6x4yjlwwcc5otke768o0&st=elap9wbt&dl=1",
-            "MD5": "9f749b8461924adaf73650aeae147808"
-          }
-        },
-        {
-          "id": "generated.fabricmod:immediatelyfast:1.2.10+1.20.4@jar",
+          "id": "net.raphimc:immediatelyfast:1.2.14+1.20.4@jar",
           "name": "ImmediatelyFast",
-          "type": "FabricMod",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 222051,
-            "url": "https://www.dropbox.com/scl/fi/3nuher6cn5udbrf62qzn5/ImmediatelyFast-Fabric-1.2.10-1.20.4.jar?rlkey=rxqwleu8dvmctbwg8y70umq8u&st=75to5jiy&dl=1",
-            "MD5": "735c9b0e638b30053f331a2809d132e0"
+            "size": 417186,
+            "url": "https://www.dropbox.com/scl/fi/hbaqnismyfnm1omxksvpd/ImmediatelyFast-Forge-1.2.14-1.20.4.jar?rlkey=hw7ffqwc2vyygi9cvll3vusfr&st=12ymt9a0&dl=1",
+            "MD5": "69fde87ab8e2564bf7d05940ef8bc3f8"
           }
         },
         {
-          "id": "link.infra:indium:1.0.30+mc1.20.4@jar",
-          "name": "Indium",
-          "type": "FabricMod",
+          "id": "immersive_paintings:immersive_paintings:0.6.7+1.20.1@jar",
+          "name": "Immersive Paintings",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 104805,
-            "url": "https://www.dropbox.com/scl/fi/34s7ra4noqo0ykhamo830/indium-1.0.30-mc1.20.4.jar?rlkey=xautbshbw85x4n57girgh069w&st=faqr1b65&dl=1",
-            "MD5": "e0b3675f1e6e8f00da58d42ec1bd1be7"
+            "size": 4841253,
+            "url": "https://www.dropbox.com/scl/fi/1zkrfobw2onphyhmci8dq/immersive_paintings-0.6.7-1.20.1-forge.jar?rlkey=nhyg7nejqfpxxvz1o0r2lp2f8&st=546xrupe&dl=1",
+            "MD5": "e010b70ceecf34f91f223b8981f50f40"
           }
         },
         {
-          "id": "generated.fabricmod:iris:1.6.17@jar",
-          "name": "Iris",
-          "type": "FabricMod",
+          "id": "ru.vidtu:ksyxis:1.2.2@jar",
+          "name": "Ksyxis",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 2421865,
-            "url": "https://www.dropbox.com/scl/fi/blf7yl4gjkxbraagtckad/iris-mc1.20.4-1.6.17.jar?rlkey=voq2g4rfwv57fyn7g2uif1cyw&st=nw32h2xd&dl=1",
-            "MD5": "cc391df9e929608c37a04a342c6babb3"
+            "size": 16552,
+            "url": "https://www.dropbox.com/scl/fi/cnmcfx2ok7kjbb42gk3n6/Ksyxis-1.2.2.jar?rlkey=fqlvvoj74cq9wjz3tju433xgf&st=qrivch63&dl=1",
+            "MD5": "0a024833bc17e2036e186f55a8b9c0c8"
           }
         },
         {
-          "id": "dev.lambdaurora:lambdynlights:2.3.4+1.20.4@jar",
-          "name": "LambDynamicLights",
-          "type": "FabricMod",
+          "id": "net.longerchathistory:longerchathistory:1.3@jar",
+          "name": "Longer Chat History",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 568669,
-            "url": "https://www.dropbox.com/scl/fi/54gmbrpqtiqcqfjayfmfh/lambdynamiclights-2.3.4-1.20.4.jar?rlkey=o88t4e0r6mzv7anc2nz1yd2uu&st=5m7qkl3m&dl=1",
-            "MD5": "3c849e6337ff7c850762c6cc27f607ab"
+            "size": 7757,
+            "url": "https://www.dropbox.com/scl/fi/1a39v4gdtpk1hwjjhsxmu/LongerChatHistory-1.3-Forge.jar?rlkey=cjsgufjpouzv6aewy5mvz23jz&st=yeot412q&dl=1",
+            "MD5": "f0a3e89a3e42f1db2ef27e4744c34b0b"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "generated.fabricmod:languagereload:1.5.10+1.20.3@jar",
-          "name": "Language Reload",
-          "type": "FabricMod",
+          "id": "com.mcwfences.kikoz:mcwfences:1.1.1@jar",
+          "name": "Macaw's Fences and Walls",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 200750,
-            "url": "https://www.dropbox.com/scl/fi/qn94zgwkln1qdfpgkxpom/language-reload-1.5.10-1.20.3.jar?rlkey=5ux7jy3u4mgfx1lre9fmaf501&st=ebsmvgux&dl=1",
-            "MD5": "fce9c13a98f7cacdad7710e51ca75b20"
-          }
-        },
-        {
-          "id": "dev.chachy.lazylanguageloader:lazy-language-loader:0.3.5@jar",
-          "name": "Lazy-language-loader",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 25020,
-            "url": "https://www.dropbox.com/scl/fi/2t55e2o59map0gzlc39lj/lazy-language-loader-0.3.5.jar?rlkey=odlryk18wh7wrf2b0iswrrc53&st=gpmm9dvf&dl=1",
-            "MD5": "13b62b06a28edf4a652f738e54eb0e62"
-          }
-        },
-        {
-          "id": "me.jellysquid.mods:lithium:0.12.1@jar",
-          "name": "Lithium",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 716022,
-            "url": "https://www.dropbox.com/scl/fi/4uzlohorswl2uw2rdpqh0/lithium-fabric-mc1.20.4-0.12.1.jar?rlkey=lqmgeiuvd51tqb02al6sj8t0m&st=tglpum5i&dl=1",
-            "MD5": "83da6729d5402dc42eca740a96f97346"
-          }
-        },
-        {
-          "id": "dev.isxander.mainmenucredits:isxander-main-menu-credits:1.1.2@jar",
-          "name": "Main Menu Credits",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 14340,
-            "url": "https://www.dropbox.com/scl/fi/v9n9orhbmgunehv8jw6zh/main-menu-credits-1.1.2.jar?rlkey=2rsrnlpr0gus7aukb5pz9raaz&st=3fnuide5&dl=1",
-            "MD5": "ca68af4e0939c9b2af2e8f0c5149f1d0"
+            "size": 492306,
+            "url": "https://www.dropbox.com/scl/fi/puw5ocmeqd0pwswml91wy/mcw-fences-1.1.1-mc1.20.1forge.jar?rlkey=b7x1ip89vcaqtmdck3rhkdmbg&st=e2i25455&dl=1",
+            "MD5": "c3032fe68ddbc13695bc47c8a9d9beca"
           }
         },
         {
           "id": "ca.fxco:memoryleakfix:1.1.5@jar",
           "name": "Memory Leak Fix",
-          "type": "FabricMod",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 49334,
-            "url": "https://www.dropbox.com/scl/fi/1x8n21o1g5hu6io70hf5w/memoryleakfix-fabric-1.17-1.1.5.jar?rlkey=qf95vmklzee7tsecbrxa9n4o7&st=h1vuacnc&dl=1",
-            "MD5": "a8461f89d267441752c95beb5448e940"
+            "size": 227925,
+            "url": "https://www.dropbox.com/scl/fi/hj325jo3t2w1wfbde03wo/memoryleakfix-forge-1.17-1.1.5.jar?rlkey=559n35jidgz1cdz92jplnmrp8&st=bk8fp434&dl=1",
+            "MD5": "5dd9149414ca375ceab146242c6e84ab"
           }
         },
         {
-          "id": "generated.fabricmod:mixintrace:1.1.1+1.17@jar",
-          "name": "MixinTrace",
-          "type": "FabricMod",
+          "id": "eu.midnightdust:midnightlib:1.4.2@jar",
+          "name": "MidnightLib",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 36039,
-            "url": "https://www.dropbox.com/scl/fi/ewiu5766xcdsbc7p08uc4/mixintrace-1.1.1-1.17.jar?rlkey=2ny0k7fmnj6lxyqgrbxbvfeod&st=p89f4r0m&dl=1",
-            "MD5": "25673336ece740d8127ae7525bc0cd4f"
+            "size": 62156,
+            "url": "https://www.dropbox.com/scl/fi/lfudx8nn1cww06zmgr1cw/midnightlib-forge-1.4.2.jar?rlkey=t2l9i5ibgzt643mdieg8s4sfs&st=6wvm02iq&dl=1",
+            "MD5": "d761d868afbde34f6d8a3e6ce5fd9793"
           }
         },
         {
-          "id": "net.mehvahdjukaar:modelfix:1.14@jar",
+          "id": "net.mehvahdjukaar:modelfix:1.15@jar",
           "name": "Model Gap Fix",
-          "type": "FabricMod",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 65430,
-            "url": "https://www.dropbox.com/scl/fi/6ixqpy0dtiielx4i9bntg/modelfix-1.14-fabric.jar?rlkey=pz1kj9bbr8s8tmj323lde80n3&st=3dcwbkeu&dl=1",
-            "MD5": "37022aa425061707b0ed1ada2c071d97"
+            "size": 45246,
+            "url": "https://www.dropbox.com/scl/fi/idwkisd6lxf2p16q3k4u6/modelfix-1.15.jar?rlkey=7o22aoyxmaqpwu1vb9gv4nhyy&st=6wj7l14p&dl=1",
+            "MD5": "9afd060094be1353e818bd2b7c249cc9"
           }
         },
         {
-          "id": "org.embeddedt:modernfix:5.14.0+mc1.20.4@jar",
+          "id": "org.embeddedt.modernfix.forge.init:modernfix:5.17.0+mc1.20.1@jar",
           "name": "ModernFix",
-          "type": "FabricMod",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 434857,
-            "url": "https://www.dropbox.com/scl/fi/5m7hfc7pwjt3a837fb3zp/modernfix-fabric-5.14.0-mc1.20.4.jar?rlkey=rics28r07ysxveqb7uszqd0sw&st=8mr5rmwf&dl=1",
-            "MD5": "7b8ca848c5aa010e9280283442145464"
+            "size": 738345,
+            "url": "https://www.dropbox.com/scl/fi/8yzylbrp744ve9z18ecvo/modernfix-forge-5.17.0-mc1.20.1.jar?rlkey=l5fyw3sessaqt4owpnqgriiel&st=t71vmc8v&dl=1",
+            "MD5": "35a14ca70d2510656ec7cf72ccee3612"
           }
         },
         {
-          "id": "com.terraformersmc:modmenu:9.0.0@jar",
-          "name": "Mod Menu",
-          "type": "FabricMod",
+          "id": "net.mehvahdjukaar:moonlight:1.20-2.11.18@jar",
+          "name": "Moonlight Library",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 724484,
-            "url": "https://www.dropbox.com/scl/fi/0ss98yh4l50rlusmq3zxh/modmenu-9.0.0.jar?rlkey=frozfmmvztlvtbmt237tcgg0k&st=15qm5c9r&dl=1",
-            "MD5": "7eb06d459405ed6c87b16f4c5be4493d"
+            "size": 1171305,
+            "url": "https://www.dropbox.com/scl/fi/q7qr81zlehf97770c4d6k/moonlight-1.20-2.11.18-forge.jar?rlkey=bke6cu0ca1ascavmkwu1mo3ea&st=eqet5wqa&dl=1",
+            "MD5": "477d6ea21096e8c5e19ce2c119476fd7"
           }
         },
         {
-          "id": "generated.fabricmod:morechathistory:1.3.0@jar",
-          "name": "More Chat History",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 3546,
-            "url": "https://www.dropbox.com/scl/fi/8az38ya0bkj64tjjw9gi7/morechathistory-1.3.0.jar?rlkey=f6etq3fnpjj3jcpozwil6q3hn&st=vnkp5h54&dl=1",
-            "MD5": "1980ac8b5b66417091d101682af8865c"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "ca.fxco:moreculling:1.20.4-0.22.1@jar",
-          "name": "More Culling",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 269457,
-            "url": "https://www.dropbox.com/scl/fi/trlrr5yihp5hfuj4jxdjb/moreculling-1.20.4-0.22.1.jar?rlkey=d6od5ww6u91l0zpe62y2syzt8&st=1hbo5scs&dl=1",
-            "MD5": "7105c0ef569dd1c37d1b36b044351bea"
-          }
-        },
-        {
-          "id": "com.aizistral:nochatreports:1.20.4-v2.5.0@jar",
+          "id": "com.aizistral:nochatreports:1.20.1-v2.2.2@jar",
           "name": "No Chat Reports",
-          "type": "FabricMod",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 721079,
-            "url": "https://www.dropbox.com/scl/fi/3en60ycqi9kdl9c1xe8w2/NoChatReports-FABRIC-1.20.4-v2.5.0.jar?rlkey=qbn563g1ba0bkpy7p7d4jjlys&st=9jp6u9ip&dl=1",
-            "MD5": "b527df3c38dd5eaeaa6c09139a7dd14c"
+            "size": 272740,
+            "url": "https://www.dropbox.com/scl/fi/h4jp87y0b3idns13p7w1f/NoChatReports-FORGE-1.20.1-v2.2.2.jar?rlkey=x1yop31a3vsa4h7vrhmqygwji&st=kqy8l1zl&dl=1",
+            "MD5": "3153d1e860c6fefe6dac26efdb5c40c6"
           }
         },
         {
-          "id": "opekope2.optigui:optigui:2.1.7@jar",
-          "name": "OptiGUI",
-          "type": "FabricMod",
+          "id": "dev.tr7zw:notenoughanimations:1.7.3@jar",
+          "name": "NotEnoughAnimations",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 780572,
-            "url": "https://www.dropbox.com/scl/fi/fvx7tfld76q3pvjiov3wa/optigui-2.1.7.jar?rlkey=p2hnl7x5h71amhhlp6x1gaaol&st=ryeqbgpd&dl=1",
-            "MD5": "2744ac9b3e4908c3cfcf4362d1437e0f"
+            "size": 425317,
+            "url": "https://www.dropbox.com/scl/fi/s265e531a2fxwznlfdm9f/notenoughanimations-forge-1.7.3-mc1.20.1.jar?rlkey=2nk4emesadnsw21axux44eqfc&st=ksuo1ltr&dl=1",
+            "MD5": "0e6b6de0c6bb4fe523b738ab68fe640d"
+          },
+          "required": {
+            "value": false
           }
         },
         {
-          "id": "generated.fabricmod:puzzle:1.6.1+1.20.4@jar",
-          "name": "Puzzle",
-          "type": "FabricMod",
+          "id": "net.irisshaders.iris:oculus:1.7.0@jar",
+          "name": "Oculus",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 128303,
-            "url": "https://www.dropbox.com/scl/fi/sf2seu9bl92vd7g9bn0rm/puzzle-1.6.1-1.20.4.jar?rlkey=hmplbw6j3rgrbfllcw46csvn7&st=qgs9scdm&dl=1",
-            "MD5": "79efed9b1ffbae3869a0b91afaca6e15"
+            "size": 2831148,
+            "url": "https://www.dropbox.com/scl/fi/t04jvvx5j3ywarwt49nmg/oculus-mc1.20.1-1.7.0.jar?rlkey=wf8g98mjfezttpk6esxa3rmdp&st=3e7vckmp&dl=1",
+            "MD5": "45b96133bb46cc61dd9778bd4fca741d"
           }
         },
         {
-          "id": "generated.fabricmod:reeses-sodium-options:1.7.2+mc1.20.4-build.102@jar",
-          "name": "Reese's Sodium Options",
-          "type": "FabricMod",
+          "id": "dev.tonimatas:packetfixer:1.3.2@jar",
+          "name": "Packet Fixer",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 77393,
-            "url": "https://www.dropbox.com/scl/fi/x37gd0fs3ge0ak6b4b81g/reeses_sodium_options-1.7.2-mc1.20.4-build.102.jar?rlkey=6rypu17skq8kiifamuk1ku7yx&st=7hsf57hl&dl=1",
-            "MD5": "3353347619cc18acb9b6ef811ac6a310"
+            "size": 18570,
+            "url": "https://www.dropbox.com/scl/fi/tey2dk75t5cuhndj59ioi/packetfixer-forge-1.3.2-1.19-to-1.20.1.jar?rlkey=ei2xu1te7jd7ti9genjst9o0k&st=oo89pu2m&dl=1",
+            "MD5": "3f6910268c19fee0f0e552b0962126aa"
           }
         },
         {
-          "id": "com.github.dimadencep.mods:rrls:4.0.2+mc1.20.4-fabric@jar",
+          "id": "dev.kosmx.playeranim:playeranimator:1.0.2-rc1+1.20@jar",
+          "name": "Player Animator",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 181437,
+            "url": "https://www.dropbox.com/scl/fi/corhaqokywo7wagt6lm3n/player-animation-lib-forge-1.0.2-rc1-1.20.jar?rlkey=evw6f9ud1065elfy9rln0hxfl&st=sfhwinb7&dl=1",
+            "MD5": "46f8554181d4d240075ea4919d01fd01"
+          }
+        },
+        {
+          "id": "com.illusivesoulworks:polymorph:0.49.3+1.20.1@jar",
+          "name": "Polymorph",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 298475,
+            "url": "https://www.dropbox.com/scl/fi/bkl5pe368lh7gnwz4vdzr/polymorph-forge-0.49.3-1.20.1.jar?rlkey=vygl5ma8darp49qxm2ee3kr0a&st=kt6bth0m&dl=1",
+            "MD5": "849131314d74ca50f09bc94811b930f6"
+          }
+        },
+        {
+          "id": "com.teampotato:potacore:0.2.8-universal@jar",
+          "name": "Potacore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6479,
+            "url": "https://www.dropbox.com/scl/fi/ls2qmoqq16w0kmhq1sega/potacore-0.2.8-universal.jar?rlkey=r30ye5dsgbns02qcm92zt1cor&st=2z63timu&dl=1",
+            "MD5": "178f454fe3a1477d18d961e88b8818a2"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.lithium:radium:0.12.3+git.50c5c33@jar",
+          "name": "Radium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 712994,
+            "url": "https://www.dropbox.com/scl/fi/u1uxg2s3cf21ttmy15z0r/radium-mc1.20.1-0.12.3-git.50c5c33.jar?rlkey=s0nlyw30hjry5ko16p6v79xjs&st=y4dep09s&dl=1",
+            "MD5": "06d9a7528a47a7618aaaad5f26c85794"
+          }
+        },
+        {
+          "id": "com.teamresourceful:resourcefullib:2.1.24@jar",
+          "name": "Resourceful Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 424237,
+            "url": "https://www.dropbox.com/scl/fi/b5war9llo5z0jnwlyfc5g/resourcefullib-forge-1.20.1-2.1.24.jar?rlkey=a6xbnlijsgmbcdume8yl5nmqz&st=c7au61lh&dl=1",
+            "MD5": "559fc9800f1ccbc4a182c7af0cf506c6"
+          }
+        },
+        {
+          "id": "io.github.jamalam360:rightclickharvest:3.2.3+1.20.1-forge@jar",
+          "name": "Right Click Harvest",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 220702,
+            "url": "https://www.dropbox.com/scl/fi/7qy2ayzq4imszfgn8ogft/right-click-harvest-3.2.3-1.20.1-forge.jar?rlkey=0umt9zqu9r66kc7x7r1iepnc9&st=vooy87nh&dl=1",
+            "MD5": "151282739e5999e34d180d500885dc42"
+          }
+        },
+        {
+          "id": "com.github.dimadencep.mods:rrls:3.2.0-1.20.1-forge@jar",
           "name": "Remove Reloading Screen",
-          "type": "FabricMod",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 160857,
-            "url": "https://www.dropbox.com/scl/fi/7l55z0tk4u6acp85qah53/rrls-4.0.2-mc1.20.4-fabric.jar?rlkey=hf9inmjltg3eh93vmkzacnhi7&st=cajjc4d1&dl=1",
-            "MD5": "231f44515712ae16484f6e01ce68962e"
+            "size": 137085,
+            "url": "https://www.dropbox.com/scl/fi/lyrzj8qbter4bso6g51o7/Rrls-3.2.0-1.20.1-forge.jar?rlkey=e66703igrrfjjnix136uu6cd6&st=pihfw5vt&dl=1",
+            "MD5": "2bb8b4bc6028101ee785c9601ba2f32f"
           }
         },
         {
-          "id": "generated.fabricmod:searchables:1.0.6@jar",
+          "id": "me.flashyreese.mods.sodiumextra:embeddium_extra:0.5.4.3+mc1.20.1-build.121@jar",
+          "name": "Embeddium Extra",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 544113,
+            "url": "https://www.dropbox.com/scl/fi/3n0ea3ds1vpp9uqfw40ef/rubidium-extra-0.5.4.3-mc1.20.1-build.121.jar?rlkey=r4zah38yhakvrpzzplrtfg3pl&st=dehljf5l&dl=1",
+            "MD5": "f61cc3ea7c32ce7839467caf0ac0f113"
+          }
+        },
+        {
+          "id": "com.blamejared:searchables:1.0.3@jar",
           "name": "Searchables",
-          "type": "FabricMod",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 78369,
-            "url": "https://www.dropbox.com/scl/fi/o19op9c6w6rgnu3ojqsx6/Searchables-fabric-1.20.4-1.0.6.jar?rlkey=5xghmlt0edcldla48t5chnoad&st=7zitrwbj&dl=1",
-            "MD5": "8ba20fa1e9c414a6a05de4861e796ba8"
+            "size": 77732,
+            "url": "https://www.dropbox.com/scl/fi/om1k6ab6pmnuj2l3j9u1q/Searchables-forge-1.20.1-1.0.3.jar?rlkey=bkg0h2zpiv1pqh7l6cdf1nn11&st=y4zhhgzw&dl=1",
+            "MD5": "68fb3fa702de7e10194c5b8a3d25b5b0"
           }
         },
         {
-          "id": "com.misterpemodder:shulkerboxtooltip:4.0.8+1.20.4@jar",
-          "name": "Shulker Box Tooltip",
-          "type": "FabricMod",
+          "id": "com.misterpemodder:shulkerboxtooltip:4.0.4+1.20.1@jar",
+          "name": "ShulkerBoxTooltip",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 1215852,
-            "url": "https://www.dropbox.com/scl/fi/sfnppik3bogjootbv0auo/shulkerboxtooltip-fabric-4.0.8-1.20.4.jar?rlkey=gh1u1ebn1kpgm8z2kprlcn8w7&st=e4uh8bmi&dl=1",
-            "MD5": "3eab8c5bf30d1030c25a1c28077721a5"
+            "size": 221121,
+            "url": "https://www.dropbox.com/scl/fi/8ne8m107ojg3b4743meo4/shulkerboxtooltip-forge-4.0.4-1.20.1.jar?rlkey=pvdhsfyq8pmx339cbngt9rno6&st=pf6fjfws&dl=1",
+            "MD5": "434195aff2ce2f48b3aea5434b281e71"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "me.flashyreese.mods.sodiumextra:sodium-extra:0.5.4+mc1.20.4-build.116@jar",
-          "name": "Sodium Extra",
-          "type": "FabricMod",
+          "id": "net.sweenus:simplyswords:1.55.0-1.20.1@jar",
+          "name": "Simply Swords",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 385665,
-            "url": "https://www.dropbox.com/scl/fi/8wxzxfakck9llfppktwg5/sodium-extra-0.5.4-mc1.20.4-build.116.jar?rlkey=y6mc6sakve9hhcd6t95kk9d6r&st=zywu7kr5&dl=1",
-            "MD5": "a414a1b266c8e6bd22b37c72413000ff"
+            "size": 14788376,
+            "url": "https://www.dropbox.com/scl/fi/aka25xz33r3fpk0mxx2vi/simplyswords-forge-1.55.0-1.20.1.jar?rlkey=wslw010edvepndvjeblo8o4yk&st=qcvmy0i1&dl=1",
+            "MD5": "35d26ca8a93550c1b0fc94512a4ba621"
           }
         },
         {
-          "id": "me.jellysquid.mods:sodium:0.5.8+mc1.20.4@jar",
-          "name": "Sodium",
-          "type": "FabricMod",
+          "id": "bl4ckscor3.mod:sit:1.3.4@jar",
+          "name": "Sit",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 949085,
-            "url": "https://www.dropbox.com/scl/fi/b1qslw7flgagz57x9d46e/sodium-fabric-0.5.8-mc1.20.4.jar?rlkey=3nu53xn9mxmabgu7j0am6at67&st=s3uywp4v&dl=1",
-            "MD5": "d7753a50ca37f50abb10465a9a425dac"
+            "size": 14543,
+            "url": "https://www.dropbox.com/scl/fi/nxzrzpjvs0eyqtghanfub/sit-1.20.1-1.3.4.jar?rlkey=zjprpbi32ewho37jahracb6a0&st=ypxtwvme&dl=1",
+            "MD5": "9f4777c1edc7a9ae78a11c1de9b30630"
           }
         },
         {
-          "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.3.2+1.20.4@jar",
-          "name": "YetAnotherConfigLib",
-          "type": "FabricMod",
+          "id": "dev.tr7zw.skinlayers:skinlayers3d:1.6.4@jar",
+          "name": "3d-Skin-Layers",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 979275,
-            "url": "https://www.dropbox.com/scl/fi/dzr2buyv0ssd2qhgq5gvr/yet-another-config-lib-fabric-3.3.2-1.20.4.jar?rlkey=19asam95qzaq1o9emjrr1delt&st=jt7w45x3&dl=1",
-            "MD5": "6e7dd15c39d9e13c83589134e41a2d03"
-          }
-        },
-        {
-          "id": "generated.fabricmod:yosbr:0.1.2@jar",
-          "name": "YOSBR",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 17373,
-            "url": "https://www.dropbox.com/scl/fi/pbfd3ot66dek5dc1amh3h/yosbr-0.1.2.jar?rlkey=cihmg5w2m3eavc8a4fvavphp8&st=xnktpw4s&dl=1",
-            "MD5": "9fcce225f25b6fd17921c87ff1c720f1"
-          }
-        },
-        {
-          "id": "dev.isxander:zoomify:2.13.0@jar",
-          "name": "Zoomify",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 1055608,
-            "url": "https://www.dropbox.com/scl/fi/8i2c7vbhyljf3ck2tv4a6/Zoomify-2.13.0.jar?rlkey=jqrw47637zhl19v3ewq3zu88b&st=bahp4c99&dl=1",
-            "MD5": "d6e39b6d76378817b36d746ee47fceed"
+            "size": 475379,
+            "url": "https://www.dropbox.com/scl/fi/odcntfex44xk6b8omg5b2/skinlayers3d-forge-1.6.4-mc1.20.1.jar?rlkey=rw0rgdx3kr977ldye78j9iibt&st=zhpg5fsh&dl=1",
+            "MD5": "4ced7dc4498822faab058122dd025a1c"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "net.fabricmc:fabric-loader:0.15.10",
-          "name": "Fabric (fabric-loader)",
-          "type": "Fabric",
+          "id": "com.abdelaziz:smoothboot:0.0.4@jar",
+          "name": "Smooth Boot (Reloaded)",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 1327662,
-            "MD5": "582b8c44a8afc761c63df88b64e6bb0f",
-            "url": "https://www.dropbox.com/scl/fi/m0sydyy4ynf2iuz1oss6c/fabric-loader-0.15.10.jar?rlkey=hxv6udits8am47jh6r9u98wqp&st=fr7xjhl8&dl=1"
-          },
-          "subModules": [
-            {
-              "id": "1.20.4-fabric-0.15.10",
-              "name": "Fabric (version.json)",
-              "type": "VersionManifest",
-              "artifact": {
-                "size": 2849,
-                "MD5": "23e99dbafc0ee511e8dfb9d62cd0a342",
-                "url": "https://www.dropbox.com/scl/fi/3d8k4inb0f8orjyng6pm5/1.20.4-fabric-0.15.10.json?rlkey=ja8n562ne5bzzf8w2s6blfede&st=20izjjut&dl=1"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm:9.6",
-              "name": "Fabric (asm)",
-              "type": "Library",
-              "artifact": {
-                "size": 123598,
-                "MD5": "6f8bccf756f170d4185bb24c8c2d2020",
-                "url": "https://www.dropbox.com/scl/fi/gn1aw3hryvbnpsl6t2erj/asm-9.6.jar?rlkey=qrj6yqfbbo7f0tcc3q5e7oc7j&st=fp1j8o8n&dl=1"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-analysis:9.6",
-              "name": "Fabric (asm-analysis)",
-              "type": "Library",
-              "artifact": {
-                "size": 34041,
-                "MD5": "31c84ef7cc893fb278952ae2d6a2674f",
-                "url": "https://www.dropbox.com/scl/fi/m7csdk446obn4rj4mj90x/asm-analysis-9.6.jar?rlkey=6y2mtadyutlf3ulihnwivc3q1&st=qvw54f81&dl=1"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-commons:9.6",
-              "name": "Fabric (asm-commons)",
-              "type": "Library",
-              "artifact": {
-                "size": 72194,
-                "MD5": "9e317c75534bd1da8c00a67c618ab288",
-                "url": "https://www.dropbox.com/scl/fi/0n20bh4hj33cg8omm745g/asm-commons-9.6.jar?rlkey=cno4f0t96vlmbwdp2tdnhsl0k&st=0b5mu2n3&dl=1"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-tree:9.6",
-              "name": "Fabric (asm-tree)",
-              "type": "Library",
-              "artifact": {
-                "size": 51935,
-                "MD5": "6062608f1a98afe1e853d01fa1221a9e",
-                "url": "https://www.dropbox.com/scl/fi/2en2w8j3tjqoieo33wk41/asm-tree-9.6.jar?rlkey=dovgljotlbou4llzjmbbxptpi&st=3gmxrcv8&dl=1"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-util:9.6",
-              "name": "Fabric (asm-util)",
-              "type": "Library",
-              "artifact": {
-                "size": 91131,
-                "MD5": "bd3bc1c176a787373e9a031073c9574b",
-                "url": "https://www.dropbox.com/scl/fi/hu9n3e514e7ot75m4d9zd/asm-util-9.6.jar?rlkey=04ays3yzs9mp3cf3bdcpsmlm2&st=u74j3v9e&dl=1"
-              }
-            },
-            {
-              "id": "net.fabricmc:sponge-mixin:0.13.3+mixin.0.8.5",
-              "name": "Fabric (sponge-mixin)",
-              "type": "Library",
-              "artifact": {
-                "size": 1458875,
-                "MD5": "9dcf01250f72212bf97f0fef55ba5acd",
-                "url": "https://www.dropbox.com/scl/fi/91ebnwgkrbpo3l01ljikv/sponge-mixin-0.13.3-mixin.0.8.5.jar?rlkey=nfqqr9x669j156tlbvqriha14&st=fe0l6cbo&dl=1"
-              }
-            },
-            {
-              "id": "net.fabricmc:intermediary:1.20.4",
-              "name": "Fabric (intermediary)",
-              "type": "Library",
-              "artifact": {
-                "size": 608319,
-                "MD5": "3a1cade1634c518db6147c9771686ea9",
-                "url": "https://www.dropbox.com/scl/fi/big6s9714hgjm6kn7y08d/intermediary-1.20.4.jar?rlkey=mp1wj5g2qcamblyss69bri153&st=1ef0xqse&dl=1"
-              }
-            }
-          ]
+            "size": 41044,
+            "url": "https://www.dropbox.com/scl/fi/l8r62xnr87m9xk2746hdy/smoothboot-reloaded-mc1.20.1-0.0.4.jar?rlkey=30rajyfz9qg5y788hgvihzo9e&st=kmrw1l3m&dl=1",
+            "MD5": "c8cd5ae14d99796fd92c95a353e96211"
+          }
+        },
+        {
+          "id": "me.lucko:spark:1.10.53@jar",
+          "name": "Spark",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3114590,
+            "url": "https://www.dropbox.com/scl/fi/k7wtax6wdroh0800gfqrg/spark-1.10.53-forge.jar?rlkey=u79lvz3kzkvm9wxjui0iq1f8w&st=t021ex7u&dl=1",
+            "MD5": "95dcd3b5400cc5eb5d0478a744e6ef98"
+          }
+        },
+        {
+          "id": "ca.spottedleaf:starlight:1.1.2+forge.1cda73c@jar",
+          "name": "Starlight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 110583,
+            "url": "https://www.dropbox.com/scl/fi/iy6cyay266rxzwpy06oks/starlight-1.1.2-forge.1cda73c.jar?rlkey=sa8me57q5mp69z50jl421z0q0&st=0olp4s1u&dl=1",
+            "MD5": "da99a054428fb62342b6767b993c4c8d"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:supplementaries:1.20-2.8.11@jar",
+          "name": "Supplementaries",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14519559,
+            "url": "https://www.dropbox.com/scl/fi/v0rpntmxlxa0cfzq8zydz/supplementaries-1.20-2.8.11.jar?rlkey=pyv2cy1s0kbuytsyxhpaupewo&st=lw7ec42a&dl=1",
+            "MD5": "dca919e58c7f57e0e0b1761ee80f44e8"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:suppsquared:1.20-1.1.14@jar",
+          "name": "Supplementaries Squared",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 813469,
+            "url": "https://www.dropbox.com/scl/fi/pn5uws0xz7yb98txu1bjx/suppsquared-1.20-1.1.14.jar?rlkey=dkpee4wntq81cv5mplb0xtwak&st=71z3mfbl&dl=1",
+            "MD5": "c1f866e60923f682f26c311baf46f711"
+          }
+        },
+        {
+          "id": "me.replet:vanillafix:1.0.0-forge-beta@jar",
+          "name": "VanillaIcecreamFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 82993,
+            "url": "https://www.dropbox.com/scl/fi/0rtacj7haw7xjmpi48k1q/vanillafix-1.0.0-forge-beta.jar?rlkey=cvkhpinrujupnr7uj2ppuh3jg&st=l3li834w&dl=1",
+            "MD5": "52a8ceb440748fcee81fcf8ec7e394c3"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.20.1-2.5.14@jar",
+          "name": "Simple Voice Chat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7704423,
+            "url": "https://www.dropbox.com/scl/fi/nlimlk0v3p52dadq92pai/voicechat-forge-1.20.1-2.5.14.jar?rlkey=xgvm6hmfj3c1mgrsf8u8vizg0&st=utle71ie&dl=1",
+            "MD5": "4fa0dc4efeaa356f3dca102ba30a3a6a"
+          }
         }
       ]
     }
