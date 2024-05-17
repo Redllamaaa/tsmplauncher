@@ -738,13 +738,13 @@
           }
         },
         {
-          "id": "me.jellysquid.mods:sodium:0.5.8+mc1.20.6@jar",
+          "id": "me.jellysquid.mods:sodium:0.5.8+mc1.20.1@jar",
           "name": "Sodium",
           "type": "FabricMod",
           "artifact": {
-            "size": 964688,
-            "url": "https://www.dropbox.com/scl/fi/arh5ckjcch1ib3p5wihpp/sodium-fabric-0.5.8-mc1.20.6.jar?rlkey=9fnbsvlbh6r7xjoo428e7mmhd&st=fviey0wx&dl=1",
-            "MD5": "71f1650662a552f4e26d2fa79408d6b1"
+            "size": 942134,
+            "url": "https://www.dropbox.com/scl/fi/iv9aydt2oxbx5yfrf3vzx/sodium-fabric-0.5.8-mc1.20.1.jar?rlkey=49z3tu6oul7y5jz9uvzfapcfq&st=dfpayy7a&dl=1",
+            "MD5": "68e366d87fa5c614d64ce031ff548e30"
           }
         },
         {
