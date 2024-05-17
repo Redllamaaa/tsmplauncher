@@ -766,17 +766,6 @@
           "required": {
             "value": false
           }
-        },
-        {
-          "id": "fabric_loader_dependencies.json",
-          "name": "fabric_loader_dependencies.json",
-          "type": "File",
-          "artifact": {
-            "size": 209,
-            "url": "https://www.dropbox.com/scl/fi/6b6ux8ir155uqd0oxxi9t/fabric_loader_dependencies.json?rlkey=s3h2qggtobculewr1ja0la6hb&st=ukpe19r1&dl=1",
-            "MD5": "c1d754cb1223c7bc4af4c4c1da21d3e9",
-            "path": "config/fabric_loader_dependencies.json"
-          }
         }
       ]
     }
