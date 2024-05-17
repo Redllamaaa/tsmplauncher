@@ -504,7 +504,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 2668790,
-            "url": "https://www.dropbox.com/scl/fi/ll0t4ygtc1j9gxbh9r93q/iris-1.7.0-mc1.20.1.jar?rlkey=an6dbcyi9ugx286r4gx08agwr&st=814zlk2o&dl=1",
+            "url": "https://www.dropbox.com/scl/fi/ll0t4ygtc1j9gxbh9r93q/iris-1.7.0-mc1.20.1.jar?rlkey=an6dbcyi9ugx286r4gx08agwr&st=2r9azzxm&dl=1",
             "MD5": "4fffc15dba4b021e626beea0ec00099b"
           }
         },
@@ -738,13 +738,13 @@
           }
         },
         {
-          "id": "me.jellysquid.mods:sodium:0.5.8+mc1.20.1@jar",
+          "id": "me.jellysquid.mods:sodium:0.5.3@jar",
           "name": "Sodium",
           "type": "FabricMod",
           "artifact": {
-            "size": 942134,
-            "url": "https://www.dropbox.com/scl/fi/iv9aydt2oxbx5yfrf3vzx/sodium-fabric-0.5.8-mc1.20.1.jar?rlkey=49z3tu6oul7y5jz9uvzfapcfq&st=dfpayy7a&dl=1",
-            "MD5": "68e366d87fa5c614d64ce031ff548e30"
+            "size": 852373,
+            "url": "https://www.dropbox.com/scl/fi/l1qy9m3tskihu4zdkd1h8/sodium-fabric-mc1.20.1-0.5.3.jar?rlkey=ow5k1artxel2muyi3fbtpi5cf&st=q8sfcs59&dl=1",
+            "MD5": "11db63c388786f3bfdb9e60c9c0a25c1"
           }
         },
         {
