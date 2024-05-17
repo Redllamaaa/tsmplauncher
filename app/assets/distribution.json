@@ -489,13 +489,13 @@
           }
         },
         {
-          "id": "link.infra:indium:1.0.27+mc1.20.1@jar",
+          "id": "link.infra:indium:1.0.30+mc1.20.4@jar",
           "name": "Indium",
           "type": "FabricMod",
           "artifact": {
-            "size": 104807,
-            "url": "https://www.dropbox.com/scl/fi/az3t7jtvvx4dait1f7vaf/indium-1.0.27-mc1.20.1.jar?rlkey=pkcr80i9d7xug5o1hp0o127qj&st=inhvgk96&dl=1",
-            "MD5": "3e9cb7736e01332c1789be0e7583dbf8"
+            "size": 104805,
+            "url": "https://www.dropbox.com/scl/fi/b5qg60yoe8xab6fgz8w4z/indium-1.0.30-mc1.20.4.jar?rlkey=14o3a6khucpwp3rkw3qvl0jmk&st=lxny3b31&dl=1",
+            "MD5": "e0b3675f1e6e8f00da58d42ec1bd1be7"
           }
         },
         {
