@@ -685,13 +685,13 @@
           }
         },
         {
-          "id": "generated.fabricmod:reeses-sodium-options:1.6.5+mc1.20.1-build.95@jar",
+          "id": "generated.fabricmod:reeses-sodium-options:1.7.2+mc1.20.1-build.101@jar",
           "name": "Reese's Sodium Options",
           "type": "FabricMod",
           "artifact": {
-            "size": 70820,
-            "url": "https://www.dropbox.com/scl/fi/jnfsgl2msobmjf71vnvnq/reeses_sodium_options-1.6.5-mc1.20.1-build.95.jar?rlkey=et054k2lnjzie4d4tors2vz63&st=wgirirgn&dl=1",
-            "MD5": "285c0e4ed6ece301585958fb2095ac9d"
+            "size": 77304,
+            "url": "https://www.dropbox.com/scl/fi/eranoqbr37ojz9edirw96/reeses_sodium_options-1.7.2-mc1.20.1-build.101.jar?rlkey=f5roewdaafjj9lw5ux5b3kafd&st=n6k818b5&dl=1",
+            "MD5": "0db2ef332dd00de8c64e34f192317118"
           }
         },
         {
@@ -728,23 +728,23 @@
           }
         },
         {
-          "id": "me.flashyreese.mods.sodiumextra:sodium-extra:0.5.1+mc1.20.1-build.112@jar",
+          "id": "me.flashyreese.mods.sodiumextra:sodium-extra:0.5.4+mc1.20.1-build.115@jar",
           "name": "Sodium Extra",
           "type": "FabricMod",
           "artifact": {
-            "size": 365533,
-            "url": "https://www.dropbox.com/scl/fi/d8y25wrb7fk7y9tr4ds4p/sodium-extra-0.5.1-mc1.20.1-build.112.jar?rlkey=5ejsjqgipsgb9hjofpc6049m5&st=1zrgunrw&dl=1",
-            "MD5": "58d4b98aa8b259665c835fc6add5021b"
+            "size": 385539,
+            "url": "https://www.dropbox.com/scl/fi/kibv1oxx6zafuzcyxkrqd/sodium-extra-0.5.4-mc1.20.1-build.115.jar?rlkey=7atb4st8b9ikyc909nkwc84kd&st=bhk5c940&dl=1",
+            "MD5": "9eaed09a486eee9a1326de5dd80faa0a"
           }
         },
         {
-          "id": "me.jellysquid.mods:sodium:0.5.3@jar",
+          "id": "me.jellysquid.mods:sodium:0.5.8+mc1.20.1@jar",
           "name": "Sodium",
           "type": "FabricMod",
           "artifact": {
-            "size": 852373,
-            "url": "https://www.dropbox.com/scl/fi/l1qy9m3tskihu4zdkd1h8/sodium-fabric-mc1.20.1-0.5.3.jar?rlkey=ow5k1artxel2muyi3fbtpi5cf&st=q8sfcs59&dl=1",
-            "MD5": "11db63c388786f3bfdb9e60c9c0a25c1"
+            "size": 942134,
+            "url": "https://www.dropbox.com/scl/fi/whc8quuv98lezichma4k4/sodium-fabric-0.5.8-mc1.20.1.jar?rlkey=mssqz2bh7sny1oknikh87j7dq&st=4pim7ijj&dl=1",
+            "MD5": "68e366d87fa5c614d64ce031ff548e30"
           }
         },
         {
