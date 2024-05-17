@@ -499,13 +499,13 @@
           }
         },
         {
-          "id": "generated.fabricmod:iris:1.6.10@jar",
+          "id": "generated.fabricmod:iris:1.7.0+mc1.20.1@jar",
           "name": "Iris",
           "type": "FabricMod",
           "artifact": {
-            "size": 2412690,
-            "url": "https://www.dropbox.com/scl/fi/6wvil4mfnduowerajust9/iris-mc1.20.1-1.6.10.jar?rlkey=c8q7ckrg5acapzwa7b7lvg6wk&st=c3lvbq2c&dl=1",
-            "MD5": "c2fec037c71f3574e758ad5833f2ac73"
+            "size": 2668790,
+            "url": "https://www.dropbox.com/scl/fi/ll0t4ygtc1j9gxbh9r93q/iris-1.7.0-mc1.20.1.jar?rlkey=an6dbcyi9ugx286r4gx08agwr&st=814zlk2o&dl=1",
+            "MD5": "4fffc15dba4b021e626beea0ec00099b"
           }
         },
         {
@@ -516,6 +516,19 @@
             "size": 573183,
             "url": "https://www.dropbox.com/scl/fi/te9wr177wpsviaqopf820/lambdynamiclights-2.3.2-1.20.1.jar?rlkey=0l279hanf0torm75e9wnngvjm&st=tqjbxhml&dl=1",
             "MD5": "9e931a5331bfe8cee677a413b8aea776"
+          }
+        },
+        {
+          "id": "de.johni0702.minecraft:bobby:5.0.1@jar",
+          "name": "Bobby",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 799098,
+            "url": "https://www.dropbox.com/scl/fi/p82zuwjoqllqf4lx0y9vq/bobby-5.0.1.jar?rlkey=h8tz48fh0iw4r5dvj41ggenx7&st=4j3u6mv4&dl=1",
+            "MD5": "2aa8b606f9372c9a17f66ed5111d5b0e"
+          },
+          "required": {
+            "value": false
           }
         },
         {
