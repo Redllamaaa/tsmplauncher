@@ -479,13 +479,13 @@
           }
         },
         {
-          "id": "generated.fabricmod:immediatelyfast:1.2.6+1.20.2@jar",
+          "id": "generated.fabricmod:immediatelyfast:1.2.14+1.20.4@jar",
           "name": "ImmediatelyFast",
           "type": "FabricMod",
           "artifact": {
-            "size": 657143,
-            "url": "https://www.dropbox.com/scl/fi/h8rkv2r7b4ng7ribsc9t0/ImmediatelyFast-1.2.6-1.20.2.jar?rlkey=b4ytqv6ncb7p393q6l7vybmn3&st=gvpyvex3&dl=1",
-            "MD5": "f788dadb0fdc91da779e56ca7008841c"
+            "size": 235371,
+            "url": "https://www.dropbox.com/scl/fi/bmjqa81k389fteci9r1xm/ImmediatelyFast-Fabric-1.2.14-1.20.4.jar?rlkey=g60jje0vw9ew8wkotrtpna8sb&st=qwws1yjh&dl=1",
+            "MD5": "03c304d6dc518ff5f0177bd2b1728e45"
           }
         },
         {
@@ -494,7 +494,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 2668790,
-            "url": "https://www.dropbox.com/scl/fi/ll0t4ygtc1j9gxbh9r93q/iris-1.7.0-mc1.20.1.jar?rlkey=an6dbcyi9ugx286r4gx08agwr&st=2r9azzxm&dl=1",
+            "url": "https://www.dropbox.com/scl/fi/l1w0rcmpecjhvft2p2gyr/iris-1.7.0-mc1.20.1.jar?rlkey=ji4xbmyz5gu0rkyengpzk3iqd&st=vgagjgyg&dl=1",
             "MD5": "4fffc15dba4b021e626beea0ec00099b"
           }
         },
