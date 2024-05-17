@@ -369,13 +369,13 @@
           }
         },
         {
-          "id": "generated.fabricmod:fabric-api:0.90.0+1.20.1@jar",
+          "id": "generated.fabricmod:fabric-api:0.92.1+1.20.1@jar",
           "name": "Fabric API",
           "type": "FabricMod",
           "artifact": {
-            "size": 2059348,
-            "url": "https://www.dropbox.com/scl/fi/hkbwq0rt50kkhsuzvf6z9/fabric-api-0.90.0-1.20.1.jar?rlkey=z36kgo7duwj5vckcs0qph5n83&st=edjvz36e&dl=1",
-            "MD5": "b01ef4c05c587b95c06e7c826c5fe536"
+            "size": 2106811,
+            "url": "https://www.dropbox.com/scl/fi/d3b6fc53cuemyxgu4h7q3/fabric-api-0.92.1-1.20.1.jar?rlkey=n5y33pm0y8s5jj2qzrfkpl3pq&st=h8kcdfx6&dl=1",
+            "MD5": "686c88c0f615e58e9fbd13c678fe543a"
           }
         },
         {
