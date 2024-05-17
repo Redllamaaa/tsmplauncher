@@ -133,7 +133,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 921750,
-            "url": "http://localhost:8080/servers/TSMP-1.20.1/fabricmods/required/amendments-1.20-1.1.29-fabric.jar",
+            "url": "https://www.dropbox.com/scl/fi/g3t7bvimgedmqwy794klo/amendments-1.20-1.1.29-fabric.jar?rlkey=usav6aezze673z5rxrhpmmat7&st=f3iqc8zi&dl=1",
             "MD5": "d6f98e4bc74ea58f35f88f55e913959a"
           }
         },
