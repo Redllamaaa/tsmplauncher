@@ -1,12 +1,12 @@
 {
-  "version": "1.1.1",
+  "version": "1.1.3",
   "servers": [
     {
       "id": "tsmp4deathhill",
       "name": "TSMP Death Hill",
       "description": "TSMP Death Hill, 1.20.4 (Fabric v0.15.11)",
       "icon": null,
-      "version": "1.1.1",
+      "version": "1.1.3",
       "address": "135.125.123.114:25578",
       "minecraftVersion": "1.20.1",
       "mainServer": true,
@@ -765,6 +765,17 @@
           },
           "required": {
             "value": false
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 2964,
+            "url": "https://www.dropbox.com/scl/fi/iq4ul8z23v6ey1eiazaq3/servers.dat?rlkey=uk75gctdppgesh4bmytao2jfz&st=6a0zhz4m&dl=1",
+            "MD5": "8b1f659b39b629438da15499c20ace95",
+            "path": "servers.dat"
           }
         }
       ]
