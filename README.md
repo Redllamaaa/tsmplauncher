@@ -4,8 +4,9 @@
 
 <p align="center">Join the Totem SMP without worrying about installing Java, Forge, or other mods. We'll handle that for you.</p>
 
-<p align="center">Want a guide? Check out our [Wiki](https://github.com/Redllamaaa/tsmplauncher/wiki)!</p>
+## Wiki
 
+You can view guides and get more information on our [Wiki](https://github.com/Redllamaaa/tsmplauncher/wiki)!
 
 ## Downloads
 
