@@ -53,7 +53,7 @@ if(!isDev){
                 loggerAutoUpdater.info('New update available', info.version)
                 
                 if(process.platform === 'darwin'){
-                    info.darwindownload = `https://github.com/Redllamaaa/tsmplauncher/releases/download/v${info.version}/TSMP.Launcher-setup-${info.version}.exe`
+                    info.darwindownload = `https://github.com/Redllamaaa/tsmplauncher/releases/download/v${info.version}/TSMP.Launcher-setup-${info.version}${process.arch === 'arm64' ? '-arm64' : '-x64'}.dmg`
                     showUpdateUI(info)
                 }
                 
