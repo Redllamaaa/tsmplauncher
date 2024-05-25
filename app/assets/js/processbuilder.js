@@ -7,10 +7,12 @@ const { getMojangOS, isLibraryCompatible, mcVersionAtLeast }  = require('helios-
 const { Type }              = require('helios-distribution-types')
 const os                    = require('os')
 const path                  = require('path')
+const remote                = require('@electron/remote');
+const win                   = remote.getCurrentWindow();
 
 const ConfigManager         = require('./configmanager')
 
-const logger = LoggerUtil.getLogger('ProcessBuilder')
+const logger                = LoggerUtil.getLogger('ProcessBuilder')
 
 
 /**
@@ -80,6 +82,10 @@ class ProcessBuilder {
 
         if(ConfigManager.getLaunchDetached()){
             child.unref()
+        }
+
+        if(ConfigManager.getCloseOnLaunch()){
+            win.close();
         }
 
         child.stdout.setEncoding('utf8')
