@@ -376,9 +376,9 @@ async function validateSelectedAccount(){
                 toggleOverlay(false)
                 switchView(getCurrentView(), VIEWS.loginOptions)
             })
-            setDismissHandler(() => {
+            setDismissHandler(async() => {
                 if(accLen > 1){
-                    prepareAccountSelectionList()
+                    await prepareAccountSelectionList()
                     $('#overlayContent').fadeOut(250, () => {
                         bindOverlayKeys(true, 'accountSelectContent', true)
                         $('#accountSelectContent').fadeIn(250)
