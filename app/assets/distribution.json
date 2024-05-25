@@ -135,6 +135,39 @@
           }
         },
         {
+          "id": "net.blay09.mods.balm:balm-fabric:7.2.2@jar",
+          "name": "Balm",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 380905,
+            "url": "https://www.dropbox.com/scl/fi/8mgjkn0051qvhqygb2k1k/balm-fabric-1.20.1-7.2.2.jar?rlkey=u21y0gb8jbdmfqwy6nb81d5hu&st=2ssxlzj6&dl=1",
+            "MD5": "7847527fab387e9ba7e7f1208ebb0d21"
+          }
+        },
+        {
+          "id": "net.blay09.mods:waystones:14.1.3@jar",
+          "name": "Waystones",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 494370,
+            "url": "https://www.dropbox.com/scl/fi/fm0b2cn0wjiayc5njb5yd/waystones-fabric-1.20-14.1.3.jar?rlkey=jlaf2tdu6qrm42pa853nh22z0&st=2zkyp5wf&dl=1",
+            "MD5": "e84e4a2a0d15da16eddcdf277cf0f1f9"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:15.3.0.4@jar",
+          "name": "Just Enough Items",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1151862,
+            "url": "https://www.dropbox.com/scl/fi/240h07l3twdp779ytkc09/jei-1.20.1-fabric-15.3.0.4.jar?rlkey=slabj6j7n2846jmnmdpi35rbw&st=buoxqzfr&dl=1",
+            "MD5": "4e5a089e23f995c28f11a2387be85532"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "eu.midnightdust:betterbeds:1.3.0@jar",
           "name": "Better Beds",
           "type": "FabricMod",
@@ -393,6 +426,9 @@
             "size": 46663,
             "url": "https://www.dropbox.com/scl/fi/pr6igfzt3fvo219pjtqt4/fabrishot-1.10.1.jar?rlkey=vjk3bgmlrt4so80vwk77x9z7v&st=wrtasdg1&dl=1",
             "MD5": "2e08783777a9735f056911f190c3b722"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -403,6 +439,9 @@
             "size": 7876,
             "url": "https://www.dropbox.com/scl/fi/f6sti3cyj2kyts5lsu149/fadeless-1.0.1.jar?rlkey=p16xoiasr5amz3qeyru8p2m6q&st=kf1n5sih&dl=1",
             "MD5": "1b17811bcc7052b8fc38a4c44bcf74a9"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -423,6 +462,9 @@
             "size": 79306,
             "url": "https://www.dropbox.com/scl/fi/3qt6puh3xcuoy4t68yf02/fastquit-3.0.0-1.20.jar?rlkey=yxlccnge836om1vtrnmnubeti&st=qw6o5gpp&dl=1",
             "MD5": "a1b2847e248207157f5bbe7285b41927"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -503,6 +545,9 @@
             "size": 573183,
             "url": "https://www.dropbox.com/scl/fi/kmier6rbiwrz0prftudke/lambdynamiclights-2.3.2-1.20.1.jar?rlkey=9fhcnwu9kqwkddpbflxoo9lpy&st=tafnicst&dl=1",
             "MD5": "9e931a5331bfe8cee677a413b8aea776"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -513,6 +558,9 @@
             "size": 67109,
             "url": "https://www.dropbox.com/scl/fi/gqyhzi5w7wzaz2xar3g2s/language-reload-1.6.1-1.20.1.jar?rlkey=3nt8d6dxg6k68yzsoxvu1udsy&st=dqomi13p&dl=1",
             "MD5": "8cec8f42b9f6e42c02c95b4549aeec44"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -553,6 +601,9 @@
             "size": 65491,
             "url": "https://www.dropbox.com/scl/fi/65q1m7q0pv91347y6hvl7/modelfix-1.15-fabric.jar?rlkey=zmjg0zmaanr67oz47xq38kll2&st=6kphhna9&dl=1",
             "MD5": "5503cf88c4ecb768330655258fa9b388"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -689,6 +740,9 @@
             "size": 138928,
             "url": "https://www.dropbox.com/scl/fi/1sec1bj1wkdaafhcbdg5g/Rrls-3.2.0-1.20.1-fabric.jar?rlkey=vbgu7hhjg6b8imhz7pkcal3vb&st=ji489vcn&dl=1",
             "MD5": "2226efe0a9b773995edbf1ecd3a7d0fd"
+          },
+          "required": {
+            "value": false
           }
         },
         {
