@@ -186,16 +186,6 @@
           }
         },
         {
-          "id": "com.mrcrayfish:configured:2.2.3@jar",
-          "name": "Configured",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 591886,
-            "url": "https://www.dropbox.com/scl/fi/8oe4tekcqj1qinw5lrbtp/configured-fabric-1.20.1-2.2.3.jar?rlkey=dvtuaz8pk6thsuloco9omcboh&st=agojx59q&dl=1",
-            "MD5": "04b8682e530bb58a8514f9763331662d"
-          }
-        },
-        {
           "id": "mezz.jei:jei:15.3.0.4@jar",
           "name": "Just Enough Items",
           "type": "FabricMod",
