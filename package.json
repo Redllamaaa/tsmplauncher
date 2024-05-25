@@ -4,7 +4,7 @@
   "productName": "TSMP Launcher",
   "description": "A Custom TSMP Launch to make an easy way to join the server with mods.",
   "author": "Redllamaaa",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "homepage": "https://github.com/Redllamaaa/tsmplauncher#readme",
   "bugs": {
     "url": "https://github.com/Redllamaaa/tsmplauncher/issues"
