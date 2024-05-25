@@ -166,6 +166,26 @@
           }
         },
         {
+          "id": "com.illusivesoulworks:polymorph:0.49.4+1.20.1@jar",
+          "name": "Polymorph",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 673584,
+            "url": "http://localhost:8080/servers/TSMP-1.20.1/fabricmods/required/polymorph-fabric-0.49.4+1.20.1.jar",
+            "MD5": "d657ddee2847051fad990d9276af09e8"
+          }
+        },
+        {
+          "id": "squeek.appleskin:appleskin:2.5.1+mc1.20@jar",
+          "name": "AppleSkin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1064362,
+            "url": "http://localhost:8080/servers/TSMP-1.20.1/fabricmods/required/appleskin-fabric-mc1.20.1-2.5.1.jar",
+            "MD5": "723370be246a876144ae424cbbfd60f4"
+          }
+        },
+        {
           "id": "mezz.jei:jei:15.3.0.4@jar",
           "name": "Just Enough Items",
           "type": "FabricMod",
