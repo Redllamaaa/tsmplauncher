@@ -345,11 +345,6 @@ async function validateSelectedAccount(){
 
                 if(isMicrosoft) {
                     // Empty for now
-                } else {
-                    // Mojang
-                    // For convenience, pre-populate the username of the account.
-                    document.getElementById('loginUsername').value = selectedAcc.username
-                    validateEmail(selectedAcc.username)
                 }
                 
                 loginOptionsViewOnLoginSuccess = getCurrentView()
@@ -368,8 +363,6 @@ async function validateSelectedAccount(){
                                 selectedAcc.microsoft.refresh_token,
                                 selectedAcc.microsoft.expires_at
                             )
-                        } else {
-                            ConfigManager.addMojangAuthAccount(selectedAcc.uuid, selectedAcc.accessToken, selectedAcc.username, selectedAcc.displayName)
                         }
                         ConfigManager.save()
                         validateSelectedAccount()
