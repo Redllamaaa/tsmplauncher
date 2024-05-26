@@ -126,6 +126,16 @@
           }
         },
         {
+          "id": "com.blamejared:crafttweaker:14.0.38@jar",
+          "name": "CraftTweaker",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3983289,
+            "url": "https://www.dropbox.com/scl/fi/buv1xzf3k71fkohmfg4xb/CraftTweaker-fabric-1.20.1-14.0.38.jar?rlkey=7ki2vs4agrd5dmrtdovdje59d&st=jbnjyjdv&dl=1",
+            "MD5": "28ab931cd9b04d9f8bd7e51341d1a86e"
+          }
+        },
+        {
           "id": "io.github.foundationgames:animatica:0.6+1.20@jar",
           "name": "Animatica",
           "type": "FabricMod",
@@ -820,6 +830,16 @@
           }
         },
         {
+          "id": "generated.fabricmod:faux-custom-entity-data:6.0.1@jar",
+          "name": "Faux-Custom-Entity-Data",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 16177,
+            "url": "https://www.dropbox.com/scl/fi/siqulysmpmx6lw53vw966/FauxCustomEntityData-fabric-1.20.1-6.0.1.jar?rlkey=cr27x1sx6vtx5wj827cj3xmew&st=7tmd85ao&dl=1",
+            "MD5": "5b60a0524ed3e23b3c6243e4ae1ea266"
+          }
+        },
+        {
           "id": "net.mehvahdjukaar:supplementaries:1.20-2.8.10@jar",
           "name": "Supplementaries",
           "type": "FabricMod",
@@ -853,12 +873,23 @@
           }
         },
         {
+          "id": "crafting_recipes.zs",
+          "name": "crafting_recipes.zs",
+          "type": "File",
+          "artifact": {
+            "size": 413,
+            "url": "https://www.dropbox.com/scl/fi/uabm7ii8kux9xt8p8b6fr/crafting_recipes.zs?rlkey=ft1eo856fk6j8aowzzk6z67bc&st=nxf3lfph&dl=1",
+            "MD5": "b449917dc1bb0ca2a0aa39052da2865b",
+            "path": "scripts/crafting_recipes.zs"
+          }
+        },
+        {
           "id": "servers.dat",
           "name": "servers.dat",
           "type": "File",
           "artifact": {
             "size": 2964,
-            "url": "https://www.dropbox.com/scl/fi/iq4ul8z23v6ey1eiazaq3/servers.dat?rlkey=uk75gctdppgesh4bmytao2jfz&st=6a0zhz4m&dl=1",
+            "url": "https://www.dropbox.com/scl/fi/c0dhq5mmydizdvted605y/servers.dat?rlkey=7zzquzommgy24cf0omi2gyeu0&st=1mqitsid&dl=1",
             "MD5": "8b1f659b39b629438da15499c20ace95",
             "path": "servers.dat"
           }
