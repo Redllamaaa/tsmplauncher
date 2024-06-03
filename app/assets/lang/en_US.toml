@@ -212,7 +212,7 @@ checking = "Checking for News"
 
 [js.landing.discord]
 loading = "Loading game.."
-joining = "Sailing to Westeros!"
+joining = "Sailing to TotemSMP!"
 joined = "Exploring the Realm!"
 
 [js.overlay]
