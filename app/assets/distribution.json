@@ -146,6 +146,19 @@
           }
         },
         {
+          "id": "generated.fabricmod:borderlessmining:1.1.8+1.20.1@jar",
+          "name": "Borderless Mining",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 118295,
+            "url": "https://www.dropbox.com/scl/fi/re7kkblcavpekvs7fnll3/borderless-mining-1.1.8-1.20.1.jar?rlkey=bp1l3hrlrndypeceiilrljdtp&st=l7hoaup4&dl=1",
+            "MD5": "e35125dd22a96775fea86c1acef59a9a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "earth.terrarium.athena.impl:athena:3.1.2@jar",
           "name": "Athena",
           "type": "FabricMod",
