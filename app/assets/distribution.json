@@ -159,26 +159,6 @@
           }
         },
         {
-          "id": "generated.fabricmod:morechestvariants:1.5.4+1.20.2-Fabric@jar",
-          "name": "MoreChestVariants",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 267577,
-            "url": "https://www.dropbox.com/scl/fi/qsumvzwx3nx793c11sx4o/MoreChestVariants-1.5.4-1.20.2-Fabric.jar?rlkey=zpaawsterqynuiqfysjh4il4o&st=8a7f6rkd&dl=1",
-            "MD5": "7600fc505b319c75515331ac5532063a"
-          }
-        },
-        {
-          "id": "generated.fabricmod:quad:1.2.3+1.20.4-Fabric@jar",
-          "name": "Quad",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 104615,
-            "url": "https://www.dropbox.com/scl/fi/qrmwzdqncysykk0cmgrjx/Quad-1.2.3-1.20.4-Fabric.jar?rlkey=h6cy1ff7dj3ooshkmy5czijht&st=28ahavfu&dl=1",
-            "MD5": "c5e10b3f0da2692c6047583d2f86ccd1"
-          }
-        },
-        {
           "id": "earth.terrarium.athena.impl:athena:3.1.2@jar",
           "name": "Athena",
           "type": "FabricMod",
