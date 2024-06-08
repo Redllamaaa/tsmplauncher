@@ -1033,6 +1033,16 @@
           }
         },
         {
+          "id": "generated.fabricmod:fabric-api:0.92.1+1.20.1@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2106811,
+            "url": "https://www.dropbox.com/scl/fi/1y6cvol04tv2d1378hfaj/fabric-api-0.92.1-1.20.1.jar?rlkey=c8przr2dc52s3lj8wb7e0oimv&st=qqj4kxwk&dl=1",
+            "MD5": "686c88c0f615e58e9fbd13c678fe543a"
+          }
+        },
+        {
           "id": "totemsmp3.zip",
           "name": "totemsmp3.zip",
           "type": "File",
