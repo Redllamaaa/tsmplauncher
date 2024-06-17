@@ -169,13 +169,13 @@
           }
         },
         {
-          "id": "net.redllamaaa:variantchests:1.6@jar",
+          "id": "net.redllamaaa:variantchests:1.7@jar",
           "name": "Variant Chests",
           "type": "FabricMod",
           "artifact": {
-            "size": 374117,
-            "url": "https://www.dropbox.com/scl/fi/v1geclnu3ttzrsjxegl0q/variantchests-1.6.jar?rlkey=k4xpu4y3r4f1m0do3uv9jts1y&st=3t2pdmoq&dl=1",
-            "MD5": "4938884969483d30f70a1d6f82de6a08"
+            "size": 256171,
+            "url": "https://www.dropbox.com/scl/fi/odkp7orqlmosf9fr4lquf/variantchests-1.7.jar?rlkey=332dmsxoa5jqgpdoguf9touip&st=tt15use6&dl=1",
+            "MD5": "c965725f70b4e209733aad3c6ac9605c"
           }
         },
         {
