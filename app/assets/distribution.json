@@ -169,6 +169,16 @@
           }
         },
         {
+          "id": "com.nick:chimes:2.0.1@jar",
+          "name": "Chimes",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 11844738,
+            "url": "https://www.dropbox.com/scl/fi/d622inopsdld01hnbaliw/Chimes-v2.0.1-1.20.1-Fabric.jar?rlkey=ug4uznbe7yerjyfsdcaht07xr&st=raui0tcm&dl=1",
+            "MD5": "19c787b98182728444dc38f229e68a28"
+          }
+        },
+        {
           "id": "net.redllamaaa:variantchests:1.7@jar",
           "name": "Variant Chests",
           "type": "FabricMod",
