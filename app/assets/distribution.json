@@ -179,6 +179,16 @@
           }
         },
         {
+          "id": "com.samgj15:nightlights:1.1@jar",
+          "name": "Night Lights",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 428217,
+            "url": "https://www.dropbox.com/scl/fi/ccunvxofy2tepr8pqq6re/nightlights-fabric-1.20.1-1.1.jar?rlkey=o703u971kabnpr7jxqh9ia2pf&st=98ccp68u&dl=1",
+            "MD5": "609ce0a80148c3612123152079c2095a"
+          }
+        },
+        {
           "id": "net.redllamaaa:variantchests:1.7@jar",
           "name": "Variant Chests",
           "type": "FabricMod",
