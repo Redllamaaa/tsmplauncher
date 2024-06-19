@@ -920,9 +920,9 @@
           "name": "crafting_recipes.zs",
           "type": "File",
           "artifact": {
-            "size": 413,
-            "url": "https://www.dropbox.com/scl/fi/v6d3yi0mhuc3orvh1nd3h/crafting_recipes.zs?rlkey=e2m2wxjm346b5vzfak427tua4&st=t5r6ihna&dl=1",
-            "MD5": "b449917dc1bb0ca2a0aa39052da2865b",
+            "size": 1372,
+            "url": "https://www.dropbox.com/scl/fi/5pn8cnhfxvj1e0pgs1g6y/crafting_recipes.zs?rlkey=8s4g3t9snzh9es9wwhqmavvux&st=lpkr0d5w&dl=1",
+            "MD5": "e996e41515f97e33f683903124ca7d87",
             "path": "scripts/crafting_recipes.zs"
           }
         },
