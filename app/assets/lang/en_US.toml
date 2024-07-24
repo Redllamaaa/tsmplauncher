@@ -48,6 +48,7 @@ accountSelectCancel = "Cancel"
 accountSelectManage = "Manage Accounts"
 
 [ejs.settings]
+closeLauncherOnLaunch = "Close the launcher when the game is launched."
 navHeaderText = "Settings"
 navAccount = "Account"
 navMinecraft = "Minecraft"
@@ -57,7 +58,6 @@ navLauncher = "Launcher"
 navAbout = "About"
 navUpdates = "Updates"
 navDone = "Done"
-closeLauncherOnLaunch = "Close the launcher when the game is launched."
 tabAccountHeaderText = "Account Settings"
 tabAccountHeaderDesc = "Add new accounts or manage existing ones."
 microsoftAccount = "Microsoft"
@@ -203,7 +203,7 @@ downloadingFiles = "Downloading files.."
 errorDuringFileDownloadTitle = "Error During File Download"
 preparingToLaunch = "Preparing to launch.."
 launchingGame = "Launching game.."
-launchWrapperNotDownloaded = "The main file, LaunchWrapper, failed to download properly. As a result, the game cannot launch.<br><br>To fix this issue, temporarily turn off your antivirus software and launch the game again.<br><br>If you have time, please <a href=\"https://github.com/Redllamaaa/tsmplauncher/issues\">submit an issue</a> and let us know what antivirus software you use. We'll contact them and try to straighten things out."
+launchWrapperNotDownloaded = "The main file, LaunchWrapper, failed to download properly. As a result, the game cannot launch.<br><br>To fix this issue, temporarily turn off your antivirus software and launch the game again.<br><br>If you have time, please <a href=\"https://github.com\Redllamaaa\tsmplauncher\issues\">submit an issue</a> and let us know what antivirus software you use. We'll contact them and try to straighten things out."
 doneEnjoyServer = "Done. Enjoy the server!"
 checkConsoleForDetails = "Please check the console (CTRL + Shift + i) for more details."
 
@@ -212,7 +212,7 @@ checking = "Checking for News"
 
 [js.landing.discord]
 loading = "Loading game.."
-joining = "Sailing to TotemSMP!"
+joining = "Sailing to Westeros!"
 joined = "Exploring the Realm!"
 
 [js.overlay]

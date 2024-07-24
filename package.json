@@ -1,13 +1,13 @@
 {
   "name": "tsmplauncher",
-  "version": "2.0.3",
+  "version": "2.1.1",
   "productName": "TSMP Launcher",
   "description": "Modded Minecraft Launcher",
   "author": "Redllamaaa",
   "license": "MIT",
-  "homepage": "https://discord.gg/fVe3xGj7qY",
+  "homepage": "https://github.com/Redllamaaa/tsmplauncher?tab=readme-ov-file#tsmp-launcher",
   "bugs": {
-    "url": "https://discord.gg/fVe3xGj7qY"
+    "url": "https://github.com/Redllamaaa/tsmplauncher/issues"
   },
   "private": true,
   "main": "index.js",
@@ -15,6 +15,8 @@
     "start": "electron .",
     "dist": "electron-builder build",
     "dist:win": "npm run dist -- -w",
+    "dist:mac": "npm run dist -- -m",
+    "dist:linux": "npm run dist -- -l",
     "lint": "eslint --config .eslintrc.json ."
   },
   "engines": {
