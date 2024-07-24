@@ -17,7 +17,7 @@ let overlayHandlerContent
 
 let overlayContainer = document.getElementById('overlayContainer')
 let accountSelectContent = document.getElementById('accountSelectContent')
-
+ 
 /**
  * Overlay keydown handler for a non-dismissable overlay.
  * 
@@ -51,7 +51,6 @@ function overlayKeyDismissableHandler (e){
  * @param {boolean} state Whether or not to add new event listeners.
  * @param {string} content The overlay content which will be shown.
  * @param {boolean} dismissable Whether or not the overlay is dismissable 
- * @param {boolean} popup Optional. True to show the overlay as a popup that is easily dismissable and interactible.
  */
 function bindOverlayKeys(state, content, dismissable){
     overlayHandlerContent = content
@@ -72,6 +71,7 @@ function bindOverlayKeys(state, content, dismissable){
  * @param {boolean} toggleState True to display, false to hide.
  * @param {boolean} dismissable Optional. True to show the dismiss option, otherwise false.
  * @param {string} content Optional. The content div to be shown.
+ * @param {boolean} popup Optional. True to show the overlay as a popup that is easily dismissable and interactible.
  */
 function toggleOverlay(toggleState, dismissable = false, content = 'overlayContent', popup = false){
     if(toggleState == null){
@@ -137,9 +137,11 @@ async function toggleServerSelection(toggleState){
 
 async function toggleAccountSelection(toggleState, popup = false){    
     if (popup) {
+        // set the accountSelectActions div to display: none to avoid colliding with the validateSelectedAccount function
         document.getElementById('accountSelectActions').style.display = 'none'
     } else {
-        toggleOverlay(toggleState, false, 'accountSelectContent', popup)
+        // set the overlayContainer div to display: block, this is not done while closing the overlay because of the fadeOut effect
+        document.getElementById('accountSelectActions').style.display = 'block'
     }
 
     // show the overlay
@@ -196,7 +198,7 @@ function setDismissHandler(handler){
 
 /* Account Select button */
 
-// Bind account select confirm button.
+// Bind Account select confirm button.
 document.getElementById('accountSelectConfirm').addEventListener('click', async () => {
     const listings = document.getElementsByClassName('accountListing')
     for(let i=0; i<listings.length; i++){
@@ -225,7 +227,7 @@ document.getElementById('accountSelectConfirm').addEventListener('click', async 
     }
 })
 
-// Bind account select cancel button.
+// Bind server select cancel button.
 document.getElementById('accountSelectCancel').addEventListener('click', () => {
     $('#accountSelectContent').fadeOut(250, () => {
         $('#overlayContent').fadeIn(250)
@@ -288,9 +290,9 @@ async function setAccountListingHandlers(){
                         cListings[i].removeAttribute('selected')
                     }
                 }
-                val.setAttribute('selected', '')
-                document.activeElement.blur()
             }
+            val.setAttribute('selected', '')
+            document.activeElement.blur()
         }
     })
 }
@@ -332,7 +334,7 @@ function populateAccountListings(){
     const accounts = Array.from(Object.keys(accountsObj), v=>accountsObj[v])
     let htmlString = ''
     for(let i=0; i<accounts.length; i++){
-        htmlString += `<button class="accountListing" uuid="${accounts[i].uuid}" ${!i && !overlayContainer.hasAttribute('popup') ? 'selected' : ''}>
+        htmlString += `<button class="accountListing" uuid="${accounts[i].uuid}" ${!i && !overlayContainer.hasAttribute("popup") ? 'selected' : ''}>
             <img src="https://mc-heads.net/head/${accounts[i].uuid}/40">
             <div class="accountListingName">${accounts[i].displayName}</div>
         </button>`
