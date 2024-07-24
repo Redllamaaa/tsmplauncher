@@ -1,5 +1,5 @@
 appId: 'tsmplauncher'
-productName: 'TSMP.Launcher'
+productName: 'TSMP Launcher'
 artifactName: '${productName}-setup-${version}.${ext}'
 
 copyright: 'Copyright © 2024 Redllamaaa'
