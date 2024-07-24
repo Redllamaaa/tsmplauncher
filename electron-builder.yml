@@ -26,25 +26,6 @@ nsis:
   allowElevation: true
   allowToChangeInstallationDirectory: true
 
-# macOS Configuration
-mac:
-  target:
-    - target: 'dmg'
-      arch:
-        - 'x64'
-        - 'arm64'
-  artifactName: '${productName}-setup-${version}-${arch}.${ext}'
-  category: 'public.app-category.games'
-
-# Linux Configuration
-linux: 
-  target: 'AppImage'
-  maintainer: 'Redllamaaa'
-  vendor: 'Redllamaaa'
-  synopsis: 'Modded Minecraft Launcher'
-  description: 'Custom launcher which allows users to join modded servers. All mods, configurations, and updates are handled automatically.'
-  category: 'Game'
-
 
 directories:
   buildResources: 'build'
