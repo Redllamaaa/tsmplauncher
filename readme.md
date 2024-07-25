@@ -32,8 +32,7 @@ More platforms to be added into the future if requred.
 ## Installation Guide
 Installation is fairly straightforward. If you need assistance, you can follow the brief instructions below.
 
-### Windows
-
+> #### Windows
 * Download and run the Windows version of the launcher (`.exe`).
 * Windows SmartScreen will open.
 * This is not a virus. To have it signed and have this not show up costs real money. I am not doing that. Deal with it.
@@ -41,6 +40,14 @@ Installation is fairly straightforward. If you need assistance, you can follow t
   * Click **More info** and then **Run Anyway**.
 * Follow the on-screen instructions to complete installation.
 
+> #### MacOS
+* Download and run the macOS version of the launcher (`.dmg`).
+* Control-Click the app icon, then choose **Open** from the shortcut menu.
+* Follow the on-screen instructions to complete the installation.
+
+> #### Linux
+* Download and run the Linux version of the launcher (`.AppImage`).
+* Follow the on-screen instructions to complete the installation.
 
 
 ## Other Information
