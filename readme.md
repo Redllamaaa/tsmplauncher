@@ -1,4 +1,4 @@
-<p align="center"><img src="./app/assets/images/TSMPCircle.png" width="150px" height="150px" alt="Totem Club"></p>
+<p align="center"><img src="./app/assets/images/SealCircle.png" width="150px" height="150px" alt="Totem Club"></p>
 
 <h1 align="center">TSMP Launcher</h1>
 
