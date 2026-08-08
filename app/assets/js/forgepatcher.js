@@ -140,14 +140,10 @@ class ForgePatcher {
       }
 
       await new Promise((resolve, reject) => {
-        const child = child_process.spawn(
-          ConfigManager.getJavaExecutable(this.serverModule.rawServer.id),
-          args,
-          {
-            cwd: this.gameDir,
-            detached: false,
-          },
-        );
+        const child = child_process.spawn(javaBin, args, {
+          cwd: this.gameDir,
+          detached: false,
+        });
 
         child.stdout.setEncoding("utf8");
         child.stderr.setEncoding("utf8");
