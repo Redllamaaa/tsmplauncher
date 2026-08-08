@@ -1,23 +1,23 @@
-appId: 'tsmplauncher'
-productName: 'TSMP Launcher'
-artifactName: '${productName}-setup-${version}.${ext}'
+appId: "tsmplauncher"
+productName: "TSMP Launcher"
+artifactName: "${productName}-setup-${version}.${ext}"
 
-copyright: 'Copyright © 2024 Redllamaaa'
+copyright: "Copyright © 2024 Redllamaaa"
 
 asar: true
-compression: 'maximum'
+compression: "maximum"
 
 files:
-  - '!{dist,.gitignore,.vscode,docs,dev-app-update.yml,.nvmrc,.eslintrc.json}'
+  - "!{dist,.gitignore,.vscode,docs,dev-app-update.yml,.nvmrc,.eslintrc.json}"
 
 extraResources:
-  - 'libraries'
+  - "libraries"
 
 # Windows Configuration
-win: 
-  target: 
-    - target: 'nsis'
-      arch: 'x64'
+win:
+  target:
+    - target: "nsis"
+      arch: "x64"
 
 # Windows Installer Configuration
 nsis:
@@ -29,23 +29,22 @@ nsis:
 # macOS Configuration
 mac:
   target:
-    - target: 'dmg'
+    - target: "dmg"
       arch:
-        - 'x64'
-        - 'arm64'
-  artifactName: '${productName}-setup-${version}-${arch}.${ext}'
-  category: 'public.app-category.games'
+        - "x64"
+        - "arm64"
+  artifactName: "${productName}-setup-${version}-${arch}.${ext}"
+  category: "public.app-category.games"
 
 # Linux Configuration
-linux: 
-  target: 'AppImage'
-  maintainer: 'Redllamaaa'
-  vendor: 'Redllamaaa'
-  synopsis: 'Modded Minecraft Launcher'
-  description: 'Custom launcher which allows users to join modded servers. All mods, configurations, and updates are handled automatically.'
-  category: 'Game'
-
+linux:
+  target: "AppImage"
+  maintainer: "Redllamaaa"
+  vendor: "Redllamaaa"
+  synopsis: "Modded Minecraft Launcher"
+  description: "Custom launcher which allows users to join modded servers. All mods, configurations, and updates are handled automatically."
+  category: "Game"
 
 directories:
-  buildResources: 'build'
-  output: 'dist'
+  buildResources: "build"
+  output: "dist"

@@ -13,15 +13,15 @@
       "autoconnect": true,
       "untrackedFiles": [
         {
-        "appliesTo": ["files"],
-        "patterns": [
-          "config/*.cfg",
-          "config/**/*.yml",
-          "*.dat",
-          "options.txt"
-        ]
-      }
-    ],
+          "appliesTo": ["files"],
+          "patterns": [
+            "config/*.cfg",
+            "config/**/*.yml",
+            "*.dat",
+            "options.txt"
+          ]
+        }
+      ],
       "modules": [
         {
           "id": "net.fabricmc:fabric-loader:0.15.11",
