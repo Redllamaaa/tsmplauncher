@@ -754,7 +754,6 @@ class ProcessBuilder {
     const forgeModule = this.server.modules.find(
       (m) => m.rawModule.type === "Forge",
     );
-    console.log(forgeModule);
     if (forgeModule && forgeModule.isForgeGradle3()) {
       cpArgs.push(
         path.join(
@@ -769,6 +768,17 @@ class ProcessBuilder {
           path.join(
             getLibraryDir(ConfigManager.getCommonDirectory()),
             MavenUtil.mavenIdentifierAsPath(lib.rawModule.id),
+          ),
+        );
+      }
+      if (!mcVersionAtLeast("1.17", this.server.rawServer.minecraftVersion)) {
+        // ALso add Forge Universal jar
+        cpArgs.push(
+          path.join(
+            getLibraryDir(ConfigManager.getCommonDirectory()),
+            MavenUtil.mavenIdentifierAsPath(
+              forgeModule.rawModule.id.replace(":client", ":universal"),
+            ),
           ),
         );
       }
