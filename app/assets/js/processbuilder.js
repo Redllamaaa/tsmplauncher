@@ -751,6 +751,21 @@ class ProcessBuilder {
   classpathArg(mods, tempNativePath) {
     let cpArgs = [];
 
+    if (
+      !mcVersionAtLeast("1.17", this.server.rawServer.minecraftVersion) ||
+      mcVersionAtLeast("1.21", this.server.rawServer.minecraftVersion) ||
+      this.usingFabricLoader
+    ) {
+      // Add the version.jar to the classpath.
+      // Must not be added to the classpath for Forge 1.17+.
+      // Must be added for (Neo)Forge 1.21
+      const version = this.vanillaManifest.id;
+      cpArgs.push(
+        path.join(this.commonDir, "versions", version, version + ".jar"),
+      );
+    }
+
+    let forgeCpArgs = {};
     const forgeModule = this.server.modules.find(
       (m) => m.rawModule.type === "Forge",
     );
@@ -764,36 +779,11 @@ class ProcessBuilder {
       for (const lib of forgeModule.subModules.filter((m) =>
         m.rawModule.artifact.url.endsWith("jar"),
       )) {
-        cpArgs.push(
-          path.join(
-            getLibraryDir(ConfigManager.getCommonDirectory()),
-            MavenUtil.mavenIdentifierAsPath(lib.rawModule.id),
-          ),
+        forgeCpArgs[lib.getVersionlessMavenIdentifier()] = path.join(
+          getLibraryDir(ConfigManager.getCommonDirectory()),
+          MavenUtil.mavenIdentifierAsPath(lib.rawModule.id),
         );
       }
-      if (!mcVersionAtLeast("1.17", this.server.rawServer.minecraftVersion)) {
-        // ALso add Forge Universal jar
-        cpArgs.push(
-          path.join(
-            getLibraryDir(ConfigManager.getCommonDirectory()),
-            MavenUtil.mavenIdentifierAsPath(
-              forgeModule.rawModule.id.replace(":client", ":universal"),
-            ),
-          ),
-        );
-      }
-    }
-
-    if (
-      !mcVersionAtLeast("1.17", this.server.rawServer.minecraftVersion) ||
-      this.usingFabricLoader
-    ) {
-      // Add the version.jar to the classpath.
-      // Must not be added to the classpath for Forge 1.17+.
-      const version = this.vanillaManifest.id;
-      cpArgs.push(
-        path.join(this.commonDir, "versions", version, version + ".jar"),
-      );
     }
 
     if (this.usingLiteLoader) {
@@ -809,8 +799,8 @@ class ProcessBuilder {
     // Merge libraries, server libs with the same
     // maven identifier will override the mojang ones.
     // Ex. 1.7.10 forge overrides mojang's guava with newer version.
-    const finalLibs = { ...mojangLibs, ...servLibs };
-    cpArgs = cpArgs.concat(Object.values(finalLibs));
+    const finalLibs = { ...mojangLibs, ...forgeCpArgs, ...servLibs };
+    cpArgs = [...cpArgs, ...Object.values(finalLibs)];
 
     this._processClassPathList(cpArgs);
 
