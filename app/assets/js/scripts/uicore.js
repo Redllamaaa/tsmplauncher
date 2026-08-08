@@ -24,7 +24,6 @@ process.traceProcessWarnings = true;
 process.traceDeprecation = true;
 
 // Disable eval function.
-// eslint-disable-next-line
 window.eval = global.eval = function () {
   throw new Error("Sorry, this app does not support window.eval().");
 };
@@ -223,7 +222,7 @@ document.addEventListener(
 /**
  * Open web links in the user's default browser.
  */
-$(document).on("click", 'a[href^="http"]', function (event) {
+$(document).on("click", "a[href^=\"http\"]", function (event) {
   event.preventDefault();
   shell.openExternal(this.href);
 });

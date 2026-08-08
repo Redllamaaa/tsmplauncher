@@ -7,7 +7,6 @@ const ConfigManager = require("./configmanager");
 const { DistroAPI } = require("./distromanager");
 const LangLoader = require("./langloader");
 const { LoggerUtil } = require("helios-core");
-// eslint-disable-next-line no-unused-vars
 const { HeliosDistribution } = require("helios-core/common");
 
 const logger = LoggerUtil.getLogger("Preloader");

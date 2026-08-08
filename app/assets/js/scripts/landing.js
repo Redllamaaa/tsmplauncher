@@ -539,7 +539,7 @@ async function dlAsync(login = true) {
 
   loggerLaunchSuite.info("Validating files.");
   setLaunchDetails(Lang.queryJS("landing.dlAsync.validatingFileIntegrity"));
-  let invalidFileCount = 0;
+  let invalidFileCount;
   try {
     invalidFileCount = await fullRepairModule.verifyFiles((percent) => {
       setLaunchPercentage(percent);
@@ -1032,9 +1032,9 @@ function displayArticle(articleObject, index) {
   newsArticleComments.innerHTML = articleObject.comments;
   newsArticleComments.href = articleObject.commentsLink;
   newsArticleContentScrollable.innerHTML =
-    '<div id="newsArticleContentWrapper"><div class="newsArticleSpacerTop"></div>' +
+    "<div id=\"newsArticleContentWrapper\"><div class=\"newsArticleSpacerTop\"></div>" +
     articleObject.content +
-    '<div class="newsArticleSpacerBot"></div></div>';
+    "<div class=\"newsArticleSpacerBot\"></div></div>";
   Array.from(
     newsArticleContentScrollable.getElementsByClassName("bbCodeSpoilerButton"),
   ).forEach((v) => {

@@ -367,12 +367,12 @@ async function validateSelectedAccount() {
         Lang.queryJS("uibinder.validateAccount.failedMessageTitle"),
         accLen > 0
           ? Lang.queryJS("uibinder.validateAccount.failedMessage", {
-              account: selectedAcc.displayName,
-            })
+            account: selectedAcc.displayName,
+          })
           : Lang.queryJS(
-              "uibinder.validateAccount.failedMessageSelectAnotherAccount",
-              { account: selectedAcc.displayName },
-            ),
+            "uibinder.validateAccount.failedMessageSelectAnotherAccount",
+            { account: selectedAcc.displayName },
+          ),
         Lang.queryJS("uibinder.validateAccount.loginButton"),
         Lang.queryJS("uibinder.validateAccount.selectAnotherAccountButton"),
       );
