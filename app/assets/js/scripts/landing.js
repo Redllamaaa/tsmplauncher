@@ -26,6 +26,7 @@ const {
 
 // Internal Requirements
 const DiscordWrapper = require("./assets/js/discordwrapper");
+const ForgePatcher = require("./assets/js/forgepatcher");
 const ProcessBuilder = require("./assets/js/processbuilder");
 
 // Launch Elements
@@ -410,7 +411,6 @@ async function downloadJava(effectiveJavaOptions, launchAfter = true) {
     received = transferred;
     setDownloadPercentage(Math.trunc((transferred / asset.size) * 100));
   });
-  setDownloadPercentage(100);
 
   if (received != asset.size) {
     loggerLanding.warn(
@@ -574,6 +574,17 @@ async function dlAsync(login = true) {
   } else {
     loggerLaunchSuite.info("No invalid files, skipping download.");
   }
+
+  const patcher = new ForgePatcher(
+    distro.getServerById(ConfigManager.getSelectedServer()),
+  );
+  if (await patcher.needsPatching()) {
+    setDownloadPercentage(90);
+    setLaunchDetails(Lang.queryJS("landing.dlAsync.patchingJar"));
+    await patcher.patch();
+  }
+
+  setDownloadPercentage(100);
 
   // Remove download bar.
   remote.getCurrentWindow().setProgressBar(-1);
@@ -1032,9 +1043,9 @@ function displayArticle(articleObject, index) {
   newsArticleComments.innerHTML = articleObject.comments;
   newsArticleComments.href = articleObject.commentsLink;
   newsArticleContentScrollable.innerHTML =
-    '<div id="newsArticleContentWrapper"><div class="newsArticleSpacerTop"></div>' +
+    "<div id=\"newsArticleContentWrapper\"><div class=\"newsArticleSpacerTop\"></div>" +
     articleObject.content +
-    '<div class="newsArticleSpacerBot"></div></div>';
+    "<div class=\"newsArticleSpacerBot\"></div></div>";
   Array.from(
     newsArticleContentScrollable.getElementsByClassName("bbCodeSpoilerButton"),
   ).forEach((v) => {

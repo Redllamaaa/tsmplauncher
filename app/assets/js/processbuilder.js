@@ -7,6 +7,8 @@ const {
   getMojangOS,
   isLibraryCompatible,
   mcVersionAtLeast,
+  getLibraryDir,
+  MavenUtil,
 } = require("helios-core/common");
 const { Type } = require("helios-distribution-types");
 const os = require("os");
@@ -380,11 +382,11 @@ class ProcessBuilder {
       return this.usingFabricLoader
         ? ["--fabric.addMods", `@${this.forgeModListFile}`]
         : [
-            "--fml.mavenRoots",
-            path.join("..", "..", "common", "modstore"),
-            "--fml.modLists",
-            this.forgeModListFile,
-          ];
+          "--fml.mavenRoots",
+          path.join("..", "..", "common", "modstore"),
+          "--fml.modLists",
+          this.forgeModListFile,
+        ];
     } else {
       return [];
     }
@@ -748,6 +750,29 @@ class ProcessBuilder {
    */
   classpathArg(mods, tempNativePath) {
     let cpArgs = [];
+
+    const forgeModule = this.server.modules.find(
+      (m) => m.rawModule.type === "Forge",
+    );
+    console.log(forgeModule);
+    if (forgeModule && forgeModule.isForgeGradle3()) {
+      cpArgs.push(
+        path.join(
+          getLibraryDir(ConfigManager.getCommonDirectory()),
+          MavenUtil.mavenIdentifierAsPath(forgeModule.rawModule.id),
+        ),
+      );
+      for (const lib of forgeModule.subModules.filter((m) =>
+        m.rawModule.artifact.url.endsWith("jar"),
+      )) {
+        cpArgs.push(
+          path.join(
+            getLibraryDir(ConfigManager.getCommonDirectory()),
+            MavenUtil.mavenIdentifierAsPath(lib.rawModule.id),
+          ),
+        );
+      }
+    }
 
     if (
       !mcVersionAtLeast("1.17", this.server.rawServer.minecraftVersion) ||
