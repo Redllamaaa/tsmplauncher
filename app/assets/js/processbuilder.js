@@ -847,7 +847,7 @@ class ProcessBuilder {
      * declare libraries.
      * 
      * @param {Array.<Object>} mods An array of enabled mods which will be launched with this process.
-     * @returns {{[id: string]: string}} An object containing the paths of each library this server requires.
+     * @returns {{[id: string]: string}} An object containing the paths of each library this module requires.
      */
     _resolveServerLibraries(mods){
         const mdls = this.server.modules
