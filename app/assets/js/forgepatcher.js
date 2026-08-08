@@ -22,6 +22,9 @@ class ForgePatcher {
    */
   constructor(serverModule) {
     this.serverModule = serverModule;
+    this.forgeModule = this.serverModule.modules.find(
+      (m) => m.rawModule.type === "Forge" && m.isForgeGradle3(),
+    );
   }
 
   /**
@@ -31,9 +34,7 @@ class ForgePatcher {
    */
   async needsPatching() {
     return (
-      this.serverModule.modules.filter(
-        (m) => m.rawModule.type === "Forge" && m.isForgeGradle3(),
-      ).length > 0 &&
+      !!this.forgeModule &&
       !(await exists(
         join(
           getLibraryDir(ConfigManager.getCommonDirectory()),
@@ -78,10 +79,7 @@ class ForgePatcher {
    * Patch the JAR
    */
   async patch() {
-    const forgeModule = this.serverModule.modules.filter(
-      (m) => m.rawModule.type === "Forge" && m.isForgeGradle3(),
-    )[0];
-    const processors = forgeModule.processors;
+    const processors = this.forgeModule.processors;
     for (const processor of processors) {
       const libDir = getLibraryDir(ConfigManager.getCommonDirectory());
       let javaBin = ConfigManager.getJavaExecutable(
@@ -185,16 +183,13 @@ class ForgePatcher {
    * @returns {string}
    */
   normalizeArg(argument) {
-    const forgeModule = this.serverModule.modules.filter(
-      (m) => m.rawModule.type === "Forge" && m.isForgeGradle3(),
-    )[0];
     const version = this.serverModule.rawServer.minecraftVersion;
     const jarPath = getVersionJarPath(
       ConfigManager.getCommonDirectory(),
       version,
     );
     const forgeVariables = Object.entries(
-      forgeModule.rawModule.installerVariables,
+      this.forgeModule.rawModule.installerVariables,
     )
       .map(([key, value]) => ({
         [key]: value.startsWith("[")
@@ -215,7 +210,7 @@ class ForgePatcher {
       BINPATCH: join(
         getLibraryDir(ConfigManager.getCommonDirectory()),
         MavenUtil.mavenIdentifierAsPath(
-          forgeModule.rawModule.clientPatch.id,
+          this.forgeModule.rawModule.clientPatch.id,
           "lzma",
         ),
       ),
