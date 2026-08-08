@@ -1043,9 +1043,9 @@ function displayArticle(articleObject, index) {
   newsArticleComments.innerHTML = articleObject.comments;
   newsArticleComments.href = articleObject.commentsLink;
   newsArticleContentScrollable.innerHTML =
-    "<div id=\"newsArticleContentWrapper\"><div class=\"newsArticleSpacerTop\"></div>" +
+    '<div id="newsArticleContentWrapper"><div class="newsArticleSpacerTop"></div>' +
     articleObject.content +
-    "<div class=\"newsArticleSpacerBot\"></div></div>";
+    '<div class="newsArticleSpacerBot"></div></div>';
   Array.from(
     newsArticleContentScrollable.getElementsByClassName("bbCodeSpoilerButton"),
   ).forEach((v) => {
