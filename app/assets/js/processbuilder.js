@@ -401,11 +401,11 @@ class ProcessBuilder {
       return this.usingFabricLoader
         ? ["--fabric.addMods", `@${this.forgeModListFile}`]
         : [
-          "--fml.mavenRoots",
-          path.join("..", "..", "common", "modstore"),
-          "--fml.modLists",
-          this.forgeModListFile,
-        ];
+            "--fml.mavenRoots",
+            path.join("..", "..", "common", "modstore"),
+            "--fml.modLists",
+            this.forgeModListFile,
+          ];
     } else {
       return [];
     }

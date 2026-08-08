@@ -222,7 +222,7 @@ document.addEventListener(
 /**
  * Open web links in the user's default browser.
  */
-$(document).on("click", "a[href^=\"http\"]", function (event) {
+$(document).on("click", 'a[href^="http"]', function (event) {
   event.preventDefault();
   shell.openExternal(this.href);
 });
