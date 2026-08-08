@@ -2,7 +2,7 @@ appId: "tsmplauncher"
 productName: "TSMP Launcher"
 artifactName: "${productName}-setup-${version}.${ext}"
 
-copyright: "Copyright © 2024 Redllamaaa"
+copyright: "Copyright © 2026 Redllamaaa"
 
 asar: true
 compression: "maximum"
