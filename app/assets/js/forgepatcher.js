@@ -29,16 +29,6 @@ class ForgePatcher {
    * @returns {boolean}
    */
   async needsPatching() {
-    console.log(
-      join(
-        getLibraryDir(ConfigManager.getCommonDirectory()),
-        MavenUtil.mavenIdentifierToPath(
-          this.serverModule.modules.filter(
-            (m) => m.rawModule.type === "Forge",
-          )[0].rawModule.id,
-        ),
-      ),
-    );
     return (
       this.serverModule.modules.filter(
         (m) => m.rawModule.type === "Forge" && m.isForgeGradle3(),
@@ -128,11 +118,11 @@ class ForgePatcher {
         ...processor.args.map((arg, index) =>
           processor.args[index - 1] === "--input" && arg.startsWith("[")
             ? join(
-              getLibraryDir(ConfigManager.getCommonDirectory()),
-              MavenUtil.mavenIdentifierToPath(
-                arg.replace("[", "").replace("]", ""),
-              ),
-            )
+                getLibraryDir(ConfigManager.getCommonDirectory()),
+                MavenUtil.mavenIdentifierToPath(
+                  arg.replace("[", "").replace("]", ""),
+                ),
+              )
             : this.normalizeArg(arg),
         ),
       );
@@ -145,7 +135,6 @@ class ForgePatcher {
       if (outputFile && !outputs[outputFile]) {
         outputs[outputFile] = "";
       }
-      console.log(args);
 
       await new Promise((resolve, reject) => {
         const child = child_process.spawn(
@@ -202,11 +191,11 @@ class ForgePatcher {
       .map(([key, value]) => ({
         [key]: value.startsWith("[")
           ? join(
-            getLibraryDir(ConfigManager.getCommonDirectory()),
-            MavenUtil.mavenIdentifierAsPath(
-              value.substring(1, value.length - 1),
-            ),
-          )
+              getLibraryDir(ConfigManager.getCommonDirectory()),
+              MavenUtil.mavenIdentifierAsPath(
+                value.substring(1, value.length - 1),
+              ),
+            )
           : value.replace(/'/g, ""),
       }))
       .reduce((key, value) => Object.assign(key, value), {});
@@ -223,8 +212,6 @@ class ForgePatcher {
         ),
       ),
     };
-
-    console.log(values);
 
     if (argument.startsWith("[") && argument.endsWith("]"))
       return join(
