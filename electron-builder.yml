@@ -37,7 +37,7 @@ mac:
       arch:
         - "x64"
         - "arm64"
-  artifactName: "${productName}-setup-${version}-${arch}.${ext}"
+  artifactName: "TSMP-Launcher-setup-${version}-${arch}.${ext}"
   category: "public.app-category.games"
 
 # Linux Configuration
