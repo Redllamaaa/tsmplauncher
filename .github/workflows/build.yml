@@ -58,11 +58,6 @@ jobs:
         shell: bash
         run: |
           rm -f dist/*.blockmap
-          rm -f dist/*.zip
-          rm -f dist/*.tar.gz
-          rm -f dist/*.deb
-          rm -f dist/*.rpm
-          rm -f dist/*.snap
 
       - name: Verify build artifacts
         shell: bash

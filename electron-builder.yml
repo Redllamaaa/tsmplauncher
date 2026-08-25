@@ -6,8 +6,6 @@ releaseInfo:
 
 artifactName: "${productName}-setup-${version}-${arch}.${ext}"
 
-generateBlockmap: false
-
 copyright: "Copyright © 2026 Redllamaaa"
 
 asar: true
