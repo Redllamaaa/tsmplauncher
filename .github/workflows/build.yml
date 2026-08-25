@@ -171,5 +171,5 @@ jobs:
           gh release create "v${VERSION}" \
             release/final/* \
             --repo "${GITHUB_REPOSITORY}" \
-            --title "TSMP Launcher v${VERSION}" \
+            --title "Release v${VERSION}" \
             --generate-notes
