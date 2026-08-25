@@ -11,8 +11,76 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build-linux:
-    name: Build Linux
+  build:
+    name: Build ${{ matrix.name }}
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      fail-fast: true
+      matrix:
+        include:
+          - name: Linux
+            os: ubuntu-latest
+            artifact: linux
+
+          - name: Windows
+            os: windows-latest
+            artifact: windows
+
+          - name: macOS
+            os: macos-latest
+            artifact: macos
+
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v6
+
+      - name: Set up Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.x"
+
+      - name: Install Dependencies
+        run: npm ci
+        shell: bash
+
+      - name: Build
+        run: npm run dist -- --publish never
+        shell: bash
+
+      - name: Remove unwanted files
+        shell: bash
+        run: |
+          rm -f dist/*.blockmap
+          rm -f dist/*.zip
+          rm -f dist/*.tar.gz
+          rm -f dist/*.deb
+          rm -f dist/*.rpm
+          rm -f dist/*.snap
+
+      - name: Verify build artifacts
+        shell: bash
+        run: |
+          echo "Build artifacts:"
+          find dist -maxdepth 1 -type f -printf '%f\n' | sort
+
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v6
+        with:
+          name: electron-${{ matrix.artifact }}
+          path: dist/
+          if-no-files-found: error
+          retention-days: 1
+
+  publish:
+    name: Publish Release
+    needs: build
     runs-on: ubuntu-latest
 
     steps:
@@ -23,79 +91,90 @@ jobs:
         uses: actions/setup-node@v6
         with:
           node-version: 22
-          cache: npm
 
-      - name: Set up Python
-        uses: actions/setup-python@v6
-        with:
-          python-version: "3.x"
-
-      - name: Install Dependencies
-        run: npm ci
+      - name: Get package version
+        id: version
         shell: bash
+        run: |
+          VERSION=$(node -p "require('./package.json').version")
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          echo "Building release v$VERSION"
 
-      - name: Build and publish Linux release
+      - name: Download Linux artifacts
+        uses: actions/download-artifact@v6
+        with:
+          name: electron-linux
+          path: release/linux
+
+      - name: Download Windows artifacts
+        uses: actions/download-artifact@v6
+        with:
+          name: electron-windows
+          path: release/windows
+
+      - name: Download macOS artifacts
+        uses: actions/download-artifact@v6
+        with:
+          name: electron-macos
+          path: release/macos
+
+      - name: Collect release files
+        shell: bash
+        run: |
+          mkdir -p release/final
+
+          find release/linux -maxdepth 1 -type f \
+            \( -name 'latest-linux.yml' -o -name '*.AppImage' \) \
+            -exec cp {} release/final/ \;
+
+          find release/windows -maxdepth 1 -type f \
+            \( -name 'latest.yml' -o -name '*.exe' \) \
+            -exec cp {} release/final/ \;
+
+          find release/macos -maxdepth 1 -type f \
+            \( -name 'latest-mac.yml' -o -name '*.dmg' \) \
+            -exec cp {} release/final/ \;
+
+          echo "Final release files:"
+          find release/final -maxdepth 1 -type f -printf '%f\n' | sort
+
+      - name: Verify release contents
+        shell: bash
+        run: |
+          expected=(
+            "latest-linux.yml"
+            "latest-mac.yml"
+            "latest.yml"
+            "TSMP-Launcher-setup-${{ steps.version.outputs.version }}-arm64.dmg"
+            "TSMP-Launcher-setup-${{ steps.version.outputs.version }}-x64.dmg"
+            "TSMP-Launcher-setup-${{ steps.version.outputs.version }}.AppImage"
+            "TSMP-Launcher-setup-${{ steps.version.outputs.version }}.exe"
+          )
+
+          for file in "${expected[@]}"; do
+            if [[ ! -f "release/final/$file" ]]; then
+              echo "::error::Missing expected release file: $file"
+              exit 1
+            fi
+          done
+
+          actual=$(find release/final -maxdepth 1 -type f | wc -l)
+
+          if [[ "$actual" -ne 7 ]]; then
+            echo "::error::Expected exactly 7 release files, found $actual"
+            exit 1
+          fi
+
+          echo "All 7 release files are present."
+
+      - name: Create GitHub Release
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npm run dist -- --publish always
+          VERSION: ${{ steps.version.outputs.version }}
         shell: bash
-
-  build-windows:
-    name: Build Windows
-    needs: build-linux
-    runs-on: windows-latest
-
-    steps:
-      - name: Check out Git repository
-        uses: actions/checkout@v6
-
-      - name: Set up Node
-        uses: actions/setup-node@v6
-        with:
-          node-version: 22
-          cache: npm
-
-      - name: Set up Python
-        uses: actions/setup-python@v6
-        with:
-          python-version: "3.x"
-
-      - name: Install Dependencies
-        run: npm ci
-        shell: bash
-
-      - name: Build and publish Windows release
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npm run dist -- --publish always
-        shell: bash
-
-  build-macos:
-    name: Build macOS
-    needs: build-windows
-    runs-on: macos-latest
-
-    steps:
-      - name: Check out Git repository
-        uses: actions/checkout@v6
-
-      - name: Set up Node
-        uses: actions/setup-node@v6
-        with:
-          node-version: 22
-          cache: npm
-
-      - name: Set up Python
-        uses: actions/setup-python@v6
-        with:
-          python-version: "3.x"
-
-      - name: Install Dependencies
-        run: npm ci
-        shell: bash
-
-      - name: Build and publish macOS release
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npm run dist -- --publish always
-        shell: bash
+        run: |
+          gh release create "v${VERSION}" \
+            release/final/* \
+            --repo "${GITHUB_REPOSITORY}" \
+            --title "TSMP Launcher v${VERSION}" \
+            --generate-notes
