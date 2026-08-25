@@ -4,7 +4,7 @@ productName: "TSMP Launcher"
 releaseInfo:
   releaseName: "Release v${version}"
 
-artifactName: "${productName}-setup-${version}-${arch}.${ext}"
+artifactName: "TSMP-Launcher-setup-${version}.${ext}"
 
 copyright: "Copyright © 2026 Redllamaaa"
 
