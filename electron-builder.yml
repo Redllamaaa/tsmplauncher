@@ -1,6 +1,10 @@
 appId: "tsmplauncher"
 productName: "TSMP Launcher"
-artifactName: "${productName}-setup-${version}.${ext}"
+
+releaseInfo:
+  releaseName: "Release v${version}"
+
+artifactName: "${productName}-setup-${version}-${arch}.${ext}"
 
 generateBlockmap: false
 
