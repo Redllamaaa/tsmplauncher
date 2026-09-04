@@ -39,7 +39,7 @@
     "prettier": "^3.9.6",
     "prettier-eslint": "^16.4.2",
     "semver": "^7.7.3",
-    "toml": "^3.0.0"
+    "toml": "^4.2.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.5",
